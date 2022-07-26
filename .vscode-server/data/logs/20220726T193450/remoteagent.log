@@ -1,0 +1,27 @@
+[2022-07-26 19:34:50.988] [remoteagent] [info] Extension host agent started.
+[2022-07-26 19:34:51.098] [remoteagent] [info] [127.0.0.1][961d0937][ManagementConnection] New connection established.
+[2022-07-26 19:34:51.112] [remoteagent] [info] [127.0.0.1][82d8c48a][ExtensionHostConnection] New connection established.
+[2022-07-26 19:34:51.117] [remoteagent] [info] [127.0.0.1][82d8c48a][ExtensionHostConnection] <3569> Launched Extension Host Process.
+[2022-07-26 19:34:53.652] [remoteagent] [info] Getting Manifest... ms-vscode.js-debug-companion
+[2022-07-26 19:34:53.684] [remoteagent] [info] Installing extension: ms-vscode.js-debug-companion
+[2022-07-26 19:34:53.888] [remoteagent] [info] Downloaded extension: ms-vscode.js-debug-companion /home/ec2-user/.vscode-server/data/CachedExtensionVSIXs/ms-vscode.js-debug-companion-1.0.18
+[2022-07-26 19:34:53.925] [remoteagent] [info] Extracted extension to /home/ec2-user/.vscode-server/extensions/.fddf199e-9efc-422e-892e-6c2b6bf3ef39: ms-vscode.js-debug-companion
+[2022-07-26 19:34:53.939] [remoteagent] [info] Renamed to /home/ec2-user/.vscode-server/extensions/ms-vscode.js-debug-companion-1.0.18
+[2022-07-26 19:34:53.941] [remoteagent] [info] Extracting completed. ms-vscode.js-debug-companion
+[2022-07-26 19:34:53.947] [remoteagent] [info] Extension installed successfully: ms-vscode.js-debug-companion
+[2022-07-26 19:35:00.383] [remoteagent] [info] [127.0.0.1][961d0937][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-07-26 19:35:00.402] [remoteagent] [info] [127.0.0.1][82d8c48a][ExtensionHostConnection] <3569> Extension Host Process exited with code: 0, signal: null.
+[2022-07-26 19:35:00.403] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2022-07-26 19:35:02.632] [remoteagent] [info] Got delay-shutdown request while in shutdown timeout, delaying
+[2022-07-26 19:35:02.632] [remoteagent] [info] Cancelling previous shutdown timeout
+[2022-07-26 19:35:02.889] [remoteagent] [info] [127.0.0.1][3882ea0c][ManagementConnection] New connection established.
+[2022-07-26 19:35:02.946] [remoteagent] [info] [127.0.0.1][ea8cc490][ExtensionHostConnection] New connection established.
+[2022-07-26 19:35:02.949] [remoteagent] [info] [127.0.0.1][ea8cc490][ExtensionHostConnection] <3698> Launched Extension Host Process.
+[2022-07-26 19:40:02.634] [remoteagent] [info] New EH opened, aborting shutdown
+[2022-07-26 19:40:49.461] [remoteagent] [info] Getting Manifest... hashicorp.terraform
+[2022-07-26 19:40:49.495] [remoteagent] [info] Installing extension: hashicorp.terraform
+[2022-07-26 19:40:49.917] [remoteagent] [info] Downloaded extension: hashicorp.terraform /home/ec2-user/.vscode-server/data/CachedExtensionVSIXs/hashicorp.terraform-2.23.0-linux-x64
+[2022-07-26 19:40:50.266] [remoteagent] [info] Extracted extension to /home/ec2-user/.vscode-server/extensions/.3e3ae14f-5370-42d3-bb24-9985eb81467b: hashicorp.terraform
+[2022-07-26 19:40:50.282] [remoteagent] [info] Renamed to /home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64
+[2022-07-26 19:40:50.284] [remoteagent] [info] Extracting completed. hashicorp.terraform
+[2022-07-26 19:40:50.284] [remoteagent] [info] Extension installed successfully: hashicorp.terraform
