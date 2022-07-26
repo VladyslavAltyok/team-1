@@ -162,3 +162,4 @@ New EH opened, aborting shutdown
 [19:40:50] Extracting completed. hashicorp.terraform
 [19:40:50] Extension installed successfully: hashicorp.terraform
 [IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/usr/bin/bash" and args undefined
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/usr/bin/bash" and args undefined
