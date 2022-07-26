@@ -75,16 +75,32 @@ resource "aws_subnet" "private-3" {
 
 resource "aws_internet_gateway" "internet-gw" {
     vpc_id = aws_vpc.team1-vpc.id
+
+    tags =  {
+        Name = "internet-gw"
+    }
+  
+}
+
+# Allocate Elastic IP Address
+
+resource "aws_eip" "eip-for-nat" {
+    vpc = true
+
+    tags = {
+        Name = "Elastic IP"
+    }
   
 }
 
 # Create NAT Gateway (needs work)
 
-#resource "aws_nat_gateway" "nat-gw" {
- #   subnet_id = aws_subnet.public-1.id
-  #  connectivity_type = "public"
+resource "aws_nat_gateway" "nat-gw" {
+    allocation_id = aws_eip.eip-for-nat.id
+    subnet_id = aws_subnet.public-1.id
+    connectivity_type = "public"
   
-#}
+}
 
 # Create Route Tables
 resource "aws_route_table" "public" {
@@ -107,9 +123,15 @@ resource "aws_route_table" "private" {
     tags = {
         Name = "private"
     }
+
+    route {
+        cidr_block = "0.0.0.0/0"
+        nat_gateway_id = aws_nat_gateway.nat-gw.id
+    }
+
 }
 
-# Set subnet asociation
+# Set public subnet asociation
 
 resource "aws_route_table_association" "public-rt1" {
     subnet_id = aws_subnet.public-1.id
@@ -124,4 +146,24 @@ resource "aws_route_table_association" "public-rt2" {
 resource "aws_route_table_association" "public-rt3" {
     subnet_id = aws_subnet.public-3.id
     route_table_id = aws_route_table.public.id
+}
+
+
+# Set private subnet asociation
+
+resource "aws_route_table_association" "private-rt1" {
+    subnet_id = aws_subnet.private-1.id
+    route_table_id = aws_route_table.private.id
+  
+}
+
+resource "aws_route_table_association" "private-rt2" {
+    subnet_id = aws_subnet.private-2.id
+    route_table_id = aws_route_table.private.id
+  
+}
+
+resource "aws_route_table_association" "private-rt3" {
+    subnet_id = aws_subnet.private-3.id
+    route_table_id = aws_route_table.private.id
 }
