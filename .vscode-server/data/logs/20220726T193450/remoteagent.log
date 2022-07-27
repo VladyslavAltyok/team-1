@@ -25,3 +25,32 @@
 [2022-07-26 19:40:50.282] [remoteagent] [info] Renamed to /home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64
 [2022-07-26 19:40:50.284] [remoteagent] [info] Extracting completed. hashicorp.terraform
 [2022-07-26 19:40:50.284] [remoteagent] [info] Extension installed successfully: hashicorp.terraform
+[2022-07-26 20:46:33.239] [remoteagent] [info] [127.0.0.1][ea8cc490][ExtensionHostConnection] The client has reconnected.
+[2022-07-26 20:46:34.696] [remoteagent] [info] [127.0.0.1][3882ea0c][ManagementConnection] The client has reconnected.
+[2022-07-26 20:46:37.136] [remoteagent] [info] [127.0.0.1][ea8cc490][ExtensionHostConnection] The client has reconnected.
+[2022-07-26 20:52:55.480] [remoteagent] [info] [127.0.0.1][3882ea0c][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2022-07-26 21:09:32.737] [remoteagent] [info] [127.0.0.1][3882ea0c][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2022-07-26 21:09:32.738] [remoteagent] [info] [127.0.0.1][0a7884de][ManagementConnection] New connection established.
+[2022-07-26 21:09:32.775] [remoteagent] [info] [127.0.0.1][8b771c05][ExtensionHostConnection] New connection established.
+[2022-07-26 21:09:32.780] [remoteagent] [info] [127.0.0.1][8b771c05][ExtensionHostConnection] <4512> Launched Extension Host Process.
+[2022-07-26 21:14:32.852] [remoteagent] [info] [127.0.0.1][3882ea0c][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+[2022-07-26 21:14:32.954] [remoteagent] [info] [127.0.0.1][ea8cc490][ExtensionHostConnection] <3698> Extension Host Process exited with code: 0, signal: null.
+[2022-07-26 21:20:33.621] [remoteagent] [info] [127.0.0.1][8b771c05][ExtensionHostConnection] The client has reconnected.
+[2022-07-26 21:20:35.359] [remoteagent] [info] [127.0.0.1][0a7884de][ManagementConnection] The client has reconnected.
+[2022-07-26 21:20:37.448] [remoteagent] [info] [127.0.0.1][8b771c05][ExtensionHostConnection] The client has reconnected.
+[2022-07-26 21:37:11.434] [remoteagent] [info] [127.0.0.1][0a7884de][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2022-07-26 22:11:31.966] [remoteagent] [info] [127.0.0.1][0a7884de][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2022-07-26 22:11:31.966] [remoteagent] [info] [127.0.0.1][0a7884de][ManagementConnection] The client has reconnected.
+[2022-07-26 22:11:32.907] [remoteagent] [info] [127.0.0.1][8b771c05][ExtensionHostConnection] The client has reconnected.
+[2022-07-26 22:11:49.389] [remoteagent] [info] [127.0.0.1][8b771c05][ExtensionHostConnection] The client has reconnected.
+[2022-07-26 22:11:51.003] [remoteagent] [info] [127.0.0.1][0a7884de][ManagementConnection] The client has reconnected.
+[2022-07-26 22:11:52.868] [remoteagent] [info] [127.0.0.1][8b771c05][ExtensionHostConnection] The client has reconnected.
+[2022-07-26 22:28:41.876] [remoteagent] [info] [127.0.0.1][0a7884de][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2022-07-27 00:12:08.842] [remoteagent] [info] [127.0.0.1][0a7884de][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2022-07-27 00:12:08.842] [remoteagent] [info] [127.0.0.1][0a7884de][ManagementConnection] The client has reconnected.
+[2022-07-27 00:12:09.475] [remoteagent] [info] [127.0.0.1][8b771c05][ExtensionHostConnection] The client has reconnected.
+[2022-07-27 00:28:39.858] [remoteagent] [info] [127.0.0.1][0a7884de][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2022-07-27 03:28:47.729] [remoteagent] [info] [127.0.0.1][0a7884de][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+[2022-07-27 03:28:51.475] [remoteagent] [info] [127.0.0.1][8b771c05][ExtensionHostConnection] <4512> Extension Host Process exited with code: 0, signal: null.
+[2022-07-27 03:28:51.475] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2022-07-27 03:33:51.476] [remoteagent] [info] Last EH closed, shutting down

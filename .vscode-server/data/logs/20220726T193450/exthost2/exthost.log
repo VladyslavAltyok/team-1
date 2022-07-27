@@ -195,3 +195,12 @@
 	at Be (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11251)
 	at Immediate.<anonymous> (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11101)
 	at processImmediate (node:internal/timers:464:21)
+[2022-07-26 20:32:27.989] [exthost] [error] [hashicorp.terraform] provider FAILED
+[2022-07-26 20:32:27.989] [exthost] [error] Error: main.tf (134,1): position outside of any attribute name, value or block
+	at Fe (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:17:223)
+	at Be (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11251)
+	at Immediate.<anonymous> (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11101)
+	at processImmediate (node:internal/timers:464:21)
+[2022-07-26 21:14:32.888] [exthost] [info] extension host terminating: renderer disconnected for too long (2)
+[2022-07-26 21:14:32.893] [exthost] [info] Lock '/home/ec2-user/.vscode-server/data/User/workspaceStorage/bd4a48b86a6b0e7dce82a23a7d51a25d/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-07-26 21:14:32.937] [exthost] [info] Extension host with pid 3698 exiting with code 0
