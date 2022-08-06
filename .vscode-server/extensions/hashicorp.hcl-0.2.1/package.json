@@ -1,0 +1,122 @@
+{
+	"icon": "assets/hashicorp_logo_mark_light_universal_radius45.png",
+	"name": "hcl",
+	"publisher": "hashicorp",
+	"displayName": "HashiCorp HCL",
+	"description": "HashiCorp HCL syntax",
+	"appInsightsKey": "885372d2-6f3c-499f-9d25-b8b219983a52",
+	"version": "0.2.1",
+	"license": "MPL-2.0",
+	"preview": false,
+	"private": true,
+	"syntax": {
+		"version": "0.4.0"
+	},
+	"engines": {
+		"npm": "~8.X",
+		"node": "~16.X",
+		"vscode": "^1.61.0"
+	},
+	"categories": [
+		"Programming Languages",
+		"Other"
+	],
+	"keywords": [
+		"HashiCorp",
+		"devops",
+		"cloud",
+		"hcl"
+	],
+	"galleryBanner": {
+		"color": "#FFF",
+		"theme": "light"
+	},
+	"homepage": "https://github.com/hashicorp/vscode-hcl",
+	"bugs": {
+		"url": "https://github.com/hashicorp/vscode-hcl/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/hashicorp/vscode-hcl.git"
+	},
+	"activationEvents": [
+		"onLanguage:hcl",
+		"workspaceContains:**/*.hcl"
+	],
+	"main": "./out/extension",
+	"browser": "./out/web/extension",
+	"contributes": {
+		"languages": [
+			{
+				"id": "hcl",
+				"aliases": [
+					"HCL"
+				],
+				"extensions": [
+					".hcl"
+				],
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "hcl",
+				"scopeName": "source.hcl",
+				"path": "./syntaxes/hcl.tmGrammar.json"
+			}
+		]
+	},
+	"scripts": {
+		"lint": "eslint src --ext ts",
+		"prettier": "prettier \"**/*.+(js|json|ts)\"",
+		"format": "npm run prettier -- --write",
+		"check-format": "npm run prettier -- --check",
+		"download:syntax": "ts-node ./build/download-syntax.ts",
+		"prepare": "npm run download:syntax",
+		"compile": "webpack --mode development",
+		"watch": "webpack --mode development --watch",
+		"prepackage": "npm run download:syntax",
+		"vscode:prepublish": "webpack --mode production --devtool hidden-source-map",
+		"package": "vsce package",
+		"run-in-browser": "vscode-test-web --browserType=chromium --extensionDevelopmentPath=. ."
+	},
+	"dependencies": {
+		"@vscode/extension-telemetry": "^0.5.2"
+	},
+	"devDependencies": {
+		"@types/glob": "^7.2.0",
+		"@types/mocha": "^9.0.0",
+		"@types/node": "^14.18.12",
+		"@types/vscode": "^1.61.0",
+		"@types/webpack-env": "^1.17.0",
+		"@typescript-eslint/eslint-plugin": "^5.27.0",
+		"@typescript-eslint/parser": "^5.27.0",
+		"@vscode/test-electron": "^2.0.3",
+		"@vscode/test-web": "^0.0.24",
+		"assert": "^2.0.0",
+		"eslint": "^8.16.0",
+		"eslint-config-prettier": "^8.4.0",
+		"eslint-plugin-prettier": "^4.0.0",
+		"glob": "^7.2.0",
+		"got": "^11.8.3",
+		"mocha": "^9.1.3",
+		"prettier": "^2.5.1",
+		"process": "^0.11.10",
+		"ts-loader": "^9.3.0",
+		"ts-node": "^10.6.0",
+		"typescript": "^4.7.3",
+		"vsce": "^2.9.1",
+		"webpack": "^5.72.1",
+		"webpack-cli": "^4.9.2"
+	},
+	"__metadata": {
+		"id": "41a86ae3-cc87-4293-9324-c615272967f2",
+		"publisherId": "a8dd781d-e144-400a-943c-417165981be2",
+		"publisherDisplayName": "HashiCorp",
+		"targetPlatform": "undefined",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"preRelease": false,
+		"installedTimestamp": 1659807646590
+	}
+}

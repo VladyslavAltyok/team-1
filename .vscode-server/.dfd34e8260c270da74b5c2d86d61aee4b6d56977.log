@@ -155,3 +155,14 @@ New EH opened, aborting shutdown
 [IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/usr/bin/bash" and args undefined
 [IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/usr/bin/bash" and args undefined
 [IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/usr/bin/bash" and args undefined
+[17:37:40] [File Watcher (parcel)] Unexpected error: std::bad_alloc (EUNKNOWN) (path: /home/ec2-user)
+[17:37:40] [File Watcher (universal)] restarting watcher after error: std::bad_alloc
+[17:40:46] Getting Manifest... hashicorp.hcl
+[17:40:46] Installing extension: hashicorp.hcl
+[17:40:46] Downloaded extension: hashicorp.hcl /home/ec2-user/.vscode-server/data/CachedExtensionVSIXs/hashicorp.hcl-0.2.1
+[17:40:46] Extracted extension to /home/ec2-user/.vscode-server/extensions/.a6a654e1-922e-40fc-a9a6-7d186990b23e: hashicorp.hcl
+[17:40:46] Renamed to /home/ec2-user/.vscode-server/extensions/hashicorp.hcl-0.2.1
+[17:40:46] Extracting completed. hashicorp.hcl
+[17:40:46] Extension installed successfully: hashicorp.hcl
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/usr/bin/bash" and args undefined
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/usr/bin/bash" and args undefined

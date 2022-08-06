@@ -28,3 +28,10 @@
 	at Be (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11251)
 	at Immediate.<anonymous> (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11101)
 	at processImmediate (node:internal/timers:464:21)
+[2022-08-06 17:39:04.653] [exthost] [error] [hashicorp.terraform] provider FAILED
+[2022-08-06 17:39:04.654] [exthost] [error] Error: main.tf (91,27): position outside of any attribute name, value or block
+	at Fe (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:17:223)
+	at Be (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11251)
+	at Immediate.<anonymous> (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11101)
+	at processImmediate (node:internal/timers:464:21)
+[2022-08-06 17:40:46.953] [exthost] [info] ExtensionService#_doActivateExtension hashicorp.hcl, startup: false, activationEvent: 'workspaceContains:**/*.hcl'

@@ -13,3 +13,12 @@
 [2022-08-06 15:08:37.559] [remoteagent] [info] New EH opened, aborting shutdown
 [2022-08-06 16:56:00.881] [remoteagent] [error] [File Watcher (parcel)] Unexpected error: std::bad_alloc (EUNKNOWN) (path: /home/ec2-user)
 [2022-08-06 16:56:00.881] [remoteagent] [error] [File Watcher (universal)] restarting watcher after error: std::bad_alloc
+[2022-08-06 17:37:40.311] [remoteagent] [error] [File Watcher (parcel)] Unexpected error: std::bad_alloc (EUNKNOWN) (path: /home/ec2-user)
+[2022-08-06 17:37:40.311] [remoteagent] [error] [File Watcher (universal)] restarting watcher after error: std::bad_alloc
+[2022-08-06 17:40:46.152] [remoteagent] [info] Getting Manifest... hashicorp.hcl
+[2022-08-06 17:40:46.230] [remoteagent] [info] Installing extension: hashicorp.hcl
+[2022-08-06 17:40:46.540] [remoteagent] [info] Downloaded extension: hashicorp.hcl /home/ec2-user/.vscode-server/data/CachedExtensionVSIXs/hashicorp.hcl-0.2.1
+[2022-08-06 17:40:46.589] [remoteagent] [info] Extracted extension to /home/ec2-user/.vscode-server/extensions/.a6a654e1-922e-40fc-a9a6-7d186990b23e: hashicorp.hcl
+[2022-08-06 17:40:46.594] [remoteagent] [info] Renamed to /home/ec2-user/.vscode-server/extensions/hashicorp.hcl-0.2.1
+[2022-08-06 17:40:46.595] [remoteagent] [info] Extracting completed. hashicorp.hcl
+[2022-08-06 17:40:46.596] [remoteagent] [info] Extension installed successfully: hashicorp.hcl

@@ -4443,3 +4443,282 @@ Launching language server: /home/ec2-user/.vscode-server/extensions/hashicorp.te
 2022/08/06 17:34:18 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1/vpc, registry.terraform.io/-/aws, )
 2022/08/06 17:34:18 rpc_logger.go:50: Response to "textDocument/codeLens" (ID 343): []
 2022/08/06 17:34:18 opts.go:218: Completed 1 requests [7.268178ms elapsed]
+2022/08/06 17:34:57 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/06 17:34:57 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/06 17:34:57 rpc_logger.go:29: Incoming request for "workspace/executeCommand" (ID 344): {"command":"terraform-ls.module.callers","arguments":["uri=file:///home/ec2-user/Step1/vpc"]}
+2022/08/06 17:34:57 rpc_logger.go:50: Response to "workspace/executeCommand" (ID 344): {"v":0,"callers":[]}
+2022/08/06 17:34:57 opts.go:218: Completed 1 requests [127.459µs elapsed]
+2022/08/06 17:34:57 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/06 17:34:57 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/06 17:34:57 rpc_logger.go:29: Incoming request for "textDocument/documentLink" (ID 345): {"textDocument":{"uri":"file:///home/ec2-user/Step1/vpc/main.tf"}}
+2022/08/06 17:34:57 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1/vpc, registry.terraform.io/-/aws, )
+2022/08/06 17:34:57 rpc_logger.go:50: Response to "textDocument/documentLink" (ID 345): []
+2022/08/06 17:34:57 opts.go:218: Completed 1 requests [7.53057ms elapsed]
+2022/08/06 17:34:57 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/06 17:34:57 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/06 17:34:57 rpc_logger.go:29: Incoming request for "textDocument/codeLens" (ID 346): {"textDocument":{"uri":"file:///home/ec2-user/Step1/vpc/main.tf"}}
+2022/08/06 17:34:57 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1/vpc, registry.terraform.io/-/aws, )
+2022/08/06 17:34:57 rpc_logger.go:50: Response to "textDocument/codeLens" (ID 346): []
+2022/08/06 17:34:57 opts.go:218: Completed 1 requests [7.267397ms elapsed]
+2022/08/06 17:35:01 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/06 17:35:01 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/06 17:35:01 rpc_logger.go:29: Incoming request for "textDocument/hover" (ID 347): {"textDocument":{"uri":"file:///home/ec2-user/Step1/vpc/main.tf"},"position":{"line":81,"character":7}}
+2022/08/06 17:35:01 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1/vpc, registry.terraform.io/-/aws, )
+2022/08/06 17:35:01 hover.go:32: Looking for hover data at "main.tf" -> hcl.Pos{Line:82, Column:8, Byte:1553}
+2022/08/06 17:35:01 hover.go:34: received hover data: &lang.HoverData{Content:lang.MarkupContent{Value:"**resource** _Block_\n\nA resource block declares a resource of a given type with a given local name. The name is used to refer to this resource from elsewhere in the same Terraform module, but has no significance outside of the scope of a module.", Kind:0x2}, Range:hcl.Range{Filename:"main.tf", Start:hcl.Pos{Line:82, Column:1, Byte:1546}, End:hcl.Pos{Line:82, Column:9, Byte:1554}}}
+2022/08/06 17:35:01 rpc_logger.go:50: Response to "textDocument/hover" (ID 347): {"contents":{"kind":"markdown","value":"**resource** _Block_\n\nA resource block declares a resource of a given type with a given local name. The name is used to refer to this resource from elsewhere in the same Terraform module, but has no significance outside of the scope of a module."},"range":{"start":{"line":81,"character":0},"end":{"line":81,"character":8}}}
+2022/08/06 17:35:01 opts.go:218: Completed 1 requests [8.218492ms elapsed]
+2022/08/06 17:35:01 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/06 17:35:01 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/06 17:35:01 rpc_logger.go:29: Incoming notification for "$/cancelRequest": {"id":347}
+2022/08/06 17:35:11 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/06 17:35:11 opts.go:218: Received request batch of size 1 (qlen=1)
+2022/08/06 17:35:11 opts.go:218: Dequeued request batch of length 1 (qlen=1)
+2022/08/06 17:35:11 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/06 17:35:11 rpc_logger.go:29: Incoming request for "textDocument/documentSymbol" (ID 349): {"textDocument":{"uri":"file:///home/ec2-user/Step1/vpc/output.tf"}}
+2022/08/06 17:35:11 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1/vpc, registry.terraform.io/-/aws, )
+2022/08/06 17:35:11 rpc_logger.go:29: Incoming request for "workspace/executeCommand" (ID 348): {"command":"terraform-ls.module.callers","arguments":["uri=file:///home/ec2-user/Step1/vpc"]}
+2022/08/06 17:35:11 rpc_logger.go:50: Response to "workspace/executeCommand" (ID 348): {"v":0,"callers":[]}
+2022/08/06 17:35:11 opts.go:218: Completed 1 requests [14.590156ms elapsed]
+2022/08/06 17:35:11 rpc_logger.go:50: Response to "textDocument/documentSymbol" (ID 349): [{"name":"output \"region\"","kind":5,"range":{"start":{"line":0,"character":0},"end":{"line":2,"character":1}},"selectionRange":{"start":{"line":0,"character":0},"end":{"line":2,"character":1}},"children":[{"name":"value","kind":14,"range":{"start":{"line":1,"character":2},"end":{"line":1,"character":20}},"selectionRange":{"start":{"line":1,"character":2},"end":{"line":1,"character":20}}}]},{"name":"output \"tags\"","kind":5,"range":{"start":{"line":4,"character":0},"end":{"line":6,"character":1}},"selectionRange":{"start":{"line":4,"character":0},"end":{"line":6,"character":1}},"children":[{"name":"value","kind":14,"range":{"start":{"line":5,"character":2},"end":{"line":5,"character":18}},"selectionRange":{"start":{"line":5,"character":2},"end":{"line":5,"character":18}}}]},{"name":"output \"vpc_id\"","kind":5,"range":{"start":{"line":8,"character":0},"end":{"line":10,"character":1}},"selectionRange":{"start":{"line":8,"character":0},"end":{"line":10,"character":1}},"children":[{"name":"value","kind":14,"range":{"start":{"line":9,"character":0},"end":{"line":9,"character":28}},"selectionRange":{"start":{"line":9,"character":0},"end":{"line":9,"character":28}}}]},{"name":"output \"public-1_id\"","kind":5,"range":{"start":{"line":12,"character":0},"end":{"line":14,"character":1}},"selectionRange":{"start":{"line":12,"character":0},"end":{"line":14,"character":1}},"children":[{"name":"value","kind":14,"range":{"start":{"line":13,"character":1},"end":{"line":13,"character":31}},"selectionRange":{"start":{"line":13,"character":1},"end":{"line":13,"character":31}}}]},{"name":"output \"public-2_id\"","kind":5,"range":{"start":{"line":16,"character":0},"end":{"line":18,"character":1}},"selectionRange":{"start":{"line":16,"character":0},"end":{"line":18,"character":1}},"children":[{"name":"value","kind":14,"range":{"start":{"line":17,"character":1},"end":{"line":17,"character":31}},"selectionRange":{"start":{"line":17,"character":1},"end":{"line":17,"character":31}}}]},{"name":"output \"public-3_id\"","kind":5,"range":{"start":{"line":20,"character":0},"end":{"line":22,"character":1}},"selectionRange":{"start":{"line":20,"character":0},"end":{"line":22,"character":1}},"children":[{"name":"value","kind":14,"range":{"start":{"line":21,"character":1},"end":{"line":21,"character":31}},"selectionRange":{"start":{"line":21,"character":1},"end":{"line":21,"character":31}}}]},{"name":"output \"private-1_id\"","kind":5,"range":{"start":{"line":24,"character":0},"end":{"line":26,"character":1}},"selectionRange":{"start":{"line":24,"character":0},"end":{"line":26,"character":1}},"children":[{"name":"value","kind":14,"range":{"start":{"line":25,"character":2},"end":{"line":25,"character":33}},"selectionRange":{"start":{"line":25,"character":2},"end":{"line":25,"character":33}}}]},{"name":"output \"private-2_id\"","kind":5,"range":{"start":{"line":28,"character":0},"end":{"line":30,"character":1}},"selectionRange":{"start":{"line":28,"character":0},"end":{"line":30,"character":1}},"children":[{"name":"value","kind":14,"range":{"start":{"line":29,"character":2},"end":{"line":29,"character":33}},"selectionRange":{"start":{"line":29,"character":2},"end":{"line":29,"character":33}}}]},{"name":"output \"private-3_id\"","kind":5,"range":{"start":{"line":32,"character":0},"end":{"line":34,"character":1}},"selectionRange":{"start":{"line":32,"character":0},"end":{"line":34,"character":1}},"children":[{"name":"value","kind":14,"range":{"start":{"line":33,"character":2},"end":{"line":33,"character":33}},"selectionRange":{"start":{"line":33,"character":2},"end":{"line":33,"character":33}}}]},{"name":"output \"internet-gw\"","kind":5,"range":{"start":{"line":36,"character":0},"end":{"line":38,"character":1}},"selectionRange":{"start":{"line":36,"character":0},"end":{"line":38,"character":1}},"children":[{"name":"value","kind":14,"range":{"start":{"line":37,"character":2},"end":{"line":37,"character":42}},"selectionRange":{"start":{"line":37,"character":2},"end":{"line":37,"character":42}}}]},{"name":"output \"aws_nat_gateway\"","kind":5,"range":{"start":{"line":40,"character":0},"end":{"line":42,"character":4}},"selectionRange":{"start":{"line":40,"character":0},"end":{"line":42,"character":4}},"children":[{"name":"value","kind":14,"range":{"start":{"line":41,"character":3},"end":{"line":41,"character":36}},"selectionRange":{"start":{"line":41,"character":3},"end":{"line":41,"character":36}}}]},{"name":"output \"elastic_ip\"","kind":5,"range":{"start":{"line":44,"character":0},"end":{"line":46,"character":1}},"selectionRange":{"start":{"line":44,"character":0},"end":{"line":46,"character":1}},"children":[{"name":"value","kind":14,"range":{"start":{"line":45,"character":4},"end":{"line":45,"character":45}},"selectionRange":{"start":{"line":45,"character":4},"end":{"line":45,"character":45}}}]},{"name":"output \"aws_route_table_public\"","kind":5,"range":{"start":{"line":47,"character":0},"end":{"line":49,"character":4}},"selectionRange":{"start":{"line":47,"character":0},"end":{"line":49,"character":4}},"children":[{"name":"value","kind":14,"range":{"start":{"line":48,"character":3},"end":{"line":48,"character":36}},"selectionRange":{"start":{"line":48,"character":3},"end":{"line":48,"character":36}}}]},{"name":"output \"aws_route_table_private\"","kind":5,"range":{"start":{"line":51,"character":3},"end":{"line":53,"character":4}},"selectionRange":{"start":{"line":51,"character":3},"end":{"line":53,"character":4}},"children":[{"name":"value","kind":14,"range":{"start":{"line":52,"character":3},"end":{"line":52,"character":37}},"selectionRange":{"start":{"line":52,"character":3},"end":{"line":52,"character":37}}}]}]
+2022/08/06 17:35:11 opts.go:218: Completed 1 requests [15.124319ms elapsed]
+2022/08/06 17:35:11 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/06 17:35:11 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/06 17:35:11 rpc_logger.go:29: Incoming request for "textDocument/documentLink" (ID 350): {"textDocument":{"uri":"file:///home/ec2-user/Step1/vpc/output.tf"}}
+2022/08/06 17:35:11 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1/vpc, registry.terraform.io/-/aws, )
+2022/08/06 17:35:11 rpc_logger.go:50: Response to "textDocument/documentLink" (ID 350): []
+2022/08/06 17:35:11 opts.go:218: Completed 1 requests [9.617058ms elapsed]
+2022/08/06 17:35:11 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/06 17:35:11 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/06 17:35:11 rpc_logger.go:29: Incoming request for "textDocument/codeLens" (ID 351): {"textDocument":{"uri":"file:///home/ec2-user/Step1/vpc/output.tf"}}
+2022/08/06 17:35:11 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1/vpc, registry.terraform.io/-/aws, )
+2022/08/06 17:35:11 rpc_logger.go:50: Response to "textDocument/codeLens" (ID 351): []
+2022/08/06 17:35:11 opts.go:218: Completed 1 requests [27.802878ms elapsed]
+2022/08/06 17:35:12 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/06 17:35:12 opts.go:218: Received request batch of size 1 (qlen=1)
+2022/08/06 17:35:12 opts.go:218: Received request batch of size 1 (qlen=2)
+2022/08/06 17:35:12 opts.go:218: Dequeued request batch of length 1 (qlen=2)
+2022/08/06 17:35:12 opts.go:218: Dequeued request batch of length 1 (qlen=1)
+2022/08/06 17:35:12 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/06 17:35:12 rpc_logger.go:29: Incoming request for "textDocument/documentLink" (ID 354): {"textDocument":{"uri":"file:///home/ec2-user/Step1/vpc/variable.tf"}}
+2022/08/06 17:35:12 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1/vpc, registry.terraform.io/-/aws, )
+2022/08/06 17:35:12 rpc_logger.go:50: Response to "textDocument/documentLink" (ID 354): []
+2022/08/06 17:35:12 opts.go:218: Completed 1 requests [9.502651ms elapsed]
+2022/08/06 17:35:12 rpc_logger.go:29: Incoming request for "workspace/executeCommand" (ID 352): {"command":"terraform-ls.module.callers","arguments":["uri=file:///home/ec2-user/Step1/vpc"]}
+2022/08/06 17:35:12 rpc_logger.go:50: Response to "workspace/executeCommand" (ID 352): {"v":0,"callers":[]}
+2022/08/06 17:35:12 opts.go:218: Completed 1 requests [10.266223ms elapsed]
+2022/08/06 17:35:12 rpc_logger.go:29: Incoming request for "textDocument/documentSymbol" (ID 353): {"textDocument":{"uri":"file:///home/ec2-user/Step1/vpc/variable.tf"}}
+2022/08/06 17:35:12 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1/vpc, registry.terraform.io/-/aws, )
+2022/08/06 17:35:12 rpc_logger.go:50: Response to "textDocument/documentSymbol" (ID 353): [{"name":"variable \"cidr_block\"","kind":5,"range":{"start":{"line":0,"character":0},"end":{"line":4,"character":1}},"selectionRange":{"start":{"line":0,"character":0},"end":{"line":4,"character":1}},"children":[{"name":"description","kind":15,"range":{"start":{"line":1,"character":2},"end":{"line":1,"character":51}},"selectionRange":{"start":{"line":1,"character":2},"end":{"line":1,"character":51}}},{"name":"type","kind":14,"range":{"start":{"line":2,"character":2},"end":{"line":2,"character":22}},"selectionRange":{"start":{"line":2,"character":2},"end":{"line":2,"character":22}}},{"name":"default","kind":15,"range":{"start":{"line":3,"character":2},"end":{"line":3,"character":18}},"selectionRange":{"start":{"line":3,"character":2},"end":{"line":3,"character":18}}}]},{"name":"variable \"region\"","kind":5,"range":{"start":{"line":5,"character":0},"end":{"line":8,"character":1}},"selectionRange":{"start":{"line":5,"character":0},"end":{"line":8,"character":1}},"children":[{"name":"description","kind":15,"range":{"start":{"line":6,"character":2},"end":{"line":6,"character":46}},"selectionRange":{"start":{"line":6,"character":2},"end":{"line":6,"character":46}}},{"name":"type","kind":14,"range":{"start":{"line":7,"character":2},"end":{"line":7,"character":22}},"selectionRange":{"start":{"line":7,"character":2},"end":{"line":7,"character":22}}}]},{"name":"variable \"tags\"","kind":5,"range":{"start":{"line":9,"character":0},"end":{"line":13,"character":1}},"selectionRange":{"start":{"line":9,"character":0},"end":{"line":13,"character":1}},"children":[{"name":"description","kind":15,"range":{"start":{"line":10,"character":2},"end":{"line":10,"character":52}},"selectionRange":{"start":{"line":10,"character":2},"end":{"line":10,"character":52}}},{"name":"type","kind":13,"range":{"start":{"line":11,"character":2},"end":{"line":11,"character":24}},"selectionRange":{"start":{"line":11,"character":2},"end":{"line":11,"character":24}}},{"name":"default","kind":23,"range":{"start":{"line":12,"character":2},"end":{"line":12,"character":18}},"selectionRange":{"start":{"line":12,"character":2},"end":{"line":12,"character":18}}}]},{"name":"variable \"public-1\"","kind":5,"range":{"start":{"line":14,"character":0},"end":{"line":18,"character":1}},"selectionRange":{"start":{"line":14,"character":0},"end":{"line":18,"character":1}},"children":[{"name":"description","kind":15,"range":{"start":{"line":15,"character":2},"end":{"line":15,"character":50}},"selectionRange":{"start":{"line":15,"character":2},"end":{"line":15,"character":50}}},{"name":"type","kind":14,"range":{"start":{"line":16,"character":2},"end":{"line":16,"character":22}},"selectionRange":{"start":{"line":16,"character":2},"end":{"line":16,"character":22}}},{"name":"default","kind":15,"range":{"start":{"line":17,"character":2},"end":{"line":17,"character":18}},"selectionRange":{"start":{"line":17,"character":2},"end":{"line":17,"character":18}}}]},{"name":"variable \"public-2\"","kind":5,"range":{"start":{"line":19,"character":0},"end":{"line":23,"character":1}},"selectionRange":{"start":{"line":19,"character":0},"end":{"line":23,"character":1}},"children":[{"name":"description","kind":15,"range":{"start":{"line":20,"character":2},"end":{"line":20,"character":50}},"selectionRange":{"start":{"line":20,"character":2},"end":{"line":20,"character":50}}},{"name":"type","kind":14,"range":{"start":{"line":21,"character":2},"end":{"line":21,"character":22}},"selectionRange":{"start":{"line":21,"character":2},"end":{"line":21,"character":22}}},{"name":"default","kind":15,"range":{"start":{"line":22,"character":2},"end":{"line":22,"character":18}},"selectionRange":{"start":{"line":22,"character":2},"end":{"line":22,"character":18}}}]},{"name":"variable \"public-3\"","kind":5,"range":{"start":{"line":24,"character":0},"end":{"line":28,"character":1}},"selectionRange":{"start":{"line":24,"character":0},"end":{"line":28,"character":1}},"children":[{"name":"description","kind":15,"range":{"start":{"line":25,"character":2},"end":{"line":25,"character":50}},"selectionRange":{"start":{"line":25,"character":2},"end":{"line":25,"character":50}}},{"name":"type","kind":14,"range":{"start":{"line":26,"character":2},"end":{"line":26,"character":22}},"selectionRange":{"start":{"line":26,"character":2},"end":{"line":26,"character":22}}},{"name":"default","kind":15,"range":{"start":{"line":27,"character":2},"end":{"line":27,"character":18}},"selectionRange":{"start":{"line":27,"character":2},"end":{"line":27,"character":18}}}]},{"name":"variable \"private-1\"","kind":5,"range":{"start":{"line":29,"character":0},"end":{"line":33,"character":1}},"selectionRange":{"start":{"line":29,"character":0},"end":{"line":33,"character":1}},"children":[{"name":"description","kind":15,"range":{"start":{"line":30,"character":2},"end":{"line":30,"character":50}},"selectionRange":{"start":{"line":30,"character":2},"end":{"line":30,"character":50}}},{"name":"type","kind":14,"range":{"start":{"line":31,"character":2},"end":{"line":31,"character":22}},"selectionRange":{"start":{"line":31,"character":2},"end":{"line":31,"character":22}}},{"name":"default","kind":15,"range":{"start":{"line":32,"character":2},"end":{"line":32,"character":18}},"selectionRange":{"start":{"line":32,"character":2},"end":{"line":32,"character":18}}}]},{"name":"variable \"private-2\"","kind":5,"range":{"start":{"line":34,"character":0},"end":{"line":38,"character":1}},"selectionRange":{"start":{"line":34,"character":0},"end":{"line":38,"character":1}},"children":[{"name":"description","kind":15,"range":{"start":{"line":35,"character":2},"end":{"line":35,"character":50}},"selectionRange":{"start":{"line":35,"character":2},"end":{"line":35,"character":50}}},{"name":"type","kind":14,"range":{"start":{"line":36,"character":2},"end":{"line":36,"character":22}},"selectionRange":{"start":{"line":36,"character":2},"end":{"line":36,"character":22}}},{"name":"default","kind":15,"range":{"start":{"line":37,"character":2},"end":{"line":37,"character":18}},"selectionRange":{"start":{"line":37,"character":2},"end":{"line":37,"character":18}}}]},{"name":"variable \"private-3\"","kind":5,"range":{"start":{"line":39,"character":0},"end":{"line":43,"character":1}},"selectionRange":{"start":{"line":39,"character":0},"end":{"line":43,"character":1}},"children":[{"name":"description","kind":15,"range":{"start":{"line":40,"character":2},"end":{"line":40,"character":64}},"selectionRange":{"start":{"line":40,"character":2},"end":{"line":40,"character":64}}},{"name":"type","kind":14,"range":{"start":{"line":41,"character":2},"end":{"line":41,"character":22}},"selectionRange":{"start":{"line":41,"character":2},"end":{"line":41,"character":22}}},{"name":"default","kind":15,"range":{"start":{"line":42,"character":2},"end":{"line":42,"character":18}},"selectionRange":{"start":{"line":42,"character":2},"end":{"line":42,"character":18}}}]},{"name":"variable \"enable_nat_gateway\"","kind":5,"range":{"start":{"line":44,"character":0},"end":{"line":48,"character":1}},"selectionRange":{"start":{"line":44,"character":0},"end":{"line":48,"character":1}},"children":[{"name":"description","kind":15,"range":{"start":{"line":45,"character":2},"end":{"line":45,"character":104}},"selectionRange":{"start":{"line":45,"character":2},"end":{"line":45,"character":104}}},{"name":"type","kind":14,"range":{"start":{"line":46,"character":2},"end":{"line":46,"character":20}},"selectionRange":{"start":{"line":46,"character":2},"end":{"line":46,"character":20}}},{"name":"default","kind":17,"range":{"start":{"line":47,"character":2},"end":{"line":47,"character":21}},"selectionRange":{"start":{"line":47,"character":2},"end":{"line":47,"character":21}}}]},{"name":"variable \"enableDnsHostnames\"","kind":5,"range":{"start":{"line":50,"character":0},"end":{"line":54,"character":1}},"selectionRange":{"start":{"line":50,"character":0},"end":{"line":54,"character":1}},"children":[{"name":"description","kind":15,"range":{"start":{"line":51,"character":2},"end":{"line":51,"character":36}},"selectionRange":{"start":{"line":51,"character":2},"end":{"line":51,"character":36}}},{"name":"type","kind":14,"range":{"start":{"line":52,"character":2},"end":{"line":52,"character":20}},"selectionRange":{"start":{"line":52,"character":2},"end":{"line":52,"character":20}}},{"name":"default","kind":17,"range":{"start":{"line":53,"character":2},"end":{"line":53,"character":20}},"selectionRange":{"start":{"line":53,"character":2},"end":{"line":53,"character":20}}}]}]
+2022/08/06 17:35:12 opts.go:218: Completed 1 requests [48.940951ms elapsed]
+2022/08/06 17:35:12 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/06 17:35:12 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/06 17:35:12 rpc_logger.go:29: Incoming request for "textDocument/codeLens" (ID 355): {"textDocument":{"uri":"file:///home/ec2-user/Step1/vpc/variable.tf"}}
+2022/08/06 17:35:12 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1/vpc, registry.terraform.io/-/aws, )
+2022/08/06 17:35:12 rpc_logger.go:50: Response to "textDocument/codeLens" (ID 355): []
+2022/08/06 17:35:12 opts.go:218: Completed 1 requests [14.165249ms elapsed]
+2022/08/06 17:35:24 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/06 17:35:24 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/06 17:35:24 rpc_logger.go:29: Incoming notification for "textDocument/didClose": {"textDocument":{"uri":"file:///home/ec2-user/Step1/envs/london.tfvars"}}
+2022/08/06 17:35:24 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/06 17:35:24 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/06 17:35:24 rpc_logger.go:29: Incoming request for "workspace/executeCommand" (ID 356): {"command":"terraform-ls.module.callers","arguments":["uri=file:///home/ec2-user/Step1/vpc"]}
+2022/08/06 17:35:24 rpc_logger.go:50: Response to "workspace/executeCommand" (ID 356): {"v":0,"callers":[]}
+2022/08/06 17:35:24 opts.go:218: Completed 1 requests [148.863µs elapsed]
+2022/08/06 17:35:24 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/06 17:35:24 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/06 17:35:24 rpc_logger.go:29: Incoming request for "textDocument/documentLink" (ID 357): {"textDocument":{"uri":"file:///home/ec2-user/Step1/vpc/output.tf"}}
+2022/08/06 17:35:24 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1/vpc, registry.terraform.io/-/aws, )
+2022/08/06 17:35:24 rpc_logger.go:50: Response to "textDocument/documentLink" (ID 357): []
+2022/08/06 17:35:24 opts.go:218: Completed 1 requests [7.945443ms elapsed]
+2022/08/06 17:35:24 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/06 17:35:24 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/06 17:35:24 rpc_logger.go:29: Incoming request for "textDocument/codeLens" (ID 358): {"textDocument":{"uri":"file:///home/ec2-user/Step1/vpc/output.tf"}}
+2022/08/06 17:35:24 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1/vpc, registry.terraform.io/-/aws, )
+2022/08/06 17:35:24 rpc_logger.go:50: Response to "textDocument/codeLens" (ID 358): []
+2022/08/06 17:35:24 opts.go:218: Completed 1 requests [10.285599ms elapsed]
+2022/08/06 17:35:25 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/06 17:35:25 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/06 17:35:25 rpc_logger.go:29: Incoming notification for "textDocument/didClose": {"textDocument":{"uri":"file:///home/ec2-user/Step1/vpc/variable.tf"}}
+2022/08/06 17:35:26 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/06 17:35:26 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/06 17:35:26 rpc_logger.go:29: Incoming notification for "textDocument/didClose": {"textDocument":{"uri":"file:///home/ec2-user/Step1/vpc/output.tf"}}
+2022/08/06 17:35:27 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/06 17:35:27 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/06 17:35:27 rpc_logger.go:29: Incoming request for "textDocument/documentLink" (ID 359): {"textDocument":{"uri":"file:///home/ec2-user/Step1/envs/california.tfvars"}}
+2022/08/06 17:35:27 rpc_logger.go:50: Response to "textDocument/documentLink" (ID 359): null
+2022/08/06 17:35:27 opts.go:218: Completed 1 requests [139.914µs elapsed]
+2022/08/06 17:35:27 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/06 17:35:27 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/06 17:35:27 rpc_logger.go:29: Incoming request for "textDocument/codeLens" (ID 360): {"textDocument":{"uri":"file:///home/ec2-user/Step1/envs/california.tfvars"}}
+2022/08/06 17:35:27 rpc_logger.go:50: Response to "textDocument/codeLens" (ID 360): []
+2022/08/06 17:35:27 opts.go:218: Completed 1 requests [158.59µs elapsed]
+2022/08/06 17:35:28 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/06 17:35:28 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/06 17:35:28 rpc_logger.go:29: Incoming notification for "textDocument/didClose": {"textDocument":{"uri":"file:///home/ec2-user/Step1/envs/california.tfvars"}}
+2022/08/06 17:35:28 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/06 17:35:28 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/06 17:35:28 rpc_logger.go:29: Incoming notification for "textDocument/didClose": {"textDocument":{"uri":"file:///home/ec2-user/Step1/envs/frankfurt.tfvars"}}
+2022/08/06 17:35:29 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/06 17:35:29 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/06 17:35:29 rpc_logger.go:29: Incoming notification for "textDocument/didClose": {"textDocument":{"uri":"file:///home/ec2-user/Step1/envs/capetown.tfvars"}}
+2022/08/06 17:35:30 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/06 17:35:30 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/06 17:35:30 rpc_logger.go:29: Incoming notification for "textDocument/didClose": {"textDocument":{"uri":"file:///home/ec2-user/Step1/envs/hongkong.tfvars"}}
+2022/08/06 17:35:30 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/06 17:35:30 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/06 17:35:30 rpc_logger.go:29: Incoming request for "textDocument/documentSymbol" (ID 361): {"textDocument":{"uri":"file:///home/ec2-user/Step1/envs/mumbai.tfvars"}}
+2022/08/06 17:35:30 rpc_logger.go:50: Response to "textDocument/documentSymbol" (ID 361): []
+2022/08/06 17:35:30 opts.go:218: Completed 1 requests [172.361µs elapsed]
+2022/08/06 17:35:30 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/06 17:35:30 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/06 17:35:30 rpc_logger.go:29: Incoming request for "textDocument/documentLink" (ID 362): {"textDocument":{"uri":"file:///home/ec2-user/Step1/envs/mumbai.tfvars"}}
+2022/08/06 17:35:30 rpc_logger.go:50: Response to "textDocument/documentLink" (ID 362): null
+2022/08/06 17:35:30 opts.go:218: Completed 1 requests [113.196µs elapsed]
+2022/08/06 17:35:30 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/06 17:35:30 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/06 17:35:30 rpc_logger.go:29: Incoming request for "textDocument/codeLens" (ID 363): {"textDocument":{"uri":"file:///home/ec2-user/Step1/envs/mumbai.tfvars"}}
+2022/08/06 17:35:30 rpc_logger.go:50: Response to "textDocument/codeLens" (ID 363): []
+2022/08/06 17:35:30 opts.go:218: Completed 1 requests [153.986µs elapsed]
+2022/08/06 17:35:31 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/06 17:35:31 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/06 17:35:31 rpc_logger.go:29: Incoming notification for "textDocument/didClose": {"textDocument":{"uri":"file:///home/ec2-user/Step1/envs/mumbai.tfvars"}}
+2022/08/06 17:35:32 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/06 17:35:32 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/06 17:35:32 rpc_logger.go:29: Incoming notification for "textDocument/didClose": {"textDocument":{"uri":"file:///home/ec2-user/Step1/envs/osaka.tfvars"}}
+2022/08/06 17:35:33 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/06 17:35:33 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/06 17:35:33 rpc_logger.go:29: Incoming notification for "textDocument/didClose": {"textDocument":{"uri":"file:///home/ec2-user/Step1/envs/seoul.tfvars"}}
+2022/08/06 17:35:33 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/06 17:35:33 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/06 17:35:33 rpc_logger.go:29: Incoming request for "textDocument/documentSymbol" (ID 364): {"textDocument":{"uri":"file:///home/ec2-user/Step1/envs/singapore.tfvars"}}
+2022/08/06 17:35:33 rpc_logger.go:50: Response to "textDocument/documentSymbol" (ID 364): []
+2022/08/06 17:35:33 opts.go:218: Completed 1 requests [174.546µs elapsed]
+2022/08/06 17:35:33 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/06 17:35:33 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/06 17:35:33 rpc_logger.go:29: Incoming request for "textDocument/documentLink" (ID 365): {"textDocument":{"uri":"file:///home/ec2-user/Step1/envs/singapore.tfvars"}}
+2022/08/06 17:35:33 rpc_logger.go:50: Response to "textDocument/documentLink" (ID 365): null
+2022/08/06 17:35:33 opts.go:218: Completed 1 requests [110.8µs elapsed]
+2022/08/06 17:35:34 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/06 17:35:34 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/06 17:35:34 rpc_logger.go:29: Incoming request for "textDocument/codeLens" (ID 366): {"textDocument":{"uri":"file:///home/ec2-user/Step1/envs/singapore.tfvars"}}
+2022/08/06 17:35:34 rpc_logger.go:50: Response to "textDocument/codeLens" (ID 366): []
+2022/08/06 17:35:34 opts.go:218: Completed 1 requests [150.073µs elapsed]
+2022/08/06 17:35:34 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/06 17:35:34 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/06 17:35:34 rpc_logger.go:29: Incoming notification for "textDocument/didClose": {"textDocument":{"uri":"file:///home/ec2-user/Step1/envs/singapore.tfvars"}}
+2022/08/06 17:35:35 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/06 17:35:35 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/06 17:35:35 rpc_logger.go:29: Incoming request for "textDocument/documentSymbol" (ID 367): {"textDocument":{"uri":"file:///home/ec2-user/Step1/envs/tokyo.tfvars"}}
+2022/08/06 17:35:35 rpc_logger.go:50: Response to "textDocument/documentSymbol" (ID 367): []
+2022/08/06 17:35:35 opts.go:218: Completed 1 requests [171.436µs elapsed]
+2022/08/06 17:35:35 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/06 17:35:35 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/06 17:35:35 rpc_logger.go:29: Incoming request for "textDocument/documentLink" (ID 368): {"textDocument":{"uri":"file:///home/ec2-user/Step1/envs/tokyo.tfvars"}}
+2022/08/06 17:35:35 rpc_logger.go:50: Response to "textDocument/documentLink" (ID 368): null
+2022/08/06 17:35:35 opts.go:218: Completed 1 requests [124.345µs elapsed]
+2022/08/06 17:35:35 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/06 17:35:35 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/06 17:35:35 rpc_logger.go:29: Incoming request for "textDocument/codeLens" (ID 369): {"textDocument":{"uri":"file:///home/ec2-user/Step1/envs/tokyo.tfvars"}}
+2022/08/06 17:35:35 rpc_logger.go:50: Response to "textDocument/codeLens" (ID 369): []
+2022/08/06 17:35:35 opts.go:218: Completed 1 requests [148.316µs elapsed]
+2022/08/06 17:35:36 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/06 17:35:36 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/06 17:35:36 rpc_logger.go:29: Incoming notification for "textDocument/didClose": {"textDocument":{"uri":"file:///home/ec2-user/Step1/envs/tokyo.tfvars"}}
+2022/08/06 17:35:37 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/06 17:35:37 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/06 17:35:37 rpc_logger.go:29: Incoming notification for "textDocument/didClose": {"textDocument":{"uri":"file:///home/ec2-user/Step1/envs/central.tfvars"}}
+2022/08/06 17:35:38 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/06 17:35:38 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/06 17:35:38 rpc_logger.go:29: Incoming notification for "textDocument/didClose": {"textDocument":{"uri":"file:///home/ec2-user/Step1/envs/paris.tfvars"}}
+2022/08/06 17:35:39 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/06 17:35:39 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/06 17:35:39 rpc_logger.go:29: Incoming notification for "textDocument/didClose": {"textDocument":{"uri":"file:///home/ec2-user/Step1/envs/milan.tfvars"}}
+2022/08/06 17:35:40 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/06 17:35:40 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/06 17:35:40 rpc_logger.go:29: Incoming notification for "textDocument/didClose": {"textDocument":{"uri":"file:///home/ec2-user/Step1/envs/stockholm.tfvars"}}
+2022/08/06 17:35:41 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/06 17:35:41 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/06 17:35:41 rpc_logger.go:29: Incoming notification for "textDocument/didClose": {"textDocument":{"uri":"file:///home/ec2-user/Step1/envs/bahrain.tfvars"}}
+2022/08/06 17:35:42 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/06 17:35:42 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/06 17:35:42 rpc_logger.go:29: Incoming notification for "textDocument/didClose": {"textDocument":{"uri":"file:///home/ec2-user/Step1/envs/jakarta.tfvars"}}
+2022/08/06 17:35:43 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/06 17:35:43 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/06 17:35:43 rpc_logger.go:29: Incoming notification for "textDocument/didClose": {"textDocument":{"uri":"file:///home/ec2-user/Step1/envs/ireland.tfvars"}}
+2022/08/06 17:35:43 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/06 17:35:43 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/06 17:35:43 rpc_logger.go:29: Incoming notification for "textDocument/didClose": {"textDocument":{"uri":"file:///home/ec2-user/Step1/envs/oregon.tfvars"}}
+2022/08/06 17:35:44 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/06 17:35:44 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/06 17:35:44 rpc_logger.go:29: Incoming notification for "textDocument/didClose": {"textDocument":{"uri":"file:///home/ec2-user/Step1/envs/ohio.tfvars"}}
+2022/08/06 17:35:45 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/06 17:35:45 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/06 17:35:45 rpc_logger.go:29: Incoming notification for "textDocument/didClose": {"textDocument":{"uri":"file:///home/ec2-user/Step1/envs/sydney.tfvars"}}
+2022/08/06 17:35:47 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/06 17:35:47 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/06 17:35:47 rpc_logger.go:29: Incoming notification for "textDocument/didClose": {"textDocument":{"uri":"file:///home/ec2-user/Step1/envs/virginia.tfvars"}}
+2022/08/06 17:36:14 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/06 17:36:14 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/06 17:36:14 rpc_logger.go:29: Incoming request for "workspace/executeCommand" (ID 370): {"command":"terraform-ls.module.callers","arguments":["uri=file:///home/ec2-user/Step1/vpc"]}
+2022/08/06 17:36:14 rpc_logger.go:50: Response to "workspace/executeCommand" (ID 370): {"v":0,"callers":[]}
+2022/08/06 17:36:14 opts.go:218: Completed 1 requests [145.264µs elapsed]
+2022/08/06 17:36:14 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/06 17:36:14 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/06 17:36:14 rpc_logger.go:29: Incoming request for "textDocument/documentLink" (ID 371): {"textDocument":{"uri":"file:///home/ec2-user/Step1/vpc/main.tf"}}
+2022/08/06 17:36:14 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1/vpc, registry.terraform.io/-/aws, )
+2022/08/06 17:36:14 rpc_logger.go:50: Response to "textDocument/documentLink" (ID 371): []
+2022/08/06 17:36:14 opts.go:218: Completed 1 requests [7.353702ms elapsed]
+2022/08/06 17:36:14 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/06 17:36:14 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/06 17:36:14 rpc_logger.go:29: Incoming request for "textDocument/codeLens" (ID 372): {"textDocument":{"uri":"file:///home/ec2-user/Step1/vpc/main.tf"}}
+2022/08/06 17:36:14 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1/vpc, registry.terraform.io/-/aws, )
+2022/08/06 17:36:14 rpc_logger.go:50: Response to "textDocument/codeLens" (ID 372): []
+2022/08/06 17:36:14 opts.go:218: Completed 1 requests [7.880371ms elapsed]
+2022/08/06 17:36:58 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/06 17:36:58 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/06 17:36:58 rpc_logger.go:29: Incoming request for "textDocument/codeLens" (ID 373): {"textDocument":{"uri":"file:///home/ec2-user/Step1/vpc/main.tf"}}
+2022/08/06 17:36:58 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1/vpc, registry.terraform.io/-/aws, )
+2022/08/06 17:36:58 rpc_logger.go:50: Response to "textDocument/codeLens" (ID 373): []
+2022/08/06 17:36:58 opts.go:218: Completed 1 requests [7.415396ms elapsed]
+2022/08/06 17:39:04 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/06 17:39:04 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/06 17:39:04 rpc_logger.go:29: Incoming request for "textDocument/codeLens" (ID 374): {"textDocument":{"uri":"file:///home/ec2-user/Step1/vpc/main.tf"}}
+2022/08/06 17:39:04 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1/vpc, registry.terraform.io/-/aws, )
+2022/08/06 17:39:04 rpc_logger.go:50: Response to "textDocument/codeLens" (ID 374): []
+2022/08/06 17:39:04 opts.go:218: Completed 1 requests [7.941264ms elapsed]
+2022/08/06 17:39:04 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/06 17:39:04 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/06 17:39:04 rpc_logger.go:29: Incoming request for "textDocument/hover" (ID 375): {"textDocument":{"uri":"file:///home/ec2-user/Step1/vpc/main.tf"},"position":{"line":90,"character":26}}
+2022/08/06 17:39:04 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1/vpc, registry.terraform.io/-/aws, )
+2022/08/06 17:39:04 hover.go:32: Looking for hover data at "main.tf" -> hcl.Pos{Line:91, Column:27, Byte:1710}
+2022/08/06 17:39:04 hover.go:34: received hover data: (*lang.HoverData)(nil)
+2022/08/06 17:39:04 rpc_logger.go:45: Error for "textDocument/hover" (ID 375): [-32098] main.tf (91,27): position outside of any attribute name, value or block
+2022/08/06 17:39:04 opts.go:218: Completed 1 requests [8.420053ms elapsed]
+[Error - 5:39:04 PM] Request textDocument/hover failed.
+  Message: main.tf (91,27): position outside of any attribute name, value or block
+  Code: -32098 
+2022/08/06 17:39:10 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/06 17:39:10 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/06 17:39:10 rpc_logger.go:29: Incoming request for "textDocument/hover" (ID 376): {"textDocument":{"uri":"file:///home/ec2-user/Step1/vpc/main.tf"},"position":{"line":84,"character":5}}
+2022/08/06 17:39:10 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1/vpc, registry.terraform.io/-/aws, )
+2022/08/06 17:39:10 hover.go:32: Looking for hover data at "main.tf" -> hcl.Pos{Line:85, Column:6, Byte:1634}
+2022/08/06 17:39:10 hover.go:34: received hover data: &lang.HoverData{Content:lang.MarkupContent{Value:"**tags** _optional, map of string_", Kind:0x2}, Range:hcl.Range{Filename:"main.tf", Start:hcl.Pos{Line:85, Column:5, Byte:1633}, End:hcl.Pos{Line:87, Column:6, Byte:1677}}}
+2022/08/06 17:39:10 rpc_logger.go:50: Response to "textDocument/hover" (ID 376): {"contents":{"kind":"markdown","value":"**tags** _optional, map of string_"},"range":{"start":{"line":84,"character":4},"end":{"line":86,"character":5}}}
+2022/08/06 17:39:10 opts.go:218: Completed 1 requests [7.976733ms elapsed]
+2022/08/06 17:39:28 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/06 17:39:28 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/06 17:39:28 rpc_logger.go:29: Incoming request for "textDocument/hover" (ID 377): {"textDocument":{"uri":"file:///home/ec2-user/Step1/vpc/main.tf"},"position":{"line":85,"character":24}}
+2022/08/06 17:39:28 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1/vpc, registry.terraform.io/-/aws, )
+2022/08/06 17:39:28 hover.go:32: Looking for hover data at "main.tf" -> hcl.Pos{Line:86, Column:25, Byte:1667}
+2022/08/06 17:39:28 hover.go:34: received hover data: &lang.HoverData{Content:lang.MarkupContent{Value:"_map of string_", Kind:0x2}, Range:hcl.Range{Filename:"main.tf", Start:hcl.Pos{Line:85, Column:13, Byte:1641}, End:hcl.Pos{Line:87, Column:6, Byte:1677}}}
+2022/08/06 17:39:28 rpc_logger.go:50: Response to "textDocument/hover" (ID 377): {"contents":{"kind":"markdown","value":"_map of string_"},"range":{"start":{"line":84,"character":12},"end":{"line":86,"character":5}}}
+2022/08/06 17:39:28 opts.go:218: Completed 1 requests [7.775296ms elapsed]
+2022/08/06 17:39:44 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/06 17:39:44 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/06 17:39:44 rpc_logger.go:29: Incoming request for "textDocument/hover" (ID 378): {"textDocument":{"uri":"file:///home/ec2-user/Step1/vpc/main.tf"},"position":{"line":85,"character":9}}
+2022/08/06 17:39:44 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1/vpc, registry.terraform.io/-/aws, )
+2022/08/06 17:39:44 hover.go:32: Looking for hover data at "main.tf" -> hcl.Pos{Line:86, Column:10, Byte:1652}
+2022/08/06 17:39:44 hover.go:34: received hover data: &lang.HoverData{Content:lang.MarkupContent{Value:"_map of string_", Kind:0x2}, Range:hcl.Range{Filename:"main.tf", Start:hcl.Pos{Line:85, Column:13, Byte:1641}, End:hcl.Pos{Line:87, Column:6, Byte:1677}}}
+2022/08/06 17:39:44 rpc_logger.go:50: Response to "textDocument/hover" (ID 378): {"contents":{"kind":"markdown","value":"_map of string_"},"range":{"start":{"line":84,"character":12},"end":{"line":86,"character":5}}}
+2022/08/06 17:39:44 opts.go:218: Completed 1 requests [8.054066ms elapsed]
