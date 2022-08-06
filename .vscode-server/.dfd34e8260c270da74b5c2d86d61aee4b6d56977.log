@@ -5,13 +5,13 @@
 * the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
 * the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
 *
-Server bound to 127.0.0.1:34033 (IPv4)
-Extension host agent listening on 34033
+Server bound to 127.0.0.1:37075 (IPv4)
+Extension host agent listening on 37075
 
-[15:30:52] Extension host agent started.
-[15:30:52] [127.0.0.1][ca069d4a][ManagementConnection] New connection established.
-[15:30:52] [127.0.0.1][4dc8fe5d][ExtensionHostConnection] New connection established.
-[15:30:52] [127.0.0.1][4dc8fe5d][ExtensionHostConnection] <13632> Launched Extension Host Process.
+[15:03:30] Extension host agent started.
+[15:03:31] [127.0.0.1][9aba020c][ManagementConnection] New connection established.
+[15:03:31] [127.0.0.1][94aebfcf][ExtensionHostConnection] New connection established.
+[15:03:31] [127.0.0.1][94aebfcf][ExtensionHostConnection] <26616> Launched Extension Host Process.
 Overwriting extension /home/ec2-user/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/extensions/ms-vscode.js-debug-companion with /home/ec2-user/.vscode-server/extensions/ms-vscode.js-debug-companion-1.0.18.
 [IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
   '-c',
@@ -73,10 +73,83 @@ Overwriting extension /home/ec2-user/.vscode-server/bin/dfd34e8260c270da74b5c2d8
     'fi\n' +
     'exit 0'
 ]
-[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/bash" and args []
-[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/bash" and args []
+[15:03:35] [127.0.0.1][9aba020c][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[15:03:35] [127.0.0.1][94aebfcf][ExtensionHostConnection] <26616> Extension Host Process exited with code: 0, signal: null.
+Last EH closed, waiting before shutting down
+[15:03:35] Last EH closed, waiting before shutting down
+Got delay-shutdown request while in shutdown timeout, delaying
+[15:03:37] Got delay-shutdown request while in shutdown timeout, delaying
+Cancelling previous shutdown timeout
+[15:03:37] Cancelling previous shutdown timeout
+[15:03:37] [127.0.0.1][0b932268][ManagementConnection] New connection established.
+[15:03:37] [127.0.0.1][b396b7ad][ExtensionHostConnection] New connection established.
+[15:03:37] [127.0.0.1][b396b7ad][ExtensionHostConnection] <26745> Launched Extension Host Process.
+Overwriting extension /home/ec2-user/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/extensions/ms-vscode.js-debug-companion with /home/ec2-user/.vscode-server/extensions/ms-vscode.js-debug-companion-1.0.18.
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    "\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata:true' -O - http://169.254.169.254/metadata/instance?api-version=2019-03-11\n" +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    "\t\tcurl --connect-timeout 7 -s --header='Metadata:true' http://169.254.169.254/metadata/instance?api-version=2019-03-11\n" +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    '\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/latest/meta-data/instance-id\n' +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    '\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/latest/meta-data/instance-id\n' +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    '\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/metadata/v1/id\n' +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    '\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/metadata/v1/id\n' +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    "\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata-Flavor:Google' -O - http://metadata.google.internal/computeMetadata/v1/instance/id\n" +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    "\t\tcurl --connect-timeout 7 -s --header='Metadata-Flavor:Google' http://metadata.google.internal/computeMetadata/v1/instance/id\n" +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/usr/bin/bash" and args undefined
+New EH opened, aborting shutdown
+[15:08:37] New EH opened, aborting shutdown
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/usr/bin/bash" and args undefined
+[16:56:00] [File Watcher (parcel)] Unexpected error: std::bad_alloc (EUNKNOWN) (path: /home/ec2-user)
+[16:56:00] [File Watcher (universal)] restarting watcher after error: std::bad_alloc
 [IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/usr/bin/bash" and args undefined
 [IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/usr/bin/bash" and args undefined
-[15:47:13] [127.0.0.1][4dc8fe5d][ExtensionHostConnection] The client has reconnected.
-[15:47:15] [127.0.0.1][ca069d4a][ManagementConnection] The client has reconnected.
-[15:47:17] [127.0.0.1][4dc8fe5d][ExtensionHostConnection] The client has reconnected.

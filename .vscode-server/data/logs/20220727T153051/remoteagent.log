@@ -5,3 +5,11 @@
 [2022-07-27 15:47:13.946] [remoteagent] [info] [127.0.0.1][4dc8fe5d][ExtensionHostConnection] The client has reconnected.
 [2022-07-27 15:47:15.106] [remoteagent] [info] [127.0.0.1][ca069d4a][ManagementConnection] The client has reconnected.
 [2022-07-27 15:47:17.778] [remoteagent] [info] [127.0.0.1][4dc8fe5d][ExtensionHostConnection] The client has reconnected.
+[2022-07-27 17:16:04.622] [remoteagent] [info] [127.0.0.1][4dc8fe5d][ExtensionHostConnection] The client has reconnected.
+[2022-07-27 17:16:06.241] [remoteagent] [info] [127.0.0.1][ca069d4a][ManagementConnection] The client has reconnected.
+[2022-07-27 17:16:07.801] [remoteagent] [info] [127.0.0.1][4dc8fe5d][ExtensionHostConnection] The client has reconnected.
+[2022-07-27 17:39:01.421] [remoteagent] [info] [127.0.0.1][ca069d4a][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2022-07-27 20:39:09.010] [remoteagent] [info] [127.0.0.1][ca069d4a][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+[2022-07-27 20:39:12.290] [remoteagent] [info] [127.0.0.1][4dc8fe5d][ExtensionHostConnection] <13632> Extension Host Process exited with code: 0, signal: null.
+[2022-07-27 20:39:12.290] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2022-07-27 20:44:12.292] [remoteagent] [info] Last EH closed, shutting down

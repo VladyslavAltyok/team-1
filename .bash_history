@@ -48,3 +48,31 @@ git pull team master
 ssh-keygen
 cat ~/.ssh/id_rsa.pub
 git pull team master
+terraform destroy
+terraform graph
+terraform version
+terraform apply
+cd
+git add .
+git commit -m "added output file"
+git push
+git push team masrter
+git remote
+git add remote Team git@github.com:VladyslavAltyok/terraform-team1-project.git
+git push team master
+terraform destroy
+terrraform apply
+terraform init
+terrraform apply
+bash localscript.sh
+cd
+terraform version
+terraform apply
+ls
+terraform init
+terraform apply
+git clone git@github.com:Qudratillo8373/AWS-RDS-TEAM.git
+terraform init
+terraform init
+terraform apply
+terraform destroy

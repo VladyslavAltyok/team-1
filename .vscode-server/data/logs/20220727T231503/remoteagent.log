@@ -1,0 +1,19 @@
+[2022-07-27 23:15:04.053] [remoteagent] [info] Extension host agent started.
+[2022-07-27 23:15:04.463] [remoteagent] [error] [127.0.0.1][ca069d4a][ManagementConnection] Unknown reconnection token (never seen).
+[2022-07-27 23:15:04.500] [remoteagent] [error] [127.0.0.1][4dc8fe5d][ExtensionHostConnection] Unknown reconnection token (never seen).
+[2022-07-30 18:15:06.598] [remoteagent] [info] [127.0.0.1][c971ec28][ManagementConnection] New connection established.
+[2022-07-30 18:15:06.719] [remoteagent] [info] [127.0.0.1][69be4dd9][ExtensionHostConnection] New connection established.
+[2022-07-30 18:15:06.725] [remoteagent] [info] [127.0.0.1][69be4dd9][ExtensionHostConnection] <12288> Launched Extension Host Process.
+[2022-07-30 19:44:41.255] [remoteagent] [error] [File Watcher (parcel)] Unexpected error: std::bad_alloc (EUNKNOWN) (path: /home/ec2-user)
+[2022-07-30 19:44:41.256] [remoteagent] [error] [File Watcher (universal)] restarting watcher after error: std::bad_alloc
+[2022-07-30 19:52:22.645] [remoteagent] [info] [127.0.0.1][c971ec28][ManagementConnection] The client has reconnected.
+[2022-07-30 19:52:22.761] [remoteagent] [info] [127.0.0.1][69be4dd9][ExtensionHostConnection] The client has reconnected.
+[2022-07-30 20:09:24.203] [remoteagent] [info] [127.0.0.1][c971ec28][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2022-07-30 21:52:43.738] [remoteagent] [info] [127.0.0.1][c971ec28][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2022-07-30 21:52:43.739] [remoteagent] [info] [127.0.0.1][c971ec28][ManagementConnection] The client has reconnected.
+[2022-07-30 21:52:43.873] [remoteagent] [info] [127.0.0.1][69be4dd9][ExtensionHostConnection] The client has reconnected.
+[2022-07-30 22:09:13.843] [remoteagent] [info] [127.0.0.1][c971ec28][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2022-07-31 01:09:22.047] [remoteagent] [info] [127.0.0.1][c971ec28][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+[2022-07-31 01:09:25.331] [remoteagent] [info] [127.0.0.1][69be4dd9][ExtensionHostConnection] <12288> Extension Host Process exited with code: 0, signal: null.
+[2022-07-31 01:09:25.331] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2022-07-31 01:14:25.333] [remoteagent] [info] Last EH closed, shutting down
