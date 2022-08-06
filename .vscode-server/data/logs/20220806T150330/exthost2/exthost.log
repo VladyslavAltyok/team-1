@@ -22,3 +22,9 @@
 	at processImmediate (node:internal/timers:464:21)
 [2022-08-06 16:55:26.890] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/ec2-user/Step1/team-1/variable.tf' is in submodule 'Step1/team-1'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
 [2022-08-06 16:56:11.312] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/ec2-user/Step1/team-1/Makefile' is in submodule 'Step1/team-1'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-06 17:30:20.208] [exthost] [error] [hashicorp.terraform] provider FAILED
+[2022-08-06 17:30:20.208] [exthost] [error] Error: main.tf (83,1): position outside of any attribute name, value or block
+	at Fe (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:17:223)
+	at Be (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11251)
+	at Immediate.<anonymous> (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11101)
+	at processImmediate (node:internal/timers:464:21)
