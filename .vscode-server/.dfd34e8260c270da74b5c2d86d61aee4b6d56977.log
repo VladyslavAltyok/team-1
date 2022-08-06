@@ -166,3 +166,5 @@ New EH opened, aborting shutdown
 [17:40:46] Extension installed successfully: hashicorp.hcl
 [IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/usr/bin/bash" and args undefined
 [IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/usr/bin/bash" and args undefined
+[17:48:37] [File Watcher (parcel)] Unexpected error: std::bad_alloc (EUNKNOWN) (path: /home/ec2-user)
+[17:48:37] [File Watcher (universal)] restarting watcher after error: std::bad_alloc

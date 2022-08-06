@@ -22,3 +22,5 @@
 [2022-08-06 17:40:46.594] [remoteagent] [info] Renamed to /home/ec2-user/.vscode-server/extensions/hashicorp.hcl-0.2.1
 [2022-08-06 17:40:46.595] [remoteagent] [info] Extracting completed. hashicorp.hcl
 [2022-08-06 17:40:46.596] [remoteagent] [info] Extension installed successfully: hashicorp.hcl
+[2022-08-06 17:48:37.572] [remoteagent] [error] [File Watcher (parcel)] Unexpected error: std::bad_alloc (EUNKNOWN) (path: /home/ec2-user)
+[2022-08-06 17:48:37.572] [remoteagent] [error] [File Watcher (universal)] restarting watcher after error: std::bad_alloc
