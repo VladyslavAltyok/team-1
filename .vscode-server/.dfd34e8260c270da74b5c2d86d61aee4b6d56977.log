@@ -5,13 +5,15 @@
 * the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
 * the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
 *
-Server bound to 127.0.0.1:37075 (IPv4)
-Extension host agent listening on 37075
+Server bound to 127.0.0.1:38403 (IPv4)
+Extension host agent listening on 38403
 
-[15:03:30] Extension host agent started.
-[15:03:31] [127.0.0.1][9aba020c][ManagementConnection] New connection established.
-[15:03:31] [127.0.0.1][94aebfcf][ExtensionHostConnection] New connection established.
-[15:03:31] [127.0.0.1][94aebfcf][ExtensionHostConnection] <26616> Launched Extension Host Process.
+[23:45:05] Extension host agent started.
+[23:45:05] [127.0.0.1][0b932268][ManagementConnection] Unknown reconnection token (never seen).
+[23:45:05] [127.0.0.1][b396b7ad][ExtensionHostConnection] Unknown reconnection token (never seen).
+[22:38:57] [127.0.0.1][c786a9eb][ManagementConnection] New connection established.
+[22:38:57] [127.0.0.1][2da3a9c1][ExtensionHostConnection] New connection established.
+[22:38:57] [127.0.0.1][2da3a9c1][ExtensionHostConnection] <22334> Launched Extension Host Process.
 Overwriting extension /home/ec2-user/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/extensions/ms-vscode.js-debug-companion with /home/ec2-user/.vscode-server/extensions/ms-vscode.js-debug-companion-1.0.18.
 [IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
   '-c',
@@ -73,17 +75,13 @@ Overwriting extension /home/ec2-user/.vscode-server/bin/dfd34e8260c270da74b5c2d8
     'fi\n' +
     'exit 0'
 ]
-[15:03:35] [127.0.0.1][9aba020c][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
-[15:03:35] [127.0.0.1][94aebfcf][ExtensionHostConnection] <26616> Extension Host Process exited with code: 0, signal: null.
-Last EH closed, waiting before shutting down
-[15:03:35] Last EH closed, waiting before shutting down
-Got delay-shutdown request while in shutdown timeout, delaying
-[15:03:37] Got delay-shutdown request while in shutdown timeout, delaying
-Cancelling previous shutdown timeout
-[15:03:37] Cancelling previous shutdown timeout
-[15:03:37] [127.0.0.1][0b932268][ManagementConnection] New connection established.
-[15:03:37] [127.0.0.1][b396b7ad][ExtensionHostConnection] New connection established.
-[15:03:37] [127.0.0.1][b396b7ad][ExtensionHostConnection] <26745> Launched Extension Host Process.
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/bash" and args []
+[22:41:14] [127.0.0.1][2da3a9c1][ExtensionHostConnection] The client has reconnected.
+[22:41:16] [127.0.0.1][c786a9eb][ManagementConnection] The client has reconnected.
+[22:41:19] [127.0.0.1][2da3a9c1][ExtensionHostConnection] The client has reconnected.
+[22:42:57] [127.0.0.1][3c92acca][ManagementConnection] New connection established.
+[22:42:57] [127.0.0.1][dc2fc912][ExtensionHostConnection] New connection established.
+[22:42:57] [127.0.0.1][dc2fc912][ExtensionHostConnection] <23651> Launched Extension Host Process.
 Overwriting extension /home/ec2-user/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/extensions/ms-vscode.js-debug-companion with /home/ec2-user/.vscode-server/extensions/ms-vscode.js-debug-companion-1.0.18.
 [IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
   '-c',
@@ -145,30 +143,18 @@ Overwriting extension /home/ec2-user/.vscode-server/bin/dfd34e8260c270da74b5c2d8
     'fi\n' +
     'exit 0'
 ]
+[IPC Library: Pty Host]  INFO Persistent process "5": Replaying 31 chars and 1 size events
+[22:57:49] [127.0.0.1][c786a9eb][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/ec2-user/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/bootstrap.js:1:370)
+    at process.emit (node:events:390:28)
+[01:14:47] [127.0.0.1][c786a9eb][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[01:14:47] [127.0.0.1][dc2fc912][ExtensionHostConnection] The client has reconnected.
+[01:14:49] [127.0.0.1][3c92acca][ManagementConnection] The client has reconnected.
+[01:14:50] [127.0.0.1][dc2fc912][ExtensionHostConnection] The client has reconnected.
+[01:15:58] [127.0.0.1][3c92acca][ManagementConnection] The client has reconnected.
+[01:16:31] [127.0.0.1][dc2fc912][ExtensionHostConnection] The client has reconnected.
 [IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/usr/bin/bash" and args undefined
-New EH opened, aborting shutdown
-[15:08:37] New EH opened, aborting shutdown
+[01:19:47] [127.0.0.1][c786a9eb][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+[01:19:47] [127.0.0.1][2da3a9c1][ExtensionHostConnection] <22334> Extension Host Process exited with code: 0, signal: null.
 [IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/usr/bin/bash" and args undefined
-[16:56:00] [File Watcher (parcel)] Unexpected error: std::bad_alloc (EUNKNOWN) (path: /home/ec2-user)
-[16:56:00] [File Watcher (universal)] restarting watcher after error: std::bad_alloc
-[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/usr/bin/bash" and args undefined
-[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/usr/bin/bash" and args undefined
-[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/usr/bin/bash" and args undefined
-[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/usr/bin/bash" and args undefined
-[17:37:40] [File Watcher (parcel)] Unexpected error: std::bad_alloc (EUNKNOWN) (path: /home/ec2-user)
-[17:37:40] [File Watcher (universal)] restarting watcher after error: std::bad_alloc
-[17:40:46] Getting Manifest... hashicorp.hcl
-[17:40:46] Installing extension: hashicorp.hcl
-[17:40:46] Downloaded extension: hashicorp.hcl /home/ec2-user/.vscode-server/data/CachedExtensionVSIXs/hashicorp.hcl-0.2.1
-[17:40:46] Extracted extension to /home/ec2-user/.vscode-server/extensions/.a6a654e1-922e-40fc-a9a6-7d186990b23e: hashicorp.hcl
-[17:40:46] Renamed to /home/ec2-user/.vscode-server/extensions/hashicorp.hcl-0.2.1
-[17:40:46] Extracting completed. hashicorp.hcl
-[17:40:46] Extension installed successfully: hashicorp.hcl
-[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/usr/bin/bash" and args undefined
-[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/usr/bin/bash" and args undefined
-[17:48:37] [File Watcher (parcel)] Unexpected error: std::bad_alloc (EUNKNOWN) (path: /home/ec2-user)
-[17:48:37] [File Watcher (universal)] restarting watcher after error: std::bad_alloc
-[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/usr/bin/bash" and args undefined
-[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/usr/bin/bash" and args undefined
-[17:52:11] [File Watcher (parcel)] Unexpected error: std::bad_alloc (EUNKNOWN) (path: /home/ec2-user)
-[17:52:11] [File Watcher (universal)] restarting watcher after error: std::bad_alloc

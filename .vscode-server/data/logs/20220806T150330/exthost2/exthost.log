@@ -64,3 +64,19 @@
 [2022-08-06 17:49:24.360] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/ec2-user/terraform-team1-project/Step1/vpc/.gitignore' is in submodule 'terraform-team1-project'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
 [2022-08-06 17:49:24.360] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/ec2-user/terraform-team1-project/Step1/vpc/.gitignore' is in submodule 'terraform-team1-project'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
 [2022-08-06 17:49:24.360] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/ec2-user/terraform-team1-project/Step1/vpc/.gitignore' is in submodule 'terraform-team1-project'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-06 17:53:02.414] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/ec2-user/.tfenv/.github' is in submodule '.tfenv'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-06 17:53:02.415] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/ec2-user/.tfenv/.github' is in submodule '.tfenv'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-06 17:53:02.415] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/ec2-user/.tfenv/.github' is in submodule '.tfenv'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-06 17:53:02.415] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/ec2-user/.tfenv/.github' is in submodule '.tfenv'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-06 17:53:02.415] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/ec2-user/.tfenv/.github' is in submodule '.tfenv'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-06 17:53:02.415] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/ec2-user/.tfenv/.github' is in submodule '.tfenv'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-06 17:53:02.415] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/ec2-user/.tfenv/.github' is in submodule '.tfenv'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-06 17:53:02.415] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/ec2-user/.tfenv/.github' is in submodule '.tfenv'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-06 17:53:02.415] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/ec2-user/.tfenv/.github' is in submodule '.tfenv'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-06 17:53:02.415] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/ec2-user/.tfenv/.github' is in submodule '.tfenv'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-06 17:53:02.415] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/ec2-user/.tfenv/.github' is in submodule '.tfenv'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-06 17:53:02.415] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/ec2-user/.tfenv/.github' is in submodule '.tfenv'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-06 17:53:02.415] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/ec2-user/.tfenv/.github' is in submodule '.tfenv'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-06 23:10:54.911] [exthost] [info] extension host terminating: renderer disconnected for too long (1)
+[2022-08-06 23:10:54.912] [exthost] [info] Lock '/home/ec2-user/.vscode-server/data/User/workspaceStorage/bd4a48b86a6b0e7dce82a23a7d51a25d/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-08-06 23:10:54.956] [exthost] [info] Extension host with pid 26745 exiting with code 0

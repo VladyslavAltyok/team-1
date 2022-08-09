@@ -76,3 +76,52 @@ terraform init
 terraform init
 terraform apply
 terraform destroy
+git add .
+git commit -m "3"
+git push team master
+git add .
+git commit -m "2"
+git remote
+git add .
+git commit -m "fix"
+git push team master
+git clone --recurse-submodules
+git clone git@github.com:VladyslavAltyok/terraform-team1-project.git
+git@github.com:Vlady
+git clone git@github.com:VladyslavAltyok/terraform-team1-project.git
+git add .
+git commit -m "1"
+git push team master
+git add .
+git commit -m "fixes"
+git push team master
+git add .
+git commit -m "mess"
+git push team master
+cd Step1
+cd vpc
+ls
+git add.
+git add .
+git  commit -m "vpc folder"
+git push team master
+git remote
+git push origin master
+git remote
+git add .
+git commit -m "empty"
+git push team master
+git add .
+git commit -m "em"
+git push team master
+git  add .
+git commit -m "envs"
+git push team master
+git remote
+git clone git@github.com:VladyslavAltyok/terraform-team1-project.git
+git add .
+git clone git@github.com:aiyadjaz/vpc.git
+git add .
+git commit -m "added tfvars"
+git push
+git push team master

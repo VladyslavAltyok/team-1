@@ -26,3 +26,14 @@
 [2022-08-06 17:48:37.572] [remoteagent] [error] [File Watcher (universal)] restarting watcher after error: std::bad_alloc
 [2022-08-06 17:52:11.226] [remoteagent] [error] [File Watcher (parcel)] Unexpected error: std::bad_alloc (EUNKNOWN) (path: /home/ec2-user)
 [2022-08-06 17:52:11.226] [remoteagent] [error] [File Watcher (universal)] restarting watcher after error: std::bad_alloc
+[2022-08-06 17:53:32.201] [remoteagent] [info] [127.0.0.1][0b932268][ManagementConnection] The client has reconnected.
+[2022-08-06 17:53:32.287] [remoteagent] [info] [127.0.0.1][b396b7ad][ExtensionHostConnection] The client has reconnected.
+[2022-08-06 18:10:09.606] [remoteagent] [info] [127.0.0.1][0b932268][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2022-08-06 19:53:48.716] [remoteagent] [info] [127.0.0.1][0b932268][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2022-08-06 19:53:48.716] [remoteagent] [info] [127.0.0.1][0b932268][ManagementConnection] The client has reconnected.
+[2022-08-06 19:53:48.812] [remoteagent] [info] [127.0.0.1][b396b7ad][ExtensionHostConnection] The client has reconnected.
+[2022-08-06 20:10:44.533] [remoteagent] [info] [127.0.0.1][0b932268][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2022-08-06 23:10:52.835] [remoteagent] [info] [127.0.0.1][0b932268][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+[2022-08-06 23:10:54.995] [remoteagent] [info] [127.0.0.1][b396b7ad][ExtensionHostConnection] <26745> Extension Host Process exited with code: 0, signal: null.
+[2022-08-06 23:10:54.995] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2022-08-06 23:15:54.996] [remoteagent] [info] Last EH closed, shutting down

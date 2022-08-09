@@ -5730,3 +5730,117 @@ Launching language server: /home/ec2-user/.vscode-server/extensions/hashicorp.te
 2022/08/06 17:51:49 opts.go:218: Received request batch of size 1 (qlen=0)
 2022/08/06 17:51:49 opts.go:218: Dequeued request batch of length 1 (qlen=0)
 2022/08/06 17:51:49 rpc_logger.go:29: Incoming notification for "textDocument/didClose": {"textDocument":{"uri":"file:///home/ec2-user/Step1/output.tf"}}
+2022/08/06 17:53:26 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/06 17:53:26 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/06 17:53:26 rpc_logger.go:29: Incoming notification for "textDocument/didOpen": {"textDocument":{"uri":"file:///home/ec2-user/Step1/envs/california.tfvars","languageId":"terraform-vars","version":1,"text":""}}
+2022/08/06 17:53:26 did_open.go:42: opened module: /home/ec2-user/Step1/envs
+2022/08/06 17:53:26 jobs.go:92: JOBS: Enqueueing new job "805": "OpTypeParseModuleConfiguration" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/06 17:53:26 jobs.go:92: JOBS: Enqueueing new job "806": "OpTypeParseVariables" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/06 17:53:26 jobs.go:244: JOBS: Dispatching next job "805": "OpTypeParseModuleConfiguration" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/06 17:53:26 jobs.go:92: JOBS: Enqueueing new job "807": "OpTypeLoadModuleMetadata" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/06 17:53:26 jobs.go:358: JOBS: Finishing job "805": "OpTypeParseModuleConfiguration" for {"file:///home/ec2-user/Step1/envs"} (err = %!s(<nil>), deferredJobs: ["807"])
+2022/08/06 17:53:26 jobs.go:244: JOBS: Dispatching next job "806": "OpTypeParseVariables" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/06 17:53:26 jobs.go:92: JOBS: Enqueueing new job "808": "OpTypeDecodeVarsReferences" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/06 17:53:26 jobs.go:358: JOBS: Finishing job "806": "OpTypeParseVariables" for {"file:///home/ec2-user/Step1/envs"} (err = %!s(<nil>), deferredJobs: ["808"])
+2022/08/06 17:53:26 jobs.go:244: JOBS: Dispatching next job "807": "OpTypeLoadModuleMetadata" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/06 17:53:26 jobs.go:92: JOBS: Enqueueing new job "809": "OpTypeDecodeReferenceTargets" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/06 17:53:26 jobs.go:92: JOBS: Enqueueing new job "810": "OpTypeDecodeReferenceOrigins" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/06 17:53:26 jobs.go:358: JOBS: Finishing job "807": "OpTypeLoadModuleMetadata" for {"file:///home/ec2-user/Step1/envs"} (err = %!s(<nil>), deferredJobs: ["809" "810"])
+2022/08/06 17:53:26 jobs.go:244: JOBS: Dispatching next job "808": "OpTypeDecodeVarsReferences" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/06 17:53:26 jobs.go:358: JOBS: Finishing job "808": "OpTypeDecodeVarsReferences" for {"file:///home/ec2-user/Step1/envs"} (err = %!s(<nil>), deferredJobs: [])
+2022/08/06 17:53:26 jobs.go:244: JOBS: Dispatching next job "809": "OpTypeDecodeReferenceTargets" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/06 17:53:26 jobs.go:358: JOBS: Finishing job "809": "OpTypeDecodeReferenceTargets" for {"file:///home/ec2-user/Step1/envs"} (err = %!s(<nil>), deferredJobs: [])
+2022/08/06 17:53:26 jobs.go:244: JOBS: Dispatching next job "810": "OpTypeDecodeReferenceOrigins" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/06 17:53:26 jobs.go:358: JOBS: Finishing job "810": "OpTypeDecodeReferenceOrigins" for {"file:///home/ec2-user/Step1/envs"} (err = %!s(<nil>), deferredJobs: [])
+2022/08/06 17:53:26 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/06 17:53:26 opts.go:218: Received request batch of size 1 (qlen=1)
+2022/08/06 17:53:26 opts.go:218: Received request batch of size 1 (qlen=2)
+2022/08/06 17:53:26 opts.go:218: Posting server call "client.refreshModuleProviders" 
+2022/08/06 17:53:26 opts.go:218: Dequeued request batch of length 1 (qlen=2)
+2022/08/06 17:53:26 opts.go:218: Dequeued request batch of length 1 (qlen=1)
+2022/08/06 17:53:26 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/06 17:53:26 rpc_logger.go:29: Incoming request for "textDocument/documentLink" (ID 431): {"textDocument":{"uri":"file:///home/ec2-user/Step1/envs/california.tfvars"}}
+2022/08/06 17:53:26 rpc_logger.go:50: Response to "textDocument/documentLink" (ID 431): null
+2022/08/06 17:53:26 opts.go:218: Completed 1 requests [99.368µs elapsed]
+2022/08/06 17:53:26 rpc_logger.go:29: Incoming request for "textDocument/documentSymbol" (ID 429): {"textDocument":{"uri":"file:///home/ec2-user/Step1/envs/california.tfvars"}}
+2022/08/06 17:53:26 rpc_logger.go:50: Response to "textDocument/documentSymbol" (ID 429): []
+2022/08/06 17:53:26 opts.go:218: Completed 1 requests [203.725µs elapsed]
+2022/08/06 17:53:26 rpc_logger.go:29: Incoming request for "textDocument/semanticTokens/full" (ID 430): {"textDocument":{"uri":"file:///home/ec2-user/Step1/envs/california.tfvars"}}
+2022/08/06 17:53:26 rpc_logger.go:50: Response to "textDocument/semanticTokens/full" (ID 430): {"data":[]}
+2022/08/06 17:53:26 opts.go:218: Completed 1 requests [268.268µs elapsed]
+2022/08/06 17:53:26 opts.go:218: Received response for callback "170"
+2022/08/06 17:53:26 opts.go:218: Posting server call "client.refreshModuleCalls" 
+2022/08/06 17:53:26 opts.go:218: Received response for callback "171"
+2022/08/06 17:53:27 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/06 17:53:27 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/06 17:53:27 rpc_logger.go:29: Incoming request for "textDocument/codeLens" (ID 432): {"textDocument":{"uri":"file:///home/ec2-user/Step1/envs/california.tfvars"}}
+2022/08/06 17:53:27 rpc_logger.go:50: Response to "textDocument/codeLens" (ID 432): []
+2022/08/06 17:53:27 opts.go:218: Completed 1 requests [149.093µs elapsed]
+2022/08/06 17:53:27 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/06 17:53:27 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/06 17:53:27 rpc_logger.go:29: Incoming notification for "textDocument/didClose": {"textDocument":{"uri":"file:///home/ec2-user/Step1/envs/california.tfvars"}}
+2022/08/06 17:53:27 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/06 17:53:27 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/06 17:53:27 rpc_logger.go:29: Incoming notification for "textDocument/didOpen": {"textDocument":{"uri":"file:///home/ec2-user/Step1/envs/bahrain.tfvars","languageId":"terraform-vars","version":1,"text":""}}
+2022/08/06 17:53:27 did_open.go:42: opened module: /home/ec2-user/Step1/envs
+2022/08/06 17:53:27 jobs.go:92: JOBS: Enqueueing new job "811": "OpTypeParseModuleConfiguration" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/06 17:53:27 jobs.go:92: JOBS: Enqueueing new job "812": "OpTypeParseVariables" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/06 17:53:27 jobs.go:244: JOBS: Dispatching next job "811": "OpTypeParseModuleConfiguration" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/06 17:53:27 jobs.go:92: JOBS: Enqueueing new job "813": "OpTypeLoadModuleMetadata" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/06 17:53:27 jobs.go:358: JOBS: Finishing job "811": "OpTypeParseModuleConfiguration" for {"file:///home/ec2-user/Step1/envs"} (err = %!s(<nil>), deferredJobs: ["813"])
+2022/08/06 17:53:27 jobs.go:244: JOBS: Dispatching next job "812": "OpTypeParseVariables" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/06 17:53:27 jobs.go:92: JOBS: Enqueueing new job "814": "OpTypeDecodeVarsReferences" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/06 17:53:27 jobs.go:358: JOBS: Finishing job "812": "OpTypeParseVariables" for {"file:///home/ec2-user/Step1/envs"} (err = %!s(<nil>), deferredJobs: ["814"])
+2022/08/06 17:53:27 jobs.go:244: JOBS: Dispatching next job "813": "OpTypeLoadModuleMetadata" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/06 17:53:27 jobs.go:92: JOBS: Enqueueing new job "815": "OpTypeDecodeReferenceTargets" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/06 17:53:27 jobs.go:92: JOBS: Enqueueing new job "816": "OpTypeDecodeReferenceOrigins" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/06 17:53:27 jobs.go:358: JOBS: Finishing job "813": "OpTypeLoadModuleMetadata" for {"file:///home/ec2-user/Step1/envs"} (err = %!s(<nil>), deferredJobs: ["815" "816"])
+2022/08/06 17:53:27 jobs.go:244: JOBS: Dispatching next job "814": "OpTypeDecodeVarsReferences" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/06 17:53:27 jobs.go:358: JOBS: Finishing job "814": "OpTypeDecodeVarsReferences" for {"file:///home/ec2-user/Step1/envs"} (err = %!s(<nil>), deferredJobs: [])
+2022/08/06 17:53:27 jobs.go:244: JOBS: Dispatching next job "815": "OpTypeDecodeReferenceTargets" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/06 17:53:27 jobs.go:358: JOBS: Finishing job "815": "OpTypeDecodeReferenceTargets" for {"file:///home/ec2-user/Step1/envs"} (err = %!s(<nil>), deferredJobs: [])
+2022/08/06 17:53:27 jobs.go:244: JOBS: Dispatching next job "816": "OpTypeDecodeReferenceOrigins" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/06 17:53:27 jobs.go:358: JOBS: Finishing job "816": "OpTypeDecodeReferenceOrigins" for {"file:///home/ec2-user/Step1/envs"} (err = %!s(<nil>), deferredJobs: [])
+2022/08/06 17:53:27 opts.go:218: Posting server call "client.refreshModuleProviders" 
+2022/08/06 17:53:27 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/06 17:53:27 opts.go:218: Received request batch of size 1 (qlen=1)
+2022/08/06 17:53:27 opts.go:218: Received response for callback "172"
+2022/08/06 17:53:27 opts.go:218: Posting server call "client.refreshModuleCalls" 
+2022/08/06 17:53:27 opts.go:218: Dequeued request batch of length 1 (qlen=1)
+2022/08/06 17:53:27 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/06 17:53:27 rpc_logger.go:29: Incoming request for "textDocument/semanticTokens/full" (ID 434): {"textDocument":{"uri":"file:///home/ec2-user/Step1/envs/bahrain.tfvars"}}
+2022/08/06 17:53:27 rpc_logger.go:50: Response to "textDocument/semanticTokens/full" (ID 434): {"data":[]}
+2022/08/06 17:53:27 opts.go:218: Completed 1 requests [117.009µs elapsed]
+2022/08/06 17:53:27 rpc_logger.go:29: Incoming request for "textDocument/documentSymbol" (ID 433): {"textDocument":{"uri":"file:///home/ec2-user/Step1/envs/bahrain.tfvars"}}
+2022/08/06 17:53:27 rpc_logger.go:50: Response to "textDocument/documentSymbol" (ID 433): []
+2022/08/06 17:53:27 opts.go:218: Completed 1 requests [219.242µs elapsed]
+2022/08/06 17:53:27 opts.go:218: Received response for callback "173"
+2022/08/06 17:53:27 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/06 17:53:27 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/06 17:53:27 rpc_logger.go:29: Incoming request for "textDocument/documentLink" (ID 435): {"textDocument":{"uri":"file:///home/ec2-user/Step1/envs/bahrain.tfvars"}}
+2022/08/06 17:53:27 rpc_logger.go:50: Response to "textDocument/documentLink" (ID 435): null
+2022/08/06 17:53:27 opts.go:218: Completed 1 requests [97.785µs elapsed]
+2022/08/06 17:53:27 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/06 17:53:27 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/06 17:53:27 rpc_logger.go:29: Incoming request for "textDocument/codeLens" (ID 436): {"textDocument":{"uri":"file:///home/ec2-user/Step1/envs/bahrain.tfvars"}}
+2022/08/06 17:53:27 rpc_logger.go:50: Response to "textDocument/codeLens" (ID 436): []
+2022/08/06 17:53:27 opts.go:218: Completed 1 requests [145.643µs elapsed]
+2022/08/06 17:53:32 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/06 17:53:32 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/06 17:53:32 opts.go:218: Request check error for "$/setTrace" (params "{\"value\":\"off\"}"): [-32601] method not found
+2022/08/06 19:53:49 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/06 19:53:49 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/06 19:53:49 opts.go:218: Request check error for "$/setTrace" (params "{\"value\":\"off\"}"): [-32601] method not found
+2022/08/06 23:10:54 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/06 23:10:54 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/06 23:10:54 rpc_logger.go:29: Incoming request for "shutdown" (ID 437): 
+2022/08/06 23:10:54 service.go:534: stopping closedDirWalker for session ...
+2022/08/06 23:10:54 service.go:536: closedDirWalker stopped
+2022/08/06 23:10:54 service.go:539: stopping openDirWalker for session ...
+2022/08/06 23:10:54 service.go:541: openDirWalker stopped
+2022/08/06 23:10:54 service.go:545: stopping watcher for session ...
+2022/08/06 23:10:54 service.go:550: watcher stopped
+2022/08/06 23:10:54 scheduler.go:52: stopped scheduler
+2022/08/06 23:10:54 scheduler.go:52: stopped scheduler
+2022/08/06 23:10:54 rpc_logger.go:50: Response to "shutdown" (ID 437): null
+2022/08/06 23:10:54 opts.go:218: Completed 1 requests [6.88681ms elapsed]
