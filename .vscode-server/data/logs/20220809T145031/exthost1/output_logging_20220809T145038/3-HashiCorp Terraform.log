@@ -1,0 +1,1111 @@
+Launching language server: /home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/bin/terraform-ls serve
+2022/08/09 14:50:54 serve_command.go:162: Starting terraform-ls 0.28.1
+2022/08/09 14:50:54 service.go:95: Preparing new session ...
+2022/08/09 14:50:54 langserver.go:94: Starting server (pid 3252; concurrency: 1) ...
+2022/08/09 14:50:54 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:50:54 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:50:54 rpc_logger.go:29: Incoming request for "initialize" (ID 0): {"processId":3154,"clientInfo":{"name":"Visual Studio Code","version":"1.66.2"},"locale":"en","rootPath":"/home/ec2-user","rootUri":"file:///home/ec2-user","capabilities":{"workspace":{"applyEdit":true,"workspaceEdit":{"documentChanges":true,"resourceOperations":["create","rename","delete"],"failureHandling":"textOnlyTransactional","normalizesLineEndings":true,"changeAnnotationSupport":{"groupsOnLabel":true}},"didChangeConfiguration":{"dynamicRegistration":true},"didChangeWatchedFiles":{"dynamicRegistration":true},"symbol":{"dynamicRegistration":true,"symbolKind":{"valueSet":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26]},"tagSupport":{"valueSet":[1]}},"codeLens":{"refreshSupport":true},"executeCommand":{"dynamicRegistration":true},"configuration":true,"workspaceFolders":true,"semanticTokens":{"refreshSupport":true},"fileOperations":{"dynamicRegistration":true,"didCreate":true,"didRename":true,"didDelete":true,"willCreate":true,"willRename":true,"willDelete":true}},"textDocument":{"publishDiagnostics":{"relatedInformation":true,"versionSupport":false,"tagSupport":{"valueSet":[1,2]},"codeDescriptionSupport":true,"dataSupport":true},"synchronization":{"dynamicRegistration":true,"willSave":true,"willSaveWaitUntil":true,"didSave":true},"completion":{"dynamicRegistration":true,"contextSupport":true,"completionItem":{"snippetSupport":true,"commitCharactersSupport":true,"documentationFormat":["markdown","plaintext"],"deprecatedSupport":true,"preselectSupport":true,"tagSupport":{"valueSet":[1]},"insertReplaceSupport":true,"resolveSupport":{"properties":["documentation","detail","additionalTextEdits"]},"insertTextModeSupport":{"valueSet":[1,2]}},"completionItemKind":{"valueSet":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25]}},"hover":{"dynamicRegistration":true,"contentFormat":["markdown","plaintext"]},"signatureHelp":{"dynamicRegistration":true,"signatureInformation":{"documentationFormat":["markdown","plaintext"],"parameterInformation":{"labelOffsetSupport":true},"activeParameterSupport":true},"contextSupport":true},"definition":{"dynamicRegistration":true,"linkSupport":true},"references":{"dynamicRegistration":true},"documentHighlight":{"dynamicRegistration":true},"documentSymbol":{"dynamicRegistration":true,"symbolKind":{"valueSet":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26]},"hierarchicalDocumentSymbolSupport":true,"tagSupport":{"valueSet":[1]},"labelSupport":true},"codeAction":{"dynamicRegistration":true,"isPreferredSupport":true,"disabledSupport":true,"dataSupport":true,"resolveSupport":{"properties":["edit"]},"codeActionLiteralSupport":{"codeActionKind":{"valueSet":["","quickfix","refactor","refactor.extract","refactor.inline","refactor.rewrite","source","source.organizeImports"]}},"honorsChangeAnnotations":false},"codeLens":{"dynamicRegistration":true},"formatting":{"dynamicRegistration":true},"rangeFormatting":{"dynamicRegistration":true},"onTypeFormatting":{"dynamicRegistration":true},"rename":{"dynamicRegistration":true,"prepareSupport":true,"prepareSupportDefaultBehavior":1,"honorsChangeAnnotations":true},"documentLink":{"dynamicRegistration":true,"tooltipSupport":true},"typeDefinition":{"dynamicRegistration":true,"linkSupport":true},"implementation":{"dynamicRegistration":true,"linkSupport":true},"colorProvider":{"dynamicRegistration":true},"foldingRange":{"dynamicRegistration":true,"rangeLimit":5000,"lineFoldingOnly":true},"declaration":{"dynamicRegistration":true,"linkSupport":true},"selectionRange":{"dynamicRegistration":true},"callHierarchy":{"dynamicRegistration":true},"semanticTokens":{"dynamicRegistration":true,"tokenTypes":["namespace","type","class","enum","interface","struct","typeParameter","parameter","variable","property","enumMember","event","function","method","macro","keyword","modifier","comment","string","number","regexp","operator","hcl-attrName","hcl-blockType","hcl-blockLabel","hcl-bool","hcl-string","hcl-number","hcl-objectKey","hcl-mapKey","hcl-keyword","hcl-traversalStep","hcl-typeCapsule","hcl-typePrimitive"],"tokenModifiers":["declaration","definition","readonly","static","deprecated","abstract","async","modification","documentation","defaultLibrary","hcl-dependent","terraform-data","terraform-locals","terraform-module","terraform-output","terraform-provider","terraform-resource","terraform-provisioner","terraform-connection","terraform-variable","terraform-terraform","terraform-backend","terraform-name","terraform-type","terraform-requiredProviders"],"formats":["relative"],"requests":{"range":true,"full":{"delta":true}},"multilineTokenSupport":false,"overlappingTokenSupport":false},"linkedEditingRange":{"dynamicRegistration":true}},"window":{"showMessage":{"messageActionItem":{"additionalPropertiesSupport":true}},"showDocument":{"support":true},"workDoneProgress":true},"general":{"regularExpressions":{"engine":"ECMAScript","version":"ES2020"},"markdown":{"parser":"marked","version":"1.1.0"}},"experimental":{"refreshModuleProvidersCommandId":"client.refreshModuleProviders","refreshModuleCallsCommandId":"client.refreshModuleCalls","telemetryVersion":1}},"initializationOptions":{"experimentalFeatures":{},"ignoreSingleFileWarning":false},"trace":"off","workspaceFolders":[{"uri":"file:///home/ec2-user","name":"ec2-user"}]}
+2022/08/09 14:50:54 initialize.go:158: enabling telemetry (version: 1)
+2022/08/09 14:50:54 initialize.go:163: telemetry enabled (version: 1)
+2022/08/09 14:50:54 opts.go:218: Posting server notification "telemetry/event" {"v":1,"name":"initialize","properties":{"experimentalCapabilities.referenceCountCodeLens":false,"lsVersion":"0.28.1","options.commandPrefix":false,"options.excludeModulePaths":false,"options.experimentalFeatures.prefillRequiredFields":false,"options.experimentalFeatures.validateOnSave":false,"options.ignoreDirectoryNames":false,"options.ignoreSingleFileWarning":false,"options.rootModulePaths":false,"options.terraformExecPath":false,"options.terraformExecTimeout":"","options.terraformLogFilePath":false,"root_uri":"dir"}}
+2022/08/09 14:50:54 scheduler.go:45: launching eval loop 0
+2022/08/09 14:50:54 service.go:443: running closed dir scheduler
+2022/08/09 14:50:54 scheduler.go:45: launching eval loop 0
+2022/08/09 14:50:54 service.go:448: running open dir scheduler
+2022/08/09 14:51:01 watcher.go:498: watching for changes ...
+2022/08/09 14:51:01 rpc_logger.go:50: Response to "initialize" (ID 0): {"capabilities":{"textDocumentSync":{"openClose":true,"change":2,"save":{}},"completionProvider":{"triggerCharacters":[".","["],"completionItem":{}},"hoverProvider":true,"signatureHelpProvider":{},"declarationProvider":{},"definitionProvider":true,"referencesProvider":true,"documentSymbolProvider":true,"codeActionProvider":{"codeActionKinds":["source.formatAll.terraform"]},"codeLensProvider":{},"documentLinkProvider":{},"workspaceSymbolProvider":true,"documentFormattingProvider":true,"documentOnTypeFormattingProvider":{"firstTriggerCharacter":""},"executeCommandProvider":{"commands":["terraform-ls.module.callers","terraform-ls.module.calls","terraform-ls.module.providers","terraform-ls.rootmodules","terraform-ls.terraform.init","terraform-ls.terraform.validate"],"workDoneProgress":true},"semanticTokensProvider":{"legend":{"tokenTypes":["enumMember","function","keyword","number","parameter","property","string","type","variable","hcl-attrName","hcl-blockType","hcl-blockLabel","hcl-bool","hcl-string","hcl-number","hcl-objectKey","hcl-mapKey","hcl-keyword","hcl-traversalStep","hcl-typeCapsule","hcl-typePrimitive"],"tokenModifiers":["defaultLibrary","hcl-dependent","terraform-backend","terraform-connection","terraform-data","terraform-locals","terraform-module","terraform-name","terraform-output","terraform-provider","terraform-provisioner","terraform-requiredProviders","terraform-resource","terraform-terraform","terraform-type","terraform-variable"]},"full":true},"workspace":{"workspaceFolders":{"supported":true,"changeNotifications":"workspace/didChangeWorkspaceFolders"}},"experimental":{"referenceCountCodeLens":false,"refreshModuleProviders":true,"refreshModuleCalls":true}},"serverInfo":{"name":"terraform-ls","version":"0.28.1"}}
+2022/08/09 14:51:01 opts.go:218: Completed 1 requests [6.612261862s elapsed]
+2022/08/09 14:51:01 walker_paths.go:240: walking next dir: {"file:///home/ec2-user"}
+2022/08/09 14:51:01 walker.go:188: skipping /home/ec2-user/.git
+2022/08/09 14:51:01 walker.go:188: skipping /home/ec2-user/.tfenv/.git
+2022/08/09 14:51:01 walker.go:188: skipping /home/ec2-user/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/extensions/debug-auto-launch/.vscode
+2022/08/09 14:51:01 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:51:01 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:51:01 rpc_logger.go:29: Incoming notification for "initialized": {}
+2022/08/09 14:51:01 walker.go:197: found module /home/ec2-user/Step1
+2022/08/09 14:51:01 jobs.go:92: JOBS: Enqueueing new job "1": "OpTypeParseModuleConfiguration" for {"file:///home/ec2-user/Step1"}
+2022/08/09 14:51:01 jobs.go:92: JOBS: Enqueueing new job "2": "OpTypeParseVariables" for {"file:///home/ec2-user/Step1"}
+2022/08/09 14:51:01 jobs.go:92: JOBS: Enqueueing new job "3": "OpTypeGetTerraformVersion" for {"file:///home/ec2-user/Step1"}
+2022/08/09 14:51:01 walker.go:268: parsed datadir: &datadir.DataDir{ModuleManifestPath:"", PluginLockFilePath:"/home/ec2-user/Step1/.terraform.lock.hcl"}
+2022/08/09 14:51:01 jobs.go:92: JOBS: Enqueueing new job "4": "OpTypeObtainSchema" for {"file:///home/ec2-user/Step1"}
+2022/08/09 14:51:01 jobs.go:92: JOBS: Enqueueing new job "5": "OpTypeDecodeReferenceTargets" for {"file:///home/ec2-user/Step1"}
+2022/08/09 14:51:01 jobs.go:92: JOBS: Enqueueing new job "6": "OpTypeDecodeReferenceOrigins" for {"file:///home/ec2-user/Step1"}
+2022/08/09 14:51:01 walker.go:188: skipping /home/ec2-user/Step1/terraform.tfstate.d
+2022/08/09 14:51:01 walker.go:188: skipping /home/ec2-user/terraform-team1-project/.git
+2022/08/09 14:51:01 walker.go:188: skipping /home/ec2-user/terraform-team1-project/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/extensions/debug-auto-launch/.vscode
+2022/08/09 14:51:01 walker.go:345: walking of {file:///home/ec2-user} finished
+2022/08/09 14:51:01 jobs.go:244: JOBS: Dispatching next job "1": "OpTypeParseModuleConfiguration" for {"file:///home/ec2-user/Step1"}
+2022/08/09 14:51:01 jobs.go:358: JOBS: Finishing job "1": "OpTypeParseModuleConfiguration" for {"file:///home/ec2-user/Step1"} (err = %!s(<nil>), deferredJobs: [])
+2022/08/09 14:51:01 jobs.go:244: JOBS: Dispatching next job "2": "OpTypeParseVariables" for {"file:///home/ec2-user/Step1"}
+2022/08/09 14:51:01 jobs.go:92: JOBS: Enqueueing new job "7": "OpTypeDecodeVarsReferences" for {"file:///home/ec2-user/Step1"}
+2022/08/09 14:51:01 jobs.go:358: JOBS: Finishing job "2": "OpTypeParseVariables" for {"file:///home/ec2-user/Step1"} (err = %!s(<nil>), deferredJobs: ["7"])
+2022/08/09 14:51:01 jobs.go:244: JOBS: Dispatching next job "3": "OpTypeGetTerraformVersion" for {"file:///home/ec2-user/Step1"}
+2022/08/09 14:51:01 walker.go:135: walker: walking through {"file:///home/ec2-user"} finished
+2022/08/09 14:51:01 jobs.go:358: JOBS: Finishing job "3": "OpTypeGetTerraformVersion" for {"file:///home/ec2-user/Step1"} (err = %!s(<nil>), deferredJobs: [])
+2022/08/09 14:51:01 jobs.go:244: JOBS: Dispatching next job "4": "OpTypeObtainSchema" for {"file:///home/ec2-user/Step1"}
+2022/08/09 14:51:02 opts.go:218: Posting server notification "telemetry/event" {"v":1,"name":"moduleData","properties":{"installedProviders":{"registry.terraform.io/hashicorp/aws":"4.23.0"},"moduleId":"87e7d9ec-18bb-5dd1-a351-c1d1f043f42c","tfVersion":"0.14.1"}}
+2022/08/09 14:51:16 provider_schema.go:106: PSS: adding local schema (/home/ec2-user/Step1, registry.terraform.io/hashicorp/aws): 0xc0040f7180
+2022/08/09 14:51:16 jobs.go:358: JOBS: Finishing job "4": "OpTypeObtainSchema" for {"file:///home/ec2-user/Step1"} (err = %!s(<nil>), deferredJobs: [])
+2022/08/09 14:51:16 jobs.go:244: JOBS: Dispatching next job "5": "OpTypeDecodeReferenceTargets" for {"file:///home/ec2-user/Step1"}
+2022/08/09 14:51:16 jobs.go:358: JOBS: Finishing job "5": "OpTypeDecodeReferenceTargets" for {"file:///home/ec2-user/Step1"} (err = %!s(<nil>), deferredJobs: [])
+2022/08/09 14:51:16 jobs.go:244: JOBS: Dispatching next job "6": "OpTypeDecodeReferenceOrigins" for {"file:///home/ec2-user/Step1"}
+2022/08/09 14:51:16 jobs.go:358: JOBS: Finishing job "6": "OpTypeDecodeReferenceOrigins" for {"file:///home/ec2-user/Step1"} (err = %!s(<nil>), deferredJobs: [])
+2022/08/09 14:51:16 jobs.go:244: JOBS: Dispatching next job "7": "OpTypeDecodeVarsReferences" for {"file:///home/ec2-user/Step1"}
+2022/08/09 14:51:16 jobs.go:358: JOBS: Finishing job "7": "OpTypeDecodeVarsReferences" for {"file:///home/ec2-user/Step1"} (err = %!s(<nil>), deferredJobs: [])
+2022/08/09 14:52:05 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:52:05 opts.go:218: Received request batch of size 1 (qlen=1)
+2022/08/09 14:52:05 opts.go:218: Dequeued request batch of length 1 (qlen=1)
+2022/08/09 14:52:05 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:52:05 rpc_logger.go:29: Incoming notification for "textDocument/didOpen": {"textDocument":{"uri":"file:///home/ec2-user/Step1/main.tf","languageId":"terraform","version":1,"text":"# Create VPC in us-east\nresource \"aws_vpc\" \"team1-vpc\" {\n    cidr_block = var.cidr_block\n\n  tags = {\n        Name = \"team1-vpc\"\n    }\n}\n\n#Create 3 public subnets\nresource \"aws_subnet\" \"public-1\" {\n    vpc_id = aws_vpc.team1-vpc.id\n    cidr_block = var.public-1\n    availability_zone = var.availability_zone\n    map_public_ip_on_launch = true\n\n    tags = {\n        Name = \"public-1\"\n    }\n}\n\nresource \"aws_subnet\" \"public-2\" {\n    vpc_id = aws_vpc.team1-vpc.id\n    cidr_block = var.public-2\n    availability_zone = var.availability_zone\n    map_public_ip_on_launch = true\n\n    tags = {\n        Name = \"public-2\"\n    }\n}\n\nresource \"aws_subnet\" \"public-3\" {\n    vpc_id = aws_vpc.team1-vpc.id\n    cidr_block = var.public-3\n    availability_zone = var.availability_zone\n    map_public_ip_on_launch = true\n\n     tags = {\n        Name = \"public-3\"\n    }\n}\n\n\n#Create 3 Private subnets\n\nresource \"aws_subnet\" \"private-1\" {\n    vpc_id = aws_vpc.team1-vpc.id\n    cidr_block = var.private-1\n    availability_zone = var.availability_zone\n    map_public_ip_on_launch = false\n\n     tags = {\n        Name = \"private-1\"\n    }\n}\n\nresource \"aws_subnet\" \"private-2\" {\n    vpc_id = aws_vpc.team1-vpc.id\n    cidr_block = var.private-2\n    availability_zone = var.availability_zone\n    map_public_ip_on_launch = false\n\n     tags = {\n        Name = \"private-2\"\n    }\n}\n\nresource \"aws_subnet\" \"private-3\" {\n    vpc_id = aws_vpc.team1-vpc.id\n    cidr_block = var.private-3\n    availability_zone = var.availability_zone\n    map_public_ip_on_launch = false\n\n    tags = {\n        Name = \"private-3\"\n    }\n}\n\n# Create IGW\n\nresource \"aws_internet_gateway\" \"internet-gw\" {\n    vpc_id = aws_vpc.team1-vpc.id\n\n    tags =  {\n        Name = \"internet-gw\"\n    }\n  \n}\n\n# Allocate Elastic IP Address\n\nresource \"aws_eip\" \"eip-for-nat\" {\n    vpc = true\n\n    tags = {\n        Name = \"Elastic IP\"\n    }\n  \n}\n\n# Create NAT Gateway (needs work)\n\nresource \"aws_nat_gateway\" \"nat-gw\" {\n    allocation_id = aws_eip.eip-for-nat.id\n    subnet_id = aws_subnet.public-1.id\n    connectivity_type = \"public\"\n  \n}\n\n# Create Route Tables\nresource \"aws_route_table\" \"public\" {\n    vpc_id = aws_vpc.team1-vpc.id\n\n          tags = {\n        Name = \"public\"\n    }\n\n    route { \n        cidr_block = \"0.0.0.0/0\"\n        gateway_id = aws_internet_gateway.internet-gw.id\n        \n    }\n}\n\nresource \"aws_route_table\" \"private\" {\n    vpc_id = aws_vpc.team1-vpc.id\n\n    tags = {\n        Name = \"private\"\n    }\n\n    route {\n        cidr_block = \"0.0.0.0/0\"\n        nat_gateway_id = aws_nat_gateway.nat-gw.id\n    }\n\n}\n\n# Set public subnet asociation\n\nresource \"aws_route_table_association\" \"public-rt1\" {\n    subnet_id = aws_subnet.public-1.id\n    route_table_id = aws_route_table.public.id\n}\n\nresource \"aws_route_table_association\" \"public-rt2\" {\n    subnet_id = aws_subnet.public-2.id\n    route_table_id = aws_route_table.public.id\n}\n\nresource \"aws_route_table_association\" \"public-rt3\" {\n    subnet_id = aws_subnet.public-3.id\n    route_table_id = aws_route_table.public.id\n}\n\n\n# Set private subnet asociation\n\nresource \"aws_route_table_association\" \"private-rt1\" {\n    subnet_id = aws_subnet.private-1.id\n    route_table_id = aws_route_table.private.id\n  \n}\n\nresource \"aws_route_table_association\" \"private-rt2\" {\n    subnet_id = aws_subnet.private-2.id\n    route_table_id = aws_route_table.private.id\n  \n}\n\nresource \"aws_route_table_association\" \"private-rt3\" {\n    subnet_id = aws_subnet.private-3.id\n    route_table_id = aws_route_table.private.id\n}"}}
+2022/08/09 14:52:05 did_open.go:42: opened module: /home/ec2-user/Step1
+2022/08/09 14:52:05 jobs.go:92: JOBS: Enqueueing new job "8": "OpTypeParseModuleConfiguration" for {"file:///home/ec2-user/Step1"}
+2022/08/09 14:52:05 jobs.go:92: JOBS: Enqueueing new job "9": "OpTypeParseVariables" for {"file:///home/ec2-user/Step1"}
+2022/08/09 14:52:05 watcher.go:86: adding module for watching: /home/ec2-user/Step1
+2022/08/09 14:52:05 jobs.go:244: JOBS: Dispatching next job "8": "OpTypeParseModuleConfiguration" for {"file:///home/ec2-user/Step1"}
+2022/08/09 14:52:05 jobs.go:92: JOBS: Enqueueing new job "10": "OpTypeLoadModuleMetadata" for {"file:///home/ec2-user/Step1"}
+2022/08/09 14:52:05 jobs.go:358: JOBS: Finishing job "8": "OpTypeParseModuleConfiguration" for {"file:///home/ec2-user/Step1"} (err = %!s(<nil>), deferredJobs: ["10"])
+2022/08/09 14:52:05 jobs.go:244: JOBS: Dispatching next job "10": "OpTypeLoadModuleMetadata" for {"file:///home/ec2-user/Step1"}
+2022/08/09 14:52:05 jobs.go:92: JOBS: Enqueueing new job "11": "OpTypeDecodeReferenceTargets" for {"file:///home/ec2-user/Step1"}
+2022/08/09 14:52:05 jobs.go:92: JOBS: Enqueueing new job "12": "OpTypeDecodeReferenceOrigins" for {"file:///home/ec2-user/Step1"}
+2022/08/09 14:52:05 jobs.go:358: JOBS: Finishing job "10": "OpTypeLoadModuleMetadata" for {"file:///home/ec2-user/Step1"} (err = %!s(<nil>), deferredJobs: ["11" "12"])
+2022/08/09 14:52:05 jobs.go:244: JOBS: Dispatching next job "11": "OpTypeDecodeReferenceTargets" for {"file:///home/ec2-user/Step1"}
+2022/08/09 14:52:05 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:52:05 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:52:05 opts.go:218: Received request batch of size 1 (qlen=1)
+2022/08/09 14:52:05 opts.go:218: Received request batch of size 1 (qlen=2)
+2022/08/09 14:52:05 jobs.go:358: JOBS: Finishing job "11": "OpTypeDecodeReferenceTargets" for {"file:///home/ec2-user/Step1"} (err = %!s(<nil>), deferredJobs: [])
+2022/08/09 14:52:05 jobs.go:244: JOBS: Dispatching next job "12": "OpTypeDecodeReferenceOrigins" for {"file:///home/ec2-user/Step1"}
+2022/08/09 14:52:05 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:52:05 jobs.go:358: JOBS: Finishing job "12": "OpTypeDecodeReferenceOrigins" for {"file:///home/ec2-user/Step1"} (err = %!s(<nil>), deferredJobs: [])
+2022/08/09 14:52:05 jobs.go:244: JOBS: Dispatching next job "9": "OpTypeParseVariables" for {"file:///home/ec2-user/Step1"}
+2022/08/09 14:52:05 jobs.go:92: JOBS: Enqueueing new job "13": "OpTypeDecodeVarsReferences" for {"file:///home/ec2-user/Step1"}
+2022/08/09 14:52:05 jobs.go:358: JOBS: Finishing job "9": "OpTypeParseVariables" for {"file:///home/ec2-user/Step1"} (err = %!s(<nil>), deferredJobs: ["13"])
+2022/08/09 14:52:05 jobs.go:244: JOBS: Dispatching next job "13": "OpTypeDecodeVarsReferences" for {"file:///home/ec2-user/Step1"}
+2022/08/09 14:52:05 jobs.go:358: JOBS: Finishing job "13": "OpTypeDecodeVarsReferences" for {"file:///home/ec2-user/Step1"} (err = %!s(<nil>), deferredJobs: [])
+2022/08/09 14:52:05 opts.go:218: Posting server notification "telemetry/event" {"v":1,"name":"moduleData","properties":{"installedProviders":{"registry.terraform.io/hashicorp/aws":"4.23.0"},"moduleId":"87e7d9ec-18bb-5dd1-a351-c1d1f043f42c","providerRequirements":{"registry.terraform.io/-/aws":""},"tfVersion":"0.14.1"}}
+2022/08/09 14:52:05 opts.go:218: Posting server call "client.refreshModuleProviders" 
+2022/08/09 14:52:05 opts.go:218: Received response for callback "1"
+2022/08/09 14:52:05 opts.go:218: Dequeued request batch of length 1 (qlen=2)
+2022/08/09 14:52:05 opts.go:218: Dequeued request batch of length 1 (qlen=1)
+2022/08/09 14:52:05 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:52:05 rpc_logger.go:29: Incoming request for "textDocument/documentLink" (ID 4): {"textDocument":{"uri":"file:///home/ec2-user/Step1/main.tf"}}
+2022/08/09 14:52:05 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:52:05 opts.go:218: Posting server call "client.refreshModuleCalls" 
+2022/08/09 14:52:05 rpc_logger.go:50: Response to "textDocument/documentLink" (ID 4): []
+2022/08/09 14:52:05 opts.go:218: Completed 1 requests [7.500292ms elapsed]
+2022/08/09 14:52:05 rpc_logger.go:29: Incoming request for "workspace/executeCommand" (ID 1): {"command":"terraform-ls.module.callers","arguments":["uri=file:///home/ec2-user/Step1"]}
+2022/08/09 14:52:05 rpc_logger.go:50: Response to "workspace/executeCommand" (ID 1): {"v":0,"callers":[]}
+2022/08/09 14:52:05 opts.go:218: Completed 1 requests [64.47663ms elapsed]
+2022/08/09 14:52:05 rpc_logger.go:29: Incoming request for "textDocument/documentSymbol" (ID 2): {"textDocument":{"uri":"file:///home/ec2-user/Step1/main.tf"}}
+2022/08/09 14:52:05 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:52:05 rpc_logger.go:50: Response to "textDocument/documentSymbol" (ID 2): [{"name":"resource \"aws_vpc\" \"team1-vpc\"","kind":5,"range":{"start":{"line":1,"character":0},"end":{"line":7,"character":1}},"selectionRange":{"start":{"line":1,"character":0},"end":{"line":7,"character":1}},"children":[{"name":"cidr_block","kind":14,"range":{"start":{"line":2,"character":4},"end":{"line":2,"character":31}},"selectionRange":{"start":{"line":2,"character":4},"end":{"line":2,"character":31}}},{"name":"tags","kind":23,"range":{"start":{"line":4,"character":2},"end":{"line":6,"character":5}},"selectionRange":{"start":{"line":4,"character":2},"end":{"line":6,"character":5}},"children":[{"name":"Name","kind":15,"range":{"start":{"line":5,"character":8},"end":{"line":5,"character":26}},"selectionRange":{"start":{"line":5,"character":8},"end":{"line":5,"character":26}}}]}]},{"name":"resource \"aws_subnet\" \"public-1\"","kind":5,"range":{"start":{"line":10,"character":0},"end":{"line":19,"character":1}},"selectionRange":{"start":{"line":10,"character":0},"end":{"line":19,"character":1}},"children":[{"name":"vpc_id","kind":14,"range":{"start":{"line":11,"character":4},"end":{"line":11,"character":33}},"selectionRange":{"start":{"line":11,"character":4},"end":{"line":11,"character":33}}},{"name":"cidr_block","kind":14,"range":{"start":{"line":12,"character":4},"end":{"line":12,"character":29}},"selectionRange":{"start":{"line":12,"character":4},"end":{"line":12,"character":29}}},{"name":"availability_zone","kind":14,"range":{"start":{"line":13,"character":4},"end":{"line":13,"character":45}},"selectionRange":{"start":{"line":13,"character":4},"end":{"line":13,"character":45}}},{"name":"map_public_ip_on_launch","kind":17,"range":{"start":{"line":14,"character":4},"end":{"line":14,"character":34}},"selectionRange":{"start":{"line":14,"character":4},"end":{"line":14,"character":34}}},{"name":"tags","kind":23,"range":{"start":{"line":16,"character":4},"end":{"line":18,"character":5}},"selectionRange":{"start":{"line":16,"character":4},"end":{"line":18,"character":5}},"children":[{"name":"Name","kind":15,"range":{"start":{"line":17,"character":8},"end":{"line":17,"character":25}},"selectionRange":{"start":{"line":17,"character":8},"end":{"line":17,"character":25}}}]}]},{"name":"resource \"aws_subnet\" \"public-2\"","kind":5,"range":{"start":{"line":21,"character":0},"end":{"line":30,"character":1}},"selectionRange":{"start":{"line":21,"character":0},"end":{"line":30,"character":1}},"children":[{"name":"vpc_id","kind":14,"range":{"start":{"line":22,"character":4},"end":{"line":22,"character":33}},"selectionRange":{"start":{"line":22,"character":4},"end":{"line":22,"character":33}}},{"name":"cidr_block","kind":14,"range":{"start":{"line":23,"character":4},"end":{"line":23,"character":29}},"selectionRange":{"start":{"line":23,"character":4},"end":{"line":23,"character":29}}},{"name":"availability_zone","kind":14,"range":{"start":{"line":24,"character":4},"end":{"line":24,"character":45}},"selectionRange":{"start":{"line":24,"character":4},"end":{"line":24,"character":45}}},{"name":"map_public_ip_on_launch","kind":17,"range":{"start":{"line":25,"character":4},"end":{"line":25,"character":34}},"selectionRange":{"start":{"line":25,"character":4},"end":{"line":25,"character":34}}},{"name":"tags","kind":23,"range":{"start":{"line":27,"character":4},"end":{"line":29,"character":5}},"selectionRange":{"start":{"line":27,"character":4},"end":{"line":29,"character":5}},"children":[{"name":"Name","kind":15,"range":{"start":{"line":28,"character":8},"end":{"line":28,"character":25}},"selectionRange":{"start":{"line":28,"character":8},"end":{"line":28,"character":25}}}]}]},{"name":"resource \"aws_subnet\" \"public-3\"","kind":5,"range":{"start":{"line":32,"character":0},"end":{"line":41,"character":1}},"selectionRange":{"start":{"line":32,"character":0},"end":{"line":41,"character":1}},"children":[{"name":"vpc_id","kind":14,"range":{"start":{"line":33,"character":4},"end":{"line":33,"character":33}},"selectionRange":{"start":{"line":33,"character":4},"end":{"line":33,"character":33}}},{"name":"cidr_block","kind":14,"range":{"start":{"line":34,"character":4},"end":{"line":34,"character":29}},"selectionRange":{"start":{"line":34,"character":4},"end":{"line":34,"character":29}}},{"name":"availability_zone","kind":14,"range":{"start":{"line":35,"character":4},"end":{"line":35,"character":45}},"selectionRange":{"start":{"line":35,"character":4},"end":{"line":35,"character":45}}},{"name":"map_public_ip_on_launch","kind":17,"range":{"start":{"line":36,"character":4},"end":{"line":36,"character":34}},"selectionRange":{"start":{"line":36,"character":4},"end":{"line":36,"character":34}}},{"name":"tags","kind":23,"range":{"start":{"line":38,"character":5},"end":{"line":40,"character":5}},"selectionRange":{"start":{"line":38,"character":5},"end":{"line":40,"character":5}},"children":[{"name":"Name","kind":15,"range":{"start":{"line":39,"character":8},"end":{"line":39,"character":25}},"selectionRange":{"start":{"line":39,"character":8},"end":{"line":39,"character":25}}}]}]},{"name":"resource \"aws_subnet\" \"private-1\"","kind":5,"range":{"start":{"line":46,"character":0},"end":{"line":55,"character":1}},"selectionRange":{"start":{"line":46,"character":0},"end":{"line":55,"character":1}},"children":[{"name":"vpc_id","kind":14,"range":{"start":{"line":47,"character":4},"end":{"line":47,"character":33}},"selectionRange":{"start":{"line":47,"character":4},"end":{"line":47,"character":33}}},{"name":"cidr_block","kind":14,"range":{"start":{"line":48,"character":4},"end":{"line":48,"character":30}},"selectionRange":{"start":{"line":48,"character":4},"end":{"line":48,"character":30}}},{"name":"availability_zone","kind":14,"range":{"start":{"line":49,"character":4},"end":{"line":49,"character":45}},"selectionRange":{"start":{"line":49,"character":4},"end":{"line":49,"character":45}}},{"name":"map_public_ip_on_launch","kind":17,"range":{"start":{"line":50,"character":4},"end":{"line":50,"character":35}},"selectionRange":{"start":{"line":50,"character":4},"end":{"line":50,"character":35}}},{"name":"tags","kind":23,"range":{"start":{"line":52,"character":5},"end":{"line":54,"character":5}},"selectionRange":{"start":{"line":52,"character":5},"end":{"line":54,"character":5}},"children":[{"name":"Name","kind":15,"range":{"start":{"line":53,"character":8},"end":{"line":53,"character":26}},"selectionRange":{"start":{"line":53,"character":8},"end":{"line":53,"character":26}}}]}]},{"name":"resource \"aws_subnet\" \"private-2\"","kind":5,"range":{"start":{"line":57,"character":0},"end":{"line":66,"character":1}},"selectionRange":{"start":{"line":57,"character":0},"end":{"line":66,"character":1}},"children":[{"name":"vpc_id","kind":14,"range":{"start":{"line":58,"character":4},"end":{"line":58,"character":33}},"selectionRange":{"start":{"line":58,"character":4},"end":{"line":58,"character":33}}},{"name":"cidr_block","kind":14,"range":{"start":{"line":59,"character":4},"end":{"line":59,"character":30}},"selectionRange":{"start":{"line":59,"character":4},"end":{"line":59,"character":30}}},{"name":"availability_zone","kind":14,"range":{"start":{"line":60,"character":4},"end":{"line":60,"character":45}},"selectionRange":{"start":{"line":60,"character":4},"end":{"line":60,"character":45}}},{"name":"map_public_ip_on_launch","kind":17,"range":{"start":{"line":61,"character":4},"end":{"line":61,"character":35}},"selectionRange":{"start":{"line":61,"character":4},"end":{"line":61,"character":35}}},{"name":"tags","kind":23,"range":{"start":{"line":63,"character":5},"end":{"line":65,"character":5}},"selectionRange":{"start":{"line":63,"character":5},"end":{"line":65,"character":5}},"children":[{"name":"Name","kind":15,"range":{"start":{"line":64,"character":8},"end":{"line":64,"character":26}},"selectionRange":{"start":{"line":64,"character":8},"end":{"line":64,"character":26}}}]}]},{"name":"resource \"aws_subnet\" \"private-3\"","kind":5,"range":{"start":{"line":68,"character":0},"end":{"line":77,"character":1}},"selectionRange":{"start":{"line":68,"character":0},"end":{"line":77,"character":1}},"children":[{"name":"vpc_id","kind":14,"range":{"start":{"line":69,"character":4},"end":{"line":69,"character":33}},"selectionRange":{"start":{"line":69,"character":4},"end":{"line":69,"character":33}}},{"name":"cidr_block","kind":14,"range":{"start":{"line":70,"character":4},"end":{"line":70,"character":30}},"selectionRange":{"start":{"line":70,"character":4},"end":{"line":70,"character":30}}},{"name":"availability_zone","kind":14,"range":{"start":{"line":71,"character":4},"end":{"line":71,"character":45}},"selectionRange":{"start":{"line":71,"character":4},"end":{"line":71,"character":45}}},{"name":"map_public_ip_on_launch","kind":17,"range":{"start":{"line":72,"character":4},"end":{"line":72,"character":35}},"selectionRange":{"start":{"line":72,"character":4},"end":{"line":72,"character":35}}},{"name":"tags","kind":23,"range":{"start":{"line":74,"character":4},"end":{"line":76,"character":5}},"selectionRange":{"start":{"line":74,"character":4},"end":{"line":76,"character":5}},"children":[{"name":"Name","kind":15,"range":{"start":{"line":75,"character":8},"end":{"line":75,"character":26}},"selectionRange":{"start":{"line":75,"character":8},"end":{"line":75,"character":26}}}]}]},{"name":"resource \"aws_internet_gateway\" \"internet-gw\"","kind":5,"range":{"start":{"line":81,"character":0},"end":{"line":88,"character":1}},"selectionRange":{"start":{"line":81,"character":0},"end":{"line":88,"character":1}},"children":[{"name":"vpc_id","kind":14,"range":{"start":{"line":82,"character":4},"end":{"line":82,"character":33}},"selectionRange":{"start":{"line":82,"character":4},"end":{"line":82,"character":33}}},{"name":"tags","kind":23,"range":{"start":{"line":84,"character":4},"end":{"line":86,"character":5}},"selectionRange":{"start":{"line":84,"character":4},"end":{"line":86,"character":5}},"children":[{"name":"Name","kind":15,"range":{"start":{"line":85,"character":8},"end":{"line":85,"character":28}},"selectionRange":{"start":{"line":85,"character":8},"end":{"line":85,"character":28}}}]}]},{"name":"resource \"aws_eip\" \"eip-for-nat\"","kind":5,"range":{"start":{"line":92,"character":0},"end":{"line":99,"character":1}},"selectionRange":{"start":{"line":92,"character":0},"end":{"line":99,"character":1}},"children":[{"name":"vpc","kind":17,"range":{"start":{"line":93,"character":4},"end":{"line":93,"character":14}},"selectionRange":{"start":{"line":93,"character":4},"end":{"line":93,"character":14}}},{"name":"tags","kind":23,"range":{"start":{"line":95,"character":4},"end":{"line":97,"character":5}},"selectionRange":{"start":{"line":95,"character":4},"end":{"line":97,"character":5}},"children":[{"name":"Name","kind":15,"range":{"start":{"line":96,"character":8},"end":{"line":96,"character":27}},"selectionRange":{"start":{"line":96,"character":8},"end":{"line":96,"character":27}}}]}]},{"name":"resource \"aws_nat_gateway\" \"nat-gw\"","kind":5,"range":{"start":{"line":103,"character":0},"end":{"line":108,"character":1}},"selectionRange":{"start":{"line":103,"character":0},"end":{"line":108,"character":1}},"children":[{"name":"allocation_id","kind":14,"range":{"start":{"line":104,"character":4},"end":{"line":104,"character":42}},"selectionRange":{"start":{"line":104,"character":4},"end":{"line":104,"character":42}}},{"name":"subnet_id","kind":14,"range":{"start":{"line":105,"character":4},"end":{"line":105,"character":38}},"selectionRange":{"start":{"line":105,"character":4},"end":{"line":105,"character":38}}},{"name":"connectivity_type","kind":15,"range":{"start":{"line":106,"character":4},"end":{"line":106,"character":32}},"selectionRange":{"start":{"line":106,"character":4},"end":{"line":106,"character":32}}}]},{"name":"resource \"aws_route_table\" \"public\"","kind":5,"range":{"start":{"line":111,"character":0},"end":{"line":123,"character":1}},"selectionRange":{"start":{"line":111,"character":0},"end":{"line":123,"character":1}},"children":[{"name":"vpc_id","kind":14,"range":{"start":{"line":112,"character":4},"end":{"line":112,"character":33}},"selectionRange":{"start":{"line":112,"character":4},"end":{"line":112,"character":33}}},{"name":"tags","kind":23,"range":{"start":{"line":114,"character":10},"end":{"line":116,"character":5}},"selectionRange":{"start":{"line":114,"character":10},"end":{"line":116,"character":5}},"children":[{"name":"Name","kind":15,"range":{"start":{"line":115,"character":8},"end":{"line":115,"character":23}},"selectionRange":{"start":{"line":115,"character":8},"end":{"line":115,"character":23}}}]},{"name":"route","kind":5,"range":{"start":{"line":118,"character":4},"end":{"line":122,"character":5}},"selectionRange":{"start":{"line":118,"character":4},"end":{"line":122,"character":5}},"children":[{"name":"cidr_block","kind":15,"range":{"start":{"line":119,"character":8},"end":{"line":119,"character":32}},"selectionRange":{"start":{"line":119,"character":8},"end":{"line":119,"character":32}}},{"name":"gateway_id","kind":14,"range":{"start":{"line":120,"character":8},"end":{"line":120,"character":56}},"selectionRange":{"start":{"line":120,"character":8},"end":{"line":120,"character":56}}}]}]},{"name":"resource \"aws_route_table\" \"private\"","kind":5,"range":{"start":{"line":125,"character":0},"end":{"line":137,"character":1}},"selectionRange":{"start":{"line":125,"character":0},"end":{"line":137,"character":1}},"children":[{"name":"vpc_id","kind":14,"range":{"start":{"line":126,"character":4},"end":{"line":126,"character":33}},"selectionRange":{"start":{"line":126,"character":4},"end":{"line":126,"character":33}}},{"name":"tags","kind":23,"range":{"start":{"line":128,"character":4},"end":{"line":130,"character":5}},"selectionRange":{"start":{"line":128,"character":4},"end":{"line":130,"character":5}},"children":[{"name":"Name","kind":15,"range":{"start":{"line":129,"character":8},"end":{"line":129,"character":24}},"selectionRange":{"start":{"line":129,"character":8},"end":{"line":129,"character":24}}}]},{"name":"route","kind":5,"range":{"start":{"line":132,"character":4},"end":{"line":135,"character":5}},"selectionRange":{"start":{"line":132,"character":4},"end":{"line":135,"character":5}},"children":[{"name":"cidr_block","kind":15,"range":{"start":{"line":133,"character":8},"end":{"line":133,"character":32}},"selectionRange":{"start":{"line":133,"character":8},"end":{"line":133,"character":32}}},{"name":"nat_gateway_id","kind":14,"range":{"start":{"line":134,"character":8},"end":{"line":134,"character":50}},"selectionRange":{"start":{"line":134,"character":8},"end":{"line":134,"character":50}}}]}]},{"name":"resource \"aws_route_table_association\" \"public-rt1\"","kind":5,"range":{"start":{"line":141,"character":0},"end":{"line":144,"character":1}},"selectionRange":{"start":{"line":141,"character":0},"end":{"line":144,"character":1}},"children":[{"name":"subnet_id","kind":14,"range":{"start":{"line":142,"character":4},"end":{"line":142,"character":38}},"selectionRange":{"start":{"line":142,"character":4},"end":{"line":142,"character":38}}},{"name":"route_table_id","kind":14,"range":{"start":{"line":143,"character":4},"end":{"line":143,"character":46}},"selectionRange":{"start":{"line":143,"character":4},"end":{"line":143,"character":46}}}]},{"name":"resource \"aws_route_table_association\" \"public-rt2\"","kind":5,"range":{"start":{"line":146,"character":0},"end":{"line":149,"character":1}},"selectionRange":{"start":{"line":146,"character":0},"end":{"line":149,"character":1}},"children":[{"name":"subnet_id","kind":14,"range":{"start":{"line":147,"character":4},"end":{"line":147,"character":38}},"selectionRange":{"start":{"line":147,"character":4},"end":{"line":147,"character":38}}},{"name":"route_table_id","kind":14,"range":{"start":{"line":148,"character":4},"end":{"line":148,"character":46}},"selectionRange":{"start":{"line":148,"character":4},"end":{"line":148,"character":46}}}]},{"name":"resource \"aws_route_table_association\" \"public-rt3\"","kind":5,"range":{"start":{"line":151,"character":0},"end":{"line":154,"character":1}},"selectionRange":{"start":{"line":151,"character":0},"end":{"line":154,"character":1}},"children":[{"name":"subnet_id","kind":14,"range":{"start":{"line":152,"character":4},"end":{"line":152,"character":38}},"selectionRange":{"start":{"line":152,"character":4},"end":{"line":152,"character":38}}},{"name":"route_table_id","kind":14,"range":{"start":{"line":153,"character":4},"end":{"line":153,"character":46}},"selectionRange":{"start":{"line":153,"character":4},"end":{"line":153,"character":46}}}]},{"name":"resource \"aws_route_table_association\" \"private-rt1\"","kind":5,"range":{"start":{"line":159,"character":0},"end":{"line":163,"character":1}},"selectionRange":{"start":{"line":159,"character":0},"end":{"line":163,"character":1}},"children":[{"name":"subnet_id","kind":14,"range":{"start":{"line":160,"character":4},"end":{"line":160,"character":39}},"selectionRange":{"start":{"line":160,"character":4},"end":{"line":160,"character":39}}},{"name":"route_table_id","kind":14,"range":{"start":{"line":161,"character":4},"end":{"line":161,"character":47}},"selectionRange":{"start":{"line":161,"character":4},"end":{"line":161,"character":47}}}]},{"name":"resource \"aws_route_table_association\" \"private-rt2\"","kind":5,"range":{"start":{"line":165,"character":0},"end":{"line":169,"character":1}},"selectionRange":{"start":{"line":165,"character":0},"end":{"line":169,"character":1}},"children":[{"name":"subnet_id","kind":14,"range":{"start":{"line":166,"character":4},"end":{"line":166,"character":39}},"selectionRange":{"start":{"line":166,"character":4},"end":{"line":166,"character":39}}},{"name":"route_table_id","kind":14,"range":{"start":{"line":167,"character":4},"end":{"line":167,"character":47}},"selectionRange":{"start":{"line":167,"character":4},"end":{"line":167,"character":47}}}]},{"name":"resource \"aws_route_table_association\" \"private-rt3\"","kind":5,"range":{"start":{"line":171,"character":0},"end":{"line":174,"character":1}},"selectionRange":{"start":{"line":171,"character":0},"end":{"line":174,"character":1}},"children":[{"name":"subnet_id","kind":14,"range":{"start":{"line":172,"character":4},"end":{"line":172,"character":39}},"selectionRange":{"start":{"line":172,"character":4},"end":{"line":172,"character":39}}},{"name":"route_table_id","kind":14,"range":{"start":{"line":173,"character":4},"end":{"line":173,"character":47}},"selectionRange":{"start":{"line":173,"character":4},"end":{"line":173,"character":47}}}]}]
+2022/08/09 14:52:05 opts.go:218: Completed 1 requests [17.291358ms elapsed]
+2022/08/09 14:52:05 rpc_logger.go:29: Incoming request for "textDocument/semanticTokens/full" (ID 3): {"textDocument":{"uri":"file:///home/ec2-user/Step1/main.tf"}}
+2022/08/09 14:52:05 opts.go:218: Received response for callback "2"
+2022/08/09 14:52:05 opts.go:218: Posting server call "workspace/semanticTokens/refresh" 
+2022/08/09 14:52:05 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:52:05 rpc_logger.go:50: Response to "textDocument/semanticTokens/full" (ID 3): {"data":[1,0,8,10,4096,0,9,9,11,20482,0,10,11,11,4224,1,4,10,9,0,0,13,3,18,0,0,4,10,18,0,2,2,4,9,0,1,8,4,16,0,0,7,11,13,0,5,0,8,10,4096,0,9,12,11,20482,0,13,10,11,4224,1,4,6,9,0,0,9,7,18,0,0,8,9,18,0,0,10,2,18,0,1,4,10,9,0,0,13,3,18,0,0,4,8,18,0,1,4,17,9,0,0,20,3,18,0,0,4,17,18,0,1,4,23,9,0,0,26,4,12,0,2,4,4,9,0,1,8,4,16,0,0,7,10,13,0,4,0,8,10,4096,0,9,12,11,20482,0,13,10,11,4224,1,4,6,9,0,0,9,7,18,0,0,8,9,18,0,0,10,2,18,0,1,4,10,9,0,0,13,3,18,0,0,4,8,18,0,1,4,17,9,0,0,20,3,18,0,0,4,17,18,0,1,4,23,9,0,0,26,4,12,0,2,4,4,9,0,1,8,4,16,0,0,7,10,13,0,4,0,8,10,4096,0,9,12,11,20482,0,13,10,11,4224,1,4,6,9,0,0,9,7,18,0,0,8,9,18,0,0,10,2,18,0,1,4,10,9,0,0,13,3,18,0,0,4,8,18,0,1,4,17,9,0,0,20,3,18,0,0,4,17,18,0,1,4,23,9,0,0,26,4,12,0,2,5,4,9,0,1,8,4,16,0,0,7,10,13,0,7,0,8,10,4096,0,9,12,11,20482,0,13,11,11,4224,1,4,6,9,0,0,9,7,18,0,0,8,9,18,0,0,10,2,18,0,1,4,10,9,0,0,13,3,18,0,0,4,9,18,0,1,4,17,9,0,0,20,3,18,0,0,4,17,18,0,1,4,23,9,0,0,26,5,12,0,2,5,4,9,0,1,8,4,16,0,0,7,11,13,0,4,0,8,10,4096,0,9,12,11,20482,0,13,11,11,4224,1,4,6,9,0,0,9,7,18,0,0,8,9,18,0,0,10,2,18,0,1,4,10,9,0,0,13,3,18,0,0,4,9,18,0,1,4,17,9,0,0,20,3,18,0,0,4,17,18,0,1,4,23,9,0,0,26,5,12,0,2,5,4,9,0,1,8,4,16,0,0,7,11,13,0,4,0,8,10,4096,0,9,12,11,20482,0,13,11,11,4224,1,4,6,9,0,0,9,7,18,0,0,8,9,18,0,0,10,2,18,0,1,4,10,9,0,0,13,3,18,0,0,4,9,18,0,1,4,17,9,0,0,20,3,18,0,0,4,17,18,0,1,4,23,9,0,0,26,5,12,0,2,4,4,9,0,1,8,4,16,0,0,7,11,13,0,6,0,8,10,4096,0,9,22,11,20482,0,23,13,11,4224,1,4,6,9,0,0,9,7,18,0,0,8,9,18,0,0,10,2,18,0,2,4,4,9,0,1,8,4,16,0,0,7,13,13,0,7,0,8,10,4096,0,9,9,11,20482,0,10,13,11,4224,1,4,3,9,0,0,6,4,12,0,2,4,4,9,0,1,8,4,16,0,0,7,12,13,0,7,0,8,10,4096,0,9,17,11,20482,0,18,8,11,4224,1,4,13,9,0,0,16,7,18,0,0,8,11,18,0,0,12,2,18,0,1,4,9,9,0,0,12,10,18,0,0,11,8,18,0,0,9,2,18,0,1,4,17,9,0,0,20,8,13,0,5,0,8,10,4096,0,9,17,11,20482,0,18,8,11,4224,1,4,6,9,0,0,9,7,18,0,0,8,9,18,0,0,10,2,18,0,2,10,4,9,0,1,8,4,16,0,0,7,8,13,0,3,4,5,10,0,1,8,10,9,0,0,13,11,13,0,1,8,10,9,0,0,13,20,18,0,0,21,11,18,0,0,12,2,18,0,5,0,8,10,4096,0,9,17,11,20482,0,18,9,11,4224,1,4,6,9,0,0,9,7,18,0,0,8,9,18,0,0,10,2,18,0,2,4,4,9,0,1,8,4,16,0,0,7,9,13,0,3,4,5,10,0,1,8,10,9,0,0,13,11,13,0,1,8,14,9,0,0,17,15,18,0,0,16,6,18,0,0,7,2,18,0,7,0,8,10,4096,0,9,29,11,20482,0,30,12,11,4224,1,4,9,9,0,0,12,10,18,0,0,11,8,18,0,0,9,2,18,0,1,4,14,9,0,0,17,15,18,0,0,16,6,18,0,0,7,2,18,0,3,0,8,10,4096,0,9,29,11,20482,0,30,12,11,4224,1,4,9,9,0,0,12,10,18,0,0,11,8,18,0,0,9,2,18,0,1,4,14,9,0,0,17,15,18,0,0,16,6,18,0,0,7,2,18,0,3,0,8,10,4096,0,9,29,11,20482,0,30,12,11,4224,1,4,9,9,0,0,12,10,18,0,0,11,8,18,0,0,9,2,18,0,1,4,14,9,0,0,17,15,18,0,0,16,6,18,0,0,7,2,18,0,6,0,8,10,4096,0,9,29,11,20482,0,30,13,11,4224,1,4,9,9,0,0,12,10,18,0,0,11,9,18,0,0,10,2,18,0,1,4,14,9,0,0,17,15,18,0,0,16,7,18,0,0,8,2,18,0,4,0,8,10,4096,0,9,29,11,20482,0,30,13,11,4224,1,4,9,9,0,0,12,10,18,0,0,11,9,18,0,0,10,2,18,0,1,4,14,9,0,0,17,15,18,0,0,16,7,18,0,0,8,2,18,0,4,0,8,10,4096,0,9,29,11,20482,0,30,13,11,4224,1,4,9,9,0,0,12,10,18,0,0,11,9,18,0,0,10,2,18,0,1,4,14,9,0,0,17,15,18,0,0,16,7,18,0,0,8,2,18,0]}
+2022/08/09 14:52:05 opts.go:218: Completed 1 requests [51.431346ms elapsed]
+2022/08/09 14:52:05 opts.go:218: Received response for callback "3"
+2022/08/09 14:52:05 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:52:05 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:52:05 rpc_logger.go:29: Incoming request for "textDocument/codeLens" (ID 5): {"textDocument":{"uri":"file:///home/ec2-user/Step1/main.tf"}}
+2022/08/09 14:52:05 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:52:05 rpc_logger.go:50: Response to "textDocument/codeLens" (ID 5): []
+2022/08/09 14:52:05 opts.go:218: Completed 1 requests [8.046773ms elapsed]
+2022/08/09 14:52:06 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:52:06 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:52:06 rpc_logger.go:29: Incoming request for "textDocument/semanticTokens/full" (ID 6): {"textDocument":{"uri":"file:///home/ec2-user/Step1/main.tf"}}
+2022/08/09 14:52:06 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:52:06 rpc_logger.go:50: Response to "textDocument/semanticTokens/full" (ID 6): {"data":[1,0,8,10,4096,0,9,9,11,20482,0,10,11,11,4224,1,4,10,9,0,0,13,3,18,0,0,4,10,18,0,2,2,4,9,0,1,8,4,16,0,0,7,11,13,0,5,0,8,10,4096,0,9,12,11,20482,0,13,10,11,4224,1,4,6,9,0,0,9,7,18,0,0,8,9,18,0,0,10,2,18,0,1,4,10,9,0,0,13,3,18,0,0,4,8,18,0,1,4,17,9,0,0,20,3,18,0,0,4,17,18,0,1,4,23,9,0,0,26,4,12,0,2,4,4,9,0,1,8,4,16,0,0,7,10,13,0,4,0,8,10,4096,0,9,12,11,20482,0,13,10,11,4224,1,4,6,9,0,0,9,7,18,0,0,8,9,18,0,0,10,2,18,0,1,4,10,9,0,0,13,3,18,0,0,4,8,18,0,1,4,17,9,0,0,20,3,18,0,0,4,17,18,0,1,4,23,9,0,0,26,4,12,0,2,4,4,9,0,1,8,4,16,0,0,7,10,13,0,4,0,8,10,4096,0,9,12,11,20482,0,13,10,11,4224,1,4,6,9,0,0,9,7,18,0,0,8,9,18,0,0,10,2,18,0,1,4,10,9,0,0,13,3,18,0,0,4,8,18,0,1,4,17,9,0,0,20,3,18,0,0,4,17,18,0,1,4,23,9,0,0,26,4,12,0,2,5,4,9,0,1,8,4,16,0,0,7,10,13,0,7,0,8,10,4096,0,9,12,11,20482,0,13,11,11,4224,1,4,6,9,0,0,9,7,18,0,0,8,9,18,0,0,10,2,18,0,1,4,10,9,0,0,13,3,18,0,0,4,9,18,0,1,4,17,9,0,0,20,3,18,0,0,4,17,18,0,1,4,23,9,0,0,26,5,12,0,2,5,4,9,0,1,8,4,16,0,0,7,11,13,0,4,0,8,10,4096,0,9,12,11,20482,0,13,11,11,4224,1,4,6,9,0,0,9,7,18,0,0,8,9,18,0,0,10,2,18,0,1,4,10,9,0,0,13,3,18,0,0,4,9,18,0,1,4,17,9,0,0,20,3,18,0,0,4,17,18,0,1,4,23,9,0,0,26,5,12,0,2,5,4,9,0,1,8,4,16,0,0,7,11,13,0,4,0,8,10,4096,0,9,12,11,20482,0,13,11,11,4224,1,4,6,9,0,0,9,7,18,0,0,8,9,18,0,0,10,2,18,0,1,4,10,9,0,0,13,3,18,0,0,4,9,18,0,1,4,17,9,0,0,20,3,18,0,0,4,17,18,0,1,4,23,9,0,0,26,5,12,0,2,4,4,9,0,1,8,4,16,0,0,7,11,13,0,6,0,8,10,4096,0,9,22,11,20482,0,23,13,11,4224,1,4,6,9,0,0,9,7,18,0,0,8,9,18,0,0,10,2,18,0,2,4,4,9,0,1,8,4,16,0,0,7,13,13,0,7,0,8,10,4096,0,9,9,11,20482,0,10,13,11,4224,1,4,3,9,0,0,6,4,12,0,2,4,4,9,0,1,8,4,16,0,0,7,12,13,0,7,0,8,10,4096,0,9,17,11,20482,0,18,8,11,4224,1,4,13,9,0,0,16,7,18,0,0,8,11,18,0,0,12,2,18,0,1,4,9,9,0,0,12,10,18,0,0,11,8,18,0,0,9,2,18,0,1,4,17,9,0,0,20,8,13,0,5,0,8,10,4096,0,9,17,11,20482,0,18,8,11,4224,1,4,6,9,0,0,9,7,18,0,0,8,9,18,0,0,10,2,18,0,2,10,4,9,0,1,8,4,16,0,0,7,8,13,0,3,4,5,10,0,1,8,10,9,0,0,13,11,13,0,1,8,10,9,0,0,13,20,18,0,0,21,11,18,0,0,12,2,18,0,5,0,8,10,4096,0,9,17,11,20482,0,18,9,11,4224,1,4,6,9,0,0,9,7,18,0,0,8,9,18,0,0,10,2,18,0,2,4,4,9,0,1,8,4,16,0,0,7,9,13,0,3,4,5,10,0,1,8,10,9,0,0,13,11,13,0,1,8,14,9,0,0,17,15,18,0,0,16,6,18,0,0,7,2,18,0,7,0,8,10,4096,0,9,29,11,20482,0,30,12,11,4224,1,4,9,9,0,0,12,10,18,0,0,11,8,18,0,0,9,2,18,0,1,4,14,9,0,0,17,15,18,0,0,16,6,18,0,0,7,2,18,0,3,0,8,10,4096,0,9,29,11,20482,0,30,12,11,4224,1,4,9,9,0,0,12,10,18,0,0,11,8,18,0,0,9,2,18,0,1,4,14,9,0,0,17,15,18,0,0,16,6,18,0,0,7,2,18,0,3,0,8,10,4096,0,9,29,11,20482,0,30,12,11,4224,1,4,9,9,0,0,12,10,18,0,0,11,8,18,0,0,9,2,18,0,1,4,14,9,0,0,17,15,18,0,0,16,6,18,0,0,7,2,18,0,6,0,8,10,4096,0,9,29,11,20482,0,30,13,11,4224,1,4,9,9,0,0,12,10,18,0,0,11,9,18,0,0,10,2,18,0,1,4,14,9,0,0,17,15,18,0,0,16,7,18,0,0,8,2,18,0,4,0,8,10,4096,0,9,29,11,20482,0,30,13,11,4224,1,4,9,9,0,0,12,10,18,0,0,11,9,18,0,0,10,2,18,0,1,4,14,9,0,0,17,15,18,0,0,16,7,18,0,0,8,2,18,0,4,0,8,10,4096,0,9,29,11,20482,0,30,13,11,4224,1,4,9,9,0,0,12,10,18,0,0,11,9,18,0,0,10,2,18,0,1,4,14,9,0,0,17,15,18,0,0,16,7,18,0,0,8,2,18,0]}
+2022/08/09 14:52:06 opts.go:218: Completed 1 requests [46.119069ms elapsed]
+2022/08/09 14:52:10 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:52:10 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:52:10 rpc_logger.go:29: Incoming request for "textDocument/hover" (ID 7): {"textDocument":{"uri":"file:///home/ec2-user/Step1/main.tf"},"position":{"line":165,"character":45}}
+2022/08/09 14:52:10 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:52:10 hover.go:32: Looking for hover data at "main.tf" -> hcl.Pos{Line:166, Column:46, Byte:3240}
+2022/08/09 14:52:10 hover.go:34: received hover data: &lang.HoverData{Content:lang.MarkupContent{Value:"\"private-rt2\" (name)\n\nReference Name", Kind:0x2}, Range:hcl.Range{Filename:"main.tf", Start:hcl.Pos{Line:166, Column:40, Byte:3234}, End:hcl.Pos{Line:166, Column:53, Byte:3247}}}
+2022/08/09 14:52:10 rpc_logger.go:50: Response to "textDocument/hover" (ID 7): {"contents":{"kind":"markdown","value":"\"private-rt2\" (name)\n\nReference Name"},"range":{"start":{"line":165,"character":39},"end":{"line":165,"character":52}}}
+2022/08/09 14:52:10 opts.go:218: Completed 1 requests [8.196118ms elapsed]
+2022/08/09 14:52:26 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:52:26 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:52:26 rpc_logger.go:29: Incoming notification for "textDocument/didOpen": {"textDocument":{"uri":"file:///home/ec2-user/Step1/variable.tf","languageId":"terraform","version":1,"text":"variable \"vpc_name\" {\n  description = \"Provide vpc name\"\n  type = string\n  default = \"\"\n  \n}\n\nvariable \"region\" {\n  description = \"Please provide a region\"\n  type        = string\n  default     = \"\"\n}\n\nvariable \"availability_zone\" {\n  description = \"Provide availability zone\"\n  type = string\n  default = \"\"\n  \n}\nvariable \"cidr_block\" {\n  description = \"Please provide CIDR block for VPC\"\n  type        = string\n  default     = \"10.0.0.0/16\"\n}\n\nvariable \"tags\" {\n  description = \"Please provide a tag for resources\"\n  type        = map(any)\n  default     = {}\n}\nvariable \"public-1\" {\n  description = \"Please provide subnet CIDR block\"\n  type        = string\n  default     = \"10.0.101.0/24\"\n}\nvariable \"public-2\" {\n  description = \"Please provide subnet CIDR block\"\n  type        = string\n  default     = \"10.0.102.0/24\"\n}\nvariable \"public-3\" {\n  description = \"Please provide subnet CIDR block\"\n  type        = string\n  default     = \"10.0.103.0/24\"\n}\nvariable \"private-1\" {\n  description = \"Please provide subnet CIDR block\"\n  type        = string\n  default     = \"10.0.1.0/24\"\n}\nvariable \"private-2\" {\n  description = \"Please provide subnet CIDR block\"\n  type        = string\n  default     = \"10.0.2.0/24\"\n}\nvariable \"private-3\" {\n  description = \"Please provide subnet CIDR block for private-3\"\n  type        = string\n  default     = \"10.0.3.0/24\"\n}"}}
+2022/08/09 14:52:26 did_open.go:42: opened module: /home/ec2-user/Step1
+2022/08/09 14:52:26 jobs.go:92: JOBS: Enqueueing new job "14": "OpTypeParseModuleConfiguration" for {"file:///home/ec2-user/Step1"}
+2022/08/09 14:52:26 jobs.go:92: JOBS: Enqueueing new job "15": "OpTypeParseVariables" for {"file:///home/ec2-user/Step1"}
+2022/08/09 14:52:26 jobs.go:244: JOBS: Dispatching next job "14": "OpTypeParseModuleConfiguration" for {"file:///home/ec2-user/Step1"}
+2022/08/09 14:52:26 jobs.go:92: JOBS: Enqueueing new job "16": "OpTypeLoadModuleMetadata" for {"file:///home/ec2-user/Step1"}
+2022/08/09 14:52:26 jobs.go:358: JOBS: Finishing job "14": "OpTypeParseModuleConfiguration" for {"file:///home/ec2-user/Step1"} (err = %!s(<nil>), deferredJobs: ["16"])
+2022/08/09 14:52:26 jobs.go:244: JOBS: Dispatching next job "15": "OpTypeParseVariables" for {"file:///home/ec2-user/Step1"}
+2022/08/09 14:52:26 jobs.go:92: JOBS: Enqueueing new job "17": "OpTypeDecodeVarsReferences" for {"file:///home/ec2-user/Step1"}
+2022/08/09 14:52:26 jobs.go:358: JOBS: Finishing job "15": "OpTypeParseVariables" for {"file:///home/ec2-user/Step1"} (err = %!s(<nil>), deferredJobs: ["17"])
+2022/08/09 14:52:26 jobs.go:244: JOBS: Dispatching next job "16": "OpTypeLoadModuleMetadata" for {"file:///home/ec2-user/Step1"}
+2022/08/09 14:52:26 jobs.go:92: JOBS: Enqueueing new job "18": "OpTypeDecodeReferenceTargets" for {"file:///home/ec2-user/Step1"}
+2022/08/09 14:52:26 jobs.go:92: JOBS: Enqueueing new job "19": "OpTypeDecodeReferenceOrigins" for {"file:///home/ec2-user/Step1"}
+2022/08/09 14:52:26 jobs.go:358: JOBS: Finishing job "16": "OpTypeLoadModuleMetadata" for {"file:///home/ec2-user/Step1"} (err = %!s(<nil>), deferredJobs: ["18" "19"])
+2022/08/09 14:52:26 jobs.go:244: JOBS: Dispatching next job "17": "OpTypeDecodeVarsReferences" for {"file:///home/ec2-user/Step1"}
+2022/08/09 14:52:26 jobs.go:358: JOBS: Finishing job "17": "OpTypeDecodeVarsReferences" for {"file:///home/ec2-user/Step1"} (err = %!s(<nil>), deferredJobs: [])
+2022/08/09 14:52:26 jobs.go:244: JOBS: Dispatching next job "18": "OpTypeDecodeReferenceTargets" for {"file:///home/ec2-user/Step1"}
+2022/08/09 14:52:26 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:52:26 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:52:26 opts.go:218: Received request batch of size 1 (qlen=1)
+2022/08/09 14:52:26 opts.go:218: Received request batch of size 1 (qlen=2)
+2022/08/09 14:52:26 opts.go:218: Received request batch of size 1 (qlen=3)
+2022/08/09 14:52:26 opts.go:218: Dequeued request batch of length 1 (qlen=3)
+2022/08/09 14:52:26 jobs.go:358: JOBS: Finishing job "18": "OpTypeDecodeReferenceTargets" for {"file:///home/ec2-user/Step1"} (err = %!s(<nil>), deferredJobs: [])
+2022/08/09 14:52:26 jobs.go:244: JOBS: Dispatching next job "19": "OpTypeDecodeReferenceOrigins" for {"file:///home/ec2-user/Step1"}
+2022/08/09 14:52:26 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:52:26 jobs.go:358: JOBS: Finishing job "19": "OpTypeDecodeReferenceOrigins" for {"file:///home/ec2-user/Step1"} (err = %!s(<nil>), deferredJobs: [])
+2022/08/09 14:52:26 opts.go:218: Posting server call "client.refreshModuleProviders" 
+2022/08/09 14:52:26 opts.go:218: Dequeued request batch of length 1 (qlen=2)
+2022/08/09 14:52:26 opts.go:218: Dequeued request batch of length 1 (qlen=1)
+2022/08/09 14:52:26 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:52:26 rpc_logger.go:29: Incoming request for "textDocument/documentLink" (ID 11): {"textDocument":{"uri":"file:///home/ec2-user/Step1/variable.tf"}}
+2022/08/09 14:52:26 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:52:26 rpc_logger.go:50: Response to "textDocument/documentLink" (ID 11): []
+2022/08/09 14:52:26 opts.go:218: Completed 1 requests [8.312961ms elapsed]
+2022/08/09 14:52:26 opts.go:218: Received response for callback "4"
+2022/08/09 14:52:26 opts.go:218: Posting server call "client.refreshModuleCalls" 
+2022/08/09 14:52:26 rpc_logger.go:29: Incoming request for "workspace/executeCommand" (ID 8): {"command":"terraform-ls.module.callers","arguments":["uri=file:///home/ec2-user/Step1"]}
+2022/08/09 14:52:26 rpc_logger.go:50: Response to "workspace/executeCommand" (ID 8): {"v":0,"callers":[]}
+2022/08/09 14:52:26 opts.go:218: Completed 1 requests [23.777972ms elapsed]
+2022/08/09 14:52:26 rpc_logger.go:29: Incoming request for "textDocument/documentSymbol" (ID 9): {"textDocument":{"uri":"file:///home/ec2-user/Step1/variable.tf"}}
+2022/08/09 14:52:26 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:52:26 rpc_logger.go:50: Response to "textDocument/documentSymbol" (ID 9): [{"name":"variable \"vpc_name\"","kind":5,"range":{"start":{"line":0,"character":0},"end":{"line":5,"character":1}},"selectionRange":{"start":{"line":0,"character":0},"end":{"line":5,"character":1}},"children":[{"name":"description","kind":15,"range":{"start":{"line":1,"character":2},"end":{"line":1,"character":34}},"selectionRange":{"start":{"line":1,"character":2},"end":{"line":1,"character":34}}},{"name":"type","kind":14,"range":{"start":{"line":2,"character":2},"end":{"line":2,"character":15}},"selectionRange":{"start":{"line":2,"character":2},"end":{"line":2,"character":15}}},{"name":"default","kind":15,"range":{"start":{"line":3,"character":2},"end":{"line":3,"character":14}},"selectionRange":{"start":{"line":3,"character":2},"end":{"line":3,"character":14}}}]},{"name":"variable \"region\"","kind":5,"range":{"start":{"line":7,"character":0},"end":{"line":11,"character":1}},"selectionRange":{"start":{"line":7,"character":0},"end":{"line":11,"character":1}},"children":[{"name":"description","kind":15,"range":{"start":{"line":8,"character":2},"end":{"line":8,"character":41}},"selectionRange":{"start":{"line":8,"character":2},"end":{"line":8,"character":41}}},{"name":"type","kind":14,"range":{"start":{"line":9,"character":2},"end":{"line":9,"character":22}},"selectionRange":{"start":{"line":9,"character":2},"end":{"line":9,"character":22}}},{"name":"default","kind":15,"range":{"start":{"line":10,"character":2},"end":{"line":10,"character":18}},"selectionRange":{"start":{"line":10,"character":2},"end":{"line":10,"character":18}}}]},{"name":"variable \"availability_zone\"","kind":5,"range":{"start":{"line":13,"character":0},"end":{"line":18,"character":1}},"selectionRange":{"start":{"line":13,"character":0},"end":{"line":18,"character":1}},"children":[{"name":"description","kind":15,"range":{"start":{"line":14,"character":2},"end":{"line":14,"character":43}},"selectionRange":{"start":{"line":14,"character":2},"end":{"line":14,"character":43}}},{"name":"type","kind":14,"range":{"start":{"line":15,"character":2},"end":{"line":15,"character":15}},"selectionRange":{"start":{"line":15,"character":2},"end":{"line":15,"character":15}}},{"name":"default","kind":15,"range":{"start":{"line":16,"character":2},"end":{"line":16,"character":14}},"selectionRange":{"start":{"line":16,"character":2},"end":{"line":16,"character":14}}}]},{"name":"variable \"cidr_block\"","kind":5,"range":{"start":{"line":19,"character":0},"end":{"line":23,"character":1}},"selectionRange":{"start":{"line":19,"character":0},"end":{"line":23,"character":1}},"children":[{"name":"description","kind":15,"range":{"start":{"line":20,"character":2},"end":{"line":20,"character":51}},"selectionRange":{"start":{"line":20,"character":2},"end":{"line":20,"character":51}}},{"name":"type","kind":14,"range":{"start":{"line":21,"character":2},"end":{"line":21,"character":22}},"selectionRange":{"start":{"line":21,"character":2},"end":{"line":21,"character":22}}},{"name":"default","kind":15,"range":{"start":{"line":22,"character":2},"end":{"line":22,"character":29}},"selectionRange":{"start":{"line":22,"character":2},"end":{"line":22,"character":29}}}]},{"name":"variable \"tags\"","kind":5,"range":{"start":{"line":25,"character":0},"end":{"line":29,"character":1}},"selectionRange":{"start":{"line":25,"character":0},"end":{"line":29,"character":1}},"children":[{"name":"description","kind":15,"range":{"start":{"line":26,"character":2},"end":{"line":26,"character":52}},"selectionRange":{"start":{"line":26,"character":2},"end":{"line":26,"character":52}}},{"name":"type","kind":13,"range":{"start":{"line":27,"character":2},"end":{"line":27,"character":24}},"selectionRange":{"start":{"line":27,"character":2},"end":{"line":27,"character":24}}},{"name":"default","kind":23,"range":{"start":{"line":28,"character":2},"end":{"line":28,"character":18}},"selectionRange":{"start":{"line":28,"character":2},"end":{"line":28,"character":18}}}]},{"name":"variable \"public-1\"","kind":5,"range":{"start":{"line":30,"character":0},"end":{"line":34,"character":1}},"selectionRange":{"start":{"line":30,"character":0},"end":{"line":34,"character":1}},"children":[{"name":"description","kind":15,"range":{"start":{"line":31,"character":2},"end":{"line":31,"character":50}},"selectionRange":{"start":{"line":31,"character":2},"end":{"line":31,"character":50}}},{"name":"type","kind":14,"range":{"start":{"line":32,"character":2},"end":{"line":32,"character":22}},"selectionRange":{"start":{"line":32,"character":2},"end":{"line":32,"character":22}}},{"name":"default","kind":15,"range":{"start":{"line":33,"character":2},"end":{"line":33,"character":31}},"selectionRange":{"start":{"line":33,"character":2},"end":{"line":33,"character":31}}}]},{"name":"variable \"public-2\"","kind":5,"range":{"start":{"line":35,"character":0},"end":{"line":39,"character":1}},"selectionRange":{"start":{"line":35,"character":0},"end":{"line":39,"character":1}},"children":[{"name":"description","kind":15,"range":{"start":{"line":36,"character":2},"end":{"line":36,"character":50}},"selectionRange":{"start":{"line":36,"character":2},"end":{"line":36,"character":50}}},{"name":"type","kind":14,"range":{"start":{"line":37,"character":2},"end":{"line":37,"character":22}},"selectionRange":{"start":{"line":37,"character":2},"end":{"line":37,"character":22}}},{"name":"default","kind":15,"range":{"start":{"line":38,"character":2},"end":{"line":38,"character":31}},"selectionRange":{"start":{"line":38,"character":2},"end":{"line":38,"character":31}}}]},{"name":"variable \"public-3\"","kind":5,"range":{"start":{"line":40,"character":0},"end":{"line":44,"character":1}},"selectionRange":{"start":{"line":40,"character":0},"end":{"line":44,"character":1}},"children":[{"name":"description","kind":15,"range":{"start":{"line":41,"character":2},"end":{"line":41,"character":50}},"selectionRange":{"start":{"line":41,"character":2},"end":{"line":41,"character":50}}},{"name":"type","kind":14,"range":{"start":{"line":42,"character":2},"end":{"line":42,"character":22}},"selectionRange":{"start":{"line":42,"character":2},"end":{"line":42,"character":22}}},{"name":"default","kind":15,"range":{"start":{"line":43,"character":2},"end":{"line":43,"character":31}},"selectionRange":{"start":{"line":43,"character":2},"end":{"line":43,"character":31}}}]},{"name":"variable \"private-1\"","kind":5,"range":{"start":{"line":45,"character":0},"end":{"line":49,"character":1}},"selectionRange":{"start":{"line":45,"character":0},"end":{"line":49,"character":1}},"children":[{"name":"description","kind":15,"range":{"start":{"line":46,"character":2},"end":{"line":46,"character":50}},"selectionRange":{"start":{"line":46,"character":2},"end":{"line":46,"character":50}}},{"name":"type","kind":14,"range":{"start":{"line":47,"character":2},"end":{"line":47,"character":22}},"selectionRange":{"start":{"line":47,"character":2},"end":{"line":47,"character":22}}},{"name":"default","kind":15,"range":{"start":{"line":48,"character":2},"end":{"line":48,"character":29}},"selectionRange":{"start":{"line":48,"character":2},"end":{"line":48,"character":29}}}]},{"name":"variable \"private-2\"","kind":5,"range":{"start":{"line":50,"character":0},"end":{"line":54,"character":1}},"selectionRange":{"start":{"line":50,"character":0},"end":{"line":54,"character":1}},"children":[{"name":"description","kind":15,"range":{"start":{"line":51,"character":2},"end":{"line":51,"character":50}},"selectionRange":{"start":{"line":51,"character":2},"end":{"line":51,"character":50}}},{"name":"type","kind":14,"range":{"start":{"line":52,"character":2},"end":{"line":52,"character":22}},"selectionRange":{"start":{"line":52,"character":2},"end":{"line":52,"character":22}}},{"name":"default","kind":15,"range":{"start":{"line":53,"character":2},"end":{"line":53,"character":29}},"selectionRange":{"start":{"line":53,"character":2},"end":{"line":53,"character":29}}}]},{"name":"variable \"private-3\"","kind":5,"range":{"start":{"line":55,"character":0},"end":{"line":59,"character":1}},"selectionRange":{"start":{"line":55,"character":0},"end":{"line":59,"character":1}},"children":[{"name":"description","kind":15,"range":{"start":{"line":56,"character":2},"end":{"line":56,"character":64}},"selectionRange":{"start":{"line":56,"character":2},"end":{"line":56,"character":64}}},{"name":"type","kind":14,"range":{"start":{"line":57,"character":2},"end":{"line":57,"character":22}},"selectionRange":{"start":{"line":57,"character":2},"end":{"line":57,"character":22}}},{"name":"default","kind":15,"range":{"start":{"line":58,"character":2},"end":{"line":58,"character":29}},"selectionRange":{"start":{"line":58,"character":2},"end":{"line":58,"character":29}}}]}]
+2022/08/09 14:52:26 opts.go:218: Completed 1 requests [19.106278ms elapsed]
+2022/08/09 14:52:26 rpc_logger.go:29: Incoming request for "textDocument/semanticTokens/full" (ID 10): {"textDocument":{"uri":"file:///home/ec2-user/Step1/variable.tf"}}
+2022/08/09 14:52:26 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:52:26 rpc_logger.go:50: Response to "textDocument/semanticTokens/full" (ID 10): {"data":[0,0,8,10,32768,0,9,10,11,32768,1,2,11,9,32768,0,14,18,13,0,1,2,4,9,32768,0,7,6,20,0,1,2,7,9,0,0,10,2,13,0,4,0,8,10,32768,0,9,8,11,32768,1,2,11,9,32768,0,14,25,13,0,1,2,4,9,32768,0,14,6,20,0,1,2,7,9,0,0,14,2,13,0,3,0,8,10,32768,0,9,19,11,32768,1,2,11,9,32768,0,14,27,13,0,1,2,4,9,32768,0,7,6,20,0,1,2,7,9,0,0,10,2,13,0,3,0,8,10,32768,0,9,12,11,32768,1,2,11,9,32768,0,14,35,13,0,1,2,4,9,32768,0,14,6,20,0,1,2,7,9,0,0,14,13,13,0,3,0,8,10,32768,0,9,6,11,32768,1,2,11,9,32768,0,14,36,13,0,1,2,4,9,32768,0,14,3,19,0,0,4,3,20,0,1,2,7,9,0,2,0,8,10,32768,0,9,10,11,32768,1,2,11,9,32768,0,14,34,13,0,1,2,4,9,32768,0,14,6,20,0,1,2,7,9,0,0,14,15,13,0,2,0,8,10,32768,0,9,10,11,32768,1,2,11,9,32768,0,14,34,13,0,1,2,4,9,32768,0,14,6,20,0,1,2,7,9,0,0,14,15,13,0,2,0,8,10,32768,0,9,10,11,32768,1,2,11,9,32768,0,14,34,13,0,1,2,4,9,32768,0,14,6,20,0,1,2,7,9,0,0,14,15,13,0,2,0,8,10,32768,0,9,11,11,32768,1,2,11,9,32768,0,14,34,13,0,1,2,4,9,32768,0,14,6,20,0,1,2,7,9,0,0,14,13,13,0,2,0,8,10,32768,0,9,11,11,32768,1,2,11,9,32768,0,14,34,13,0,1,2,4,9,32768,0,14,6,20,0,1,2,7,9,0,0,14,13,13,0,2,0,8,10,32768,0,9,11,11,32768,1,2,11,9,32768,0,14,48,13,0,1,2,4,9,32768,0,14,6,20,0,1,2,7,9,0,0,14,13,13,0]}
+2022/08/09 14:52:26 opts.go:218: Completed 1 requests [29.929593ms elapsed]
+2022/08/09 14:52:26 opts.go:218: Received response for callback "5"
+2022/08/09 14:52:26 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:52:26 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:52:26 rpc_logger.go:29: Incoming request for "textDocument/codeLens" (ID 12): {"textDocument":{"uri":"file:///home/ec2-user/Step1/variable.tf"}}
+2022/08/09 14:52:26 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:52:26 rpc_logger.go:50: Response to "textDocument/codeLens" (ID 12): []
+2022/08/09 14:52:26 opts.go:218: Completed 1 requests [7.859392ms elapsed]
+2022/08/09 14:52:27 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:52:27 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:52:27 rpc_logger.go:29: Incoming request for "textDocument/hover" (ID 13): {"textDocument":{"uri":"file:///home/ec2-user/Step1/variable.tf"},"position":{"line":22,"character":0}}
+2022/08/09 14:52:27 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:52:27 hover.go:32: Looking for hover data at "variable.tf" -> hcl.Pos{Line:23, Column:1, Byte:411}
+2022/08/09 14:52:27 hover.go:34: received hover data: (*lang.HoverData)(nil)
+2022/08/09 14:52:27 rpc_logger.go:45: Error for "textDocument/hover" (ID 13): [-32098] variable.tf (23,1): position outside of any attribute name, value or block
+2022/08/09 14:52:27 opts.go:218: Completed 1 requests [7.619253ms elapsed]
+[Error - 2:52:27 PM] Request textDocument/hover failed.
+  Message: variable.tf (23,1): position outside of any attribute name, value or block
+  Code: -32098 
+2022/08/09 14:52:31 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:52:31 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:52:31 rpc_logger.go:29: Incoming request for "textDocument/hover" (ID 14): {"textDocument":{"uri":"file:///home/ec2-user/Step1/variable.tf"},"position":{"line":14,"character":24}}
+2022/08/09 14:52:31 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:52:31 hover.go:32: Looking for hover data at "variable.tf" -> hcl.Pos{Line:15, Column:25, Byte:256}
+2022/08/09 14:52:31 hover.go:34: received hover data: &lang.HoverData{Content:lang.MarkupContent{Value:"`\"Provide availability zone\"` _string_", Kind:0x2}, Range:hcl.Range{Filename:"variable.tf", Start:hcl.Pos{Line:15, Column:17, Byte:248}, End:hcl.Pos{Line:15, Column:44, Byte:275}}}
+2022/08/09 14:52:31 rpc_logger.go:50: Response to "textDocument/hover" (ID 14): {"contents":{"kind":"markdown","value":"`\"Provide availability zone\"` _string_"},"range":{"start":{"line":14,"character":16},"end":{"line":14,"character":43}}}
+2022/08/09 14:52:31 opts.go:218: Completed 1 requests [7.894834ms elapsed]
+2022/08/09 14:52:38 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:52:38 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:52:38 rpc_logger.go:29: Incoming notification for "textDocument/didOpen": {"textDocument":{"uri":"file:///home/ec2-user/Step1/provider.tf","languageId":"terraform","version":1,"text":"provider \"aws\" {\n  region = var.region\n}"}}
+2022/08/09 14:52:38 did_open.go:42: opened module: /home/ec2-user/Step1
+2022/08/09 14:52:38 jobs.go:92: JOBS: Enqueueing new job "20": "OpTypeParseModuleConfiguration" for {"file:///home/ec2-user/Step1"}
+2022/08/09 14:52:38 jobs.go:92: JOBS: Enqueueing new job "21": "OpTypeParseVariables" for {"file:///home/ec2-user/Step1"}
+2022/08/09 14:52:38 jobs.go:244: JOBS: Dispatching next job "20": "OpTypeParseModuleConfiguration" for {"file:///home/ec2-user/Step1"}
+2022/08/09 14:52:38 jobs.go:92: JOBS: Enqueueing new job "22": "OpTypeLoadModuleMetadata" for {"file:///home/ec2-user/Step1"}
+2022/08/09 14:52:38 jobs.go:358: JOBS: Finishing job "20": "OpTypeParseModuleConfiguration" for {"file:///home/ec2-user/Step1"} (err = %!s(<nil>), deferredJobs: ["22"])
+2022/08/09 14:52:38 jobs.go:244: JOBS: Dispatching next job "21": "OpTypeParseVariables" for {"file:///home/ec2-user/Step1"}
+2022/08/09 14:52:38 jobs.go:92: JOBS: Enqueueing new job "23": "OpTypeDecodeVarsReferences" for {"file:///home/ec2-user/Step1"}
+2022/08/09 14:52:38 jobs.go:358: JOBS: Finishing job "21": "OpTypeParseVariables" for {"file:///home/ec2-user/Step1"} (err = %!s(<nil>), deferredJobs: ["23"])
+2022/08/09 14:52:38 jobs.go:244: JOBS: Dispatching next job "22": "OpTypeLoadModuleMetadata" for {"file:///home/ec2-user/Step1"}
+2022/08/09 14:52:38 jobs.go:92: JOBS: Enqueueing new job "24": "OpTypeDecodeReferenceTargets" for {"file:///home/ec2-user/Step1"}
+2022/08/09 14:52:38 jobs.go:92: JOBS: Enqueueing new job "25": "OpTypeDecodeReferenceOrigins" for {"file:///home/ec2-user/Step1"}
+2022/08/09 14:52:38 jobs.go:358: JOBS: Finishing job "22": "OpTypeLoadModuleMetadata" for {"file:///home/ec2-user/Step1"} (err = %!s(<nil>), deferredJobs: ["24" "25"])
+2022/08/09 14:52:38 jobs.go:244: JOBS: Dispatching next job "23": "OpTypeDecodeVarsReferences" for {"file:///home/ec2-user/Step1"}
+2022/08/09 14:52:38 jobs.go:358: JOBS: Finishing job "23": "OpTypeDecodeVarsReferences" for {"file:///home/ec2-user/Step1"} (err = %!s(<nil>), deferredJobs: [])
+2022/08/09 14:52:38 jobs.go:244: JOBS: Dispatching next job "24": "OpTypeDecodeReferenceTargets" for {"file:///home/ec2-user/Step1"}
+2022/08/09 14:52:38 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:52:38 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:52:38 opts.go:218: Received request batch of size 1 (qlen=1)
+2022/08/09 14:52:38 opts.go:218: Received request batch of size 1 (qlen=2)
+2022/08/09 14:52:38 opts.go:218: Received request batch of size 1 (qlen=3)
+2022/08/09 14:52:38 opts.go:218: Dequeued request batch of length 1 (qlen=3)
+2022/08/09 14:52:38 jobs.go:358: JOBS: Finishing job "24": "OpTypeDecodeReferenceTargets" for {"file:///home/ec2-user/Step1"} (err = %!s(<nil>), deferredJobs: [])
+2022/08/09 14:52:38 jobs.go:244: JOBS: Dispatching next job "25": "OpTypeDecodeReferenceOrigins" for {"file:///home/ec2-user/Step1"}
+2022/08/09 14:52:38 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:52:38 jobs.go:358: JOBS: Finishing job "25": "OpTypeDecodeReferenceOrigins" for {"file:///home/ec2-user/Step1"} (err = %!s(<nil>), deferredJobs: [])
+2022/08/09 14:52:38 opts.go:218: Posting server call "client.refreshModuleProviders" 
+2022/08/09 14:52:38 opts.go:218: Received response for callback "6"
+2022/08/09 14:52:38 opts.go:218: Dequeued request batch of length 1 (qlen=2)
+2022/08/09 14:52:38 opts.go:218: Dequeued request batch of length 1 (qlen=1)
+2022/08/09 14:52:38 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:52:38 rpc_logger.go:29: Incoming request for "textDocument/documentLink" (ID 18): {"textDocument":{"uri":"file:///home/ec2-user/Step1/provider.tf"}}
+2022/08/09 14:52:38 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:52:38 rpc_logger.go:50: Response to "textDocument/documentLink" (ID 18): [{"range":{"start":{"line":0,"character":9},"end":{"line":0,"character":14}},"target":"https://registry.terraform.io/providers/hashicorp/aws/4.23.0/docs?utm_content=documentLink\u0026utm_medium=Visual+Studio+Code\u0026utm_source=terraform-ls","tooltip":"hashicorp/aws Documentation"}]
+2022/08/09 14:52:38 opts.go:218: Completed 1 requests [6.471717ms elapsed]
+2022/08/09 14:52:38 rpc_logger.go:29: Incoming request for "workspace/executeCommand" (ID 15): {"command":"terraform-ls.module.callers","arguments":["uri=file:///home/ec2-user/Step1"]}
+2022/08/09 14:52:38 rpc_logger.go:50: Response to "workspace/executeCommand" (ID 15): {"v":0,"callers":[]}
+2022/08/09 14:52:38 opts.go:218: Completed 1 requests [27.528305ms elapsed]
+2022/08/09 14:52:38 rpc_logger.go:29: Incoming request for "textDocument/documentSymbol" (ID 16): {"textDocument":{"uri":"file:///home/ec2-user/Step1/provider.tf"}}
+2022/08/09 14:52:38 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:52:38 rpc_logger.go:50: Response to "textDocument/documentSymbol" (ID 16): [{"name":"provider \"aws\"","kind":5,"range":{"start":{"line":0,"character":0},"end":{"line":2,"character":1}},"selectionRange":{"start":{"line":0,"character":0},"end":{"line":2,"character":1}},"children":[{"name":"region","kind":14,"range":{"start":{"line":1,"character":2},"end":{"line":1,"character":21}},"selectionRange":{"start":{"line":1,"character":2},"end":{"line":1,"character":21}}}]}]
+2022/08/09 14:52:38 opts.go:218: Completed 1 requests [14.915193ms elapsed]
+2022/08/09 14:52:38 rpc_logger.go:29: Incoming request for "textDocument/semanticTokens/full" (ID 17): {"textDocument":{"uri":"file:///home/ec2-user/Step1/provider.tf"}}
+2022/08/09 14:52:38 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:52:38 rpc_logger.go:50: Response to "textDocument/semanticTokens/full" (ID 17): {"data":[0,0,8,10,512,0,9,5,11,642,1,2,6,9,0,0,9,3,18,0,0,4,6,18,0]}
+2022/08/09 14:52:38 opts.go:218: Completed 1 requests [21.936346ms elapsed]
+2022/08/09 14:52:38 opts.go:218: Posting server call "client.refreshModuleCalls" 
+2022/08/09 14:52:38 opts.go:218: Received response for callback "7"
+2022/08/09 14:52:38 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:52:38 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:52:38 rpc_logger.go:29: Incoming request for "textDocument/codeLens" (ID 19): {"textDocument":{"uri":"file:///home/ec2-user/Step1/provider.tf"}}
+2022/08/09 14:52:38 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:52:38 rpc_logger.go:50: Response to "textDocument/codeLens" (ID 19): []
+2022/08/09 14:52:38 opts.go:218: Completed 1 requests [8.031056ms elapsed]
+2022/08/09 14:52:39 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:52:39 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:52:39 rpc_logger.go:29: Incoming notification for "textDocument/didOpen": {"textDocument":{"uri":"file:///home/ec2-user/Step1/output.tf","languageId":"terraform","version":1,"text":"output \"region\" {\n  value = var.region\n}\n\noutput \"tags\" {\n  value = var.tags\n}\n\noutput \"vpc_id\" {\nvalue = aws_vpc.team1-vpc.id\n} \n\noutput \"public-1_id\" {\n value = aws_subnet.public-1.id\n} \n\noutput \"public-2_id\" {\n value = aws_subnet.public-2.id\n} \n\noutput \"public-3_id\" {\n value = aws_subnet.public-3.id\n} \n\noutput \"private-1_id\" {\n  value = aws_subnet.private-1.id\n}\n\noutput \"private-2_id\" {\n  value = aws_subnet.private-2.id\n}\n\noutput \"private-3_id\" {\n  value = aws_subnet.private-3.id\n}\n\noutput \"internet-gw\" {\n  value = aws_internet_gateway.internet-gw\n}\n\noutput \"aws_nat_gateway\" {\n   value = aws_nat_gateway.nat-gw.id\n   }\n\noutput \"elastic_ip\" {\n    value = aws_eip.eip-for-nat.allocation_id\n}\noutput \"aws_route_table_public\" {\n   value = aws_route_table.public.id \n   }\n\n   output \"aws_route_table_private\" {\n   value = aws_route_table.private.id \n   }\n"}}
+2022/08/09 14:52:39 did_open.go:42: opened module: /home/ec2-user/Step1
+2022/08/09 14:52:39 jobs.go:92: JOBS: Enqueueing new job "26": "OpTypeParseModuleConfiguration" for {"file:///home/ec2-user/Step1"}
+2022/08/09 14:52:39 jobs.go:92: JOBS: Enqueueing new job "27": "OpTypeParseVariables" for {"file:///home/ec2-user/Step1"}
+2022/08/09 14:52:39 jobs.go:244: JOBS: Dispatching next job "26": "OpTypeParseModuleConfiguration" for {"file:///home/ec2-user/Step1"}
+2022/08/09 14:52:39 jobs.go:92: JOBS: Enqueueing new job "28": "OpTypeLoadModuleMetadata" for {"file:///home/ec2-user/Step1"}
+2022/08/09 14:52:39 jobs.go:358: JOBS: Finishing job "26": "OpTypeParseModuleConfiguration" for {"file:///home/ec2-user/Step1"} (err = %!s(<nil>), deferredJobs: ["28"])
+2022/08/09 14:52:39 jobs.go:244: JOBS: Dispatching next job "27": "OpTypeParseVariables" for {"file:///home/ec2-user/Step1"}
+2022/08/09 14:52:39 jobs.go:92: JOBS: Enqueueing new job "29": "OpTypeDecodeVarsReferences" for {"file:///home/ec2-user/Step1"}
+2022/08/09 14:52:39 jobs.go:358: JOBS: Finishing job "27": "OpTypeParseVariables" for {"file:///home/ec2-user/Step1"} (err = %!s(<nil>), deferredJobs: ["29"])
+2022/08/09 14:52:39 jobs.go:244: JOBS: Dispatching next job "28": "OpTypeLoadModuleMetadata" for {"file:///home/ec2-user/Step1"}
+2022/08/09 14:52:39 jobs.go:92: JOBS: Enqueueing new job "30": "OpTypeDecodeReferenceTargets" for {"file:///home/ec2-user/Step1"}
+2022/08/09 14:52:39 jobs.go:92: JOBS: Enqueueing new job "31": "OpTypeDecodeReferenceOrigins" for {"file:///home/ec2-user/Step1"}
+2022/08/09 14:52:39 jobs.go:358: JOBS: Finishing job "28": "OpTypeLoadModuleMetadata" for {"file:///home/ec2-user/Step1"} (err = %!s(<nil>), deferredJobs: ["30" "31"])
+2022/08/09 14:52:39 jobs.go:244: JOBS: Dispatching next job "29": "OpTypeDecodeVarsReferences" for {"file:///home/ec2-user/Step1"}
+2022/08/09 14:52:39 jobs.go:358: JOBS: Finishing job "29": "OpTypeDecodeVarsReferences" for {"file:///home/ec2-user/Step1"} (err = %!s(<nil>), deferredJobs: [])
+2022/08/09 14:52:39 jobs.go:244: JOBS: Dispatching next job "30": "OpTypeDecodeReferenceTargets" for {"file:///home/ec2-user/Step1"}
+2022/08/09 14:52:39 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:52:39 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:52:39 opts.go:218: Received request batch of size 1 (qlen=1)
+2022/08/09 14:52:39 opts.go:218: Received request batch of size 1 (qlen=2)
+2022/08/09 14:52:39 opts.go:218: Received request batch of size 1 (qlen=3)
+2022/08/09 14:52:39 opts.go:218: Dequeued request batch of length 1 (qlen=3)
+2022/08/09 14:52:39 jobs.go:358: JOBS: Finishing job "30": "OpTypeDecodeReferenceTargets" for {"file:///home/ec2-user/Step1"} (err = %!s(<nil>), deferredJobs: [])
+2022/08/09 14:52:39 jobs.go:244: JOBS: Dispatching next job "31": "OpTypeDecodeReferenceOrigins" for {"file:///home/ec2-user/Step1"}
+2022/08/09 14:52:39 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:52:39 jobs.go:358: JOBS: Finishing job "31": "OpTypeDecodeReferenceOrigins" for {"file:///home/ec2-user/Step1"} (err = %!s(<nil>), deferredJobs: [])
+2022/08/09 14:52:39 opts.go:218: Posting server call "client.refreshModuleProviders" 
+2022/08/09 14:52:39 opts.go:218: Received response for callback "8"
+2022/08/09 14:52:39 opts.go:218: Dequeued request batch of length 1 (qlen=2)
+2022/08/09 14:52:39 opts.go:218: Dequeued request batch of length 1 (qlen=1)
+2022/08/09 14:52:39 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:52:39 rpc_logger.go:29: Incoming request for "textDocument/documentLink" (ID 23): {"textDocument":{"uri":"file:///home/ec2-user/Step1/output.tf"}}
+2022/08/09 14:52:39 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:52:39 rpc_logger.go:50: Response to "textDocument/documentLink" (ID 23): []
+2022/08/09 14:52:39 opts.go:218: Completed 1 requests [6.685064ms elapsed]
+2022/08/09 14:52:39 opts.go:218: Posting server call "client.refreshModuleCalls" 
+2022/08/09 14:52:39 rpc_logger.go:29: Incoming request for "workspace/executeCommand" (ID 20): {"command":"terraform-ls.module.callers","arguments":["uri=file:///home/ec2-user/Step1"]}
+2022/08/09 14:52:39 rpc_logger.go:50: Response to "workspace/executeCommand" (ID 20): {"v":0,"callers":[]}
+2022/08/09 14:52:39 opts.go:218: Completed 1 requests [22.001167ms elapsed]
+2022/08/09 14:52:39 rpc_logger.go:29: Incoming request for "textDocument/documentSymbol" (ID 21): {"textDocument":{"uri":"file:///home/ec2-user/Step1/output.tf"}}
+2022/08/09 14:52:39 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:52:39 rpc_logger.go:50: Response to "textDocument/documentSymbol" (ID 21): [{"name":"output \"region\"","kind":5,"range":{"start":{"line":0,"character":0},"end":{"line":2,"character":1}},"selectionRange":{"start":{"line":0,"character":0},"end":{"line":2,"character":1}},"children":[{"name":"value","kind":14,"range":{"start":{"line":1,"character":2},"end":{"line":1,"character":20}},"selectionRange":{"start":{"line":1,"character":2},"end":{"line":1,"character":20}}}]},{"name":"output \"tags\"","kind":5,"range":{"start":{"line":4,"character":0},"end":{"line":6,"character":1}},"selectionRange":{"start":{"line":4,"character":0},"end":{"line":6,"character":1}},"children":[{"name":"value","kind":14,"range":{"start":{"line":5,"character":2},"end":{"line":5,"character":18}},"selectionRange":{"start":{"line":5,"character":2},"end":{"line":5,"character":18}}}]},{"name":"output \"vpc_id\"","kind":5,"range":{"start":{"line":8,"character":0},"end":{"line":10,"character":1}},"selectionRange":{"start":{"line":8,"character":0},"end":{"line":10,"character":1}},"children":[{"name":"value","kind":14,"range":{"start":{"line":9,"character":0},"end":{"line":9,"character":28}},"selectionRange":{"start":{"line":9,"character":0},"end":{"line":9,"character":28}}}]},{"name":"output \"public-1_id\"","kind":5,"range":{"start":{"line":12,"character":0},"end":{"line":14,"character":1}},"selectionRange":{"start":{"line":12,"character":0},"end":{"line":14,"character":1}},"children":[{"name":"value","kind":14,"range":{"start":{"line":13,"character":1},"end":{"line":13,"character":31}},"selectionRange":{"start":{"line":13,"character":1},"end":{"line":13,"character":31}}}]},{"name":"output \"public-2_id\"","kind":5,"range":{"start":{"line":16,"character":0},"end":{"line":18,"character":1}},"selectionRange":{"start":{"line":16,"character":0},"end":{"line":18,"character":1}},"children":[{"name":"value","kind":14,"range":{"start":{"line":17,"character":1},"end":{"line":17,"character":31}},"selectionRange":{"start":{"line":17,"character":1},"end":{"line":17,"character":31}}}]},{"name":"output \"public-3_id\"","kind":5,"range":{"start":{"line":20,"character":0},"end":{"line":22,"character":1}},"selectionRange":{"start":{"line":20,"character":0},"end":{"line":22,"character":1}},"children":[{"name":"value","kind":14,"range":{"start":{"line":21,"character":1},"end":{"line":21,"character":31}},"selectionRange":{"start":{"line":21,"character":1},"end":{"line":21,"character":31}}}]},{"name":"output \"private-1_id\"","kind":5,"range":{"start":{"line":24,"character":0},"end":{"line":26,"character":1}},"selectionRange":{"start":{"line":24,"character":0},"end":{"line":26,"character":1}},"children":[{"name":"value","kind":14,"range":{"start":{"line":25,"character":2},"end":{"line":25,"character":33}},"selectionRange":{"start":{"line":25,"character":2},"end":{"line":25,"character":33}}}]},{"name":"output \"private-2_id\"","kind":5,"range":{"start":{"line":28,"character":0},"end":{"line":30,"character":1}},"selectionRange":{"start":{"line":28,"character":0},"end":{"line":30,"character":1}},"children":[{"name":"value","kind":14,"range":{"start":{"line":29,"character":2},"end":{"line":29,"character":33}},"selectionRange":{"start":{"line":29,"character":2},"end":{"line":29,"character":33}}}]},{"name":"output \"private-3_id\"","kind":5,"range":{"start":{"line":32,"character":0},"end":{"line":34,"character":1}},"selectionRange":{"start":{"line":32,"character":0},"end":{"line":34,"character":1}},"children":[{"name":"value","kind":14,"range":{"start":{"line":33,"character":2},"end":{"line":33,"character":33}},"selectionRange":{"start":{"line":33,"character":2},"end":{"line":33,"character":33}}}]},{"name":"output \"internet-gw\"","kind":5,"range":{"start":{"line":36,"character":0},"end":{"line":38,"character":1}},"selectionRange":{"start":{"line":36,"character":0},"end":{"line":38,"character":1}},"children":[{"name":"value","kind":14,"range":{"start":{"line":37,"character":2},"end":{"line":37,"character":42}},"selectionRange":{"start":{"line":37,"character":2},"end":{"line":37,"character":42}}}]},{"name":"output \"aws_nat_gateway\"","kind":5,"range":{"start":{"line":40,"character":0},"end":{"line":42,"character":4}},"selectionRange":{"start":{"line":40,"character":0},"end":{"line":42,"character":4}},"children":[{"name":"value","kind":14,"range":{"start":{"line":41,"character":3},"end":{"line":41,"character":36}},"selectionRange":{"start":{"line":41,"character":3},"end":{"line":41,"character":36}}}]},{"name":"output \"elastic_ip\"","kind":5,"range":{"start":{"line":44,"character":0},"end":{"line":46,"character":1}},"selectionRange":{"start":{"line":44,"character":0},"end":{"line":46,"character":1}},"children":[{"name":"value","kind":14,"range":{"start":{"line":45,"character":4},"end":{"line":45,"character":45}},"selectionRange":{"start":{"line":45,"character":4},"end":{"line":45,"character":45}}}]},{"name":"output \"aws_route_table_public\"","kind":5,"range":{"start":{"line":47,"character":0},"end":{"line":49,"character":4}},"selectionRange":{"start":{"line":47,"character":0},"end":{"line":49,"character":4}},"children":[{"name":"value","kind":14,"range":{"start":{"line":48,"character":3},"end":{"line":48,"character":36}},"selectionRange":{"start":{"line":48,"character":3},"end":{"line":48,"character":36}}}]},{"name":"output \"aws_route_table_private\"","kind":5,"range":{"start":{"line":51,"character":3},"end":{"line":53,"character":4}},"selectionRange":{"start":{"line":51,"character":3},"end":{"line":53,"character":4}},"children":[{"name":"value","kind":14,"range":{"start":{"line":52,"character":3},"end":{"line":52,"character":37}},"selectionRange":{"start":{"line":52,"character":3},"end":{"line":52,"character":37}}}]}]
+2022/08/09 14:52:39 opts.go:218: Completed 1 requests [14.655286ms elapsed]
+2022/08/09 14:52:39 rpc_logger.go:29: Incoming request for "textDocument/semanticTokens/full" (ID 22): {"textDocument":{"uri":"file:///home/ec2-user/Step1/output.tf"}}
+2022/08/09 14:52:39 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:52:39 rpc_logger.go:50: Response to "textDocument/semanticTokens/full" (ID 22): {"data":[0,0,6,10,256,0,7,8,11,384,1,2,5,9,256,0,8,3,18,0,0,4,6,18,0,3,0,6,10,256,0,7,6,11,384,1,2,5,9,256,0,8,3,18,0,0,4,4,18,0,3,0,6,10,256,0,7,8,11,384,1,0,5,9,256,0,8,7,18,0,0,8,9,18,0,0,10,2,18,0,3,0,6,10,256,0,7,13,11,384,1,1,5,9,256,0,8,10,18,0,0,11,8,18,0,0,9,2,18,0,3,0,6,10,256,0,7,13,11,384,1,1,5,9,256,0,8,10,18,0,0,11,8,18,0,0,9,2,18,0,3,0,6,10,256,0,7,13,11,384,1,1,5,9,256,0,8,10,18,0,0,11,8,18,0,0,9,2,18,0,3,0,6,10,256,0,7,14,11,384,1,2,5,9,256,0,8,10,18,0,0,11,9,18,0,0,10,2,18,0,3,0,6,10,256,0,7,14,11,384,1,2,5,9,256,0,8,10,18,0,0,11,9,18,0,0,10,2,18,0,3,0,6,10,256,0,7,14,11,384,1,2,5,9,256,0,8,10,18,0,0,11,9,18,0,0,10,2,18,0,3,0,6,10,256,0,7,13,11,384,1,2,5,9,256,0,8,20,18,0,0,21,11,18,0,3,0,6,10,256,0,7,17,11,384,1,3,5,9,256,0,8,15,18,0,0,16,6,18,0,0,7,2,18,0,3,0,6,10,256,0,7,12,11,384,1,4,5,9,256,0,8,7,18,0,0,8,11,18,0,0,12,13,18,0,2,0,6,10,256,0,7,24,11,384,1,3,5,9,256,0,8,15,18,0,0,16,6,18,0,0,7,2,18,0,3,3,6,10,256,0,7,25,11,384,1,3,5,9,256,0,8,15,18,0,0,16,7,18,0,0,8,2,18,0]}
+2022/08/09 14:52:39 opts.go:218: Completed 1 requests [21.860945ms elapsed]
+2022/08/09 14:52:39 opts.go:218: Received response for callback "9"
+2022/08/09 14:52:39 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:52:39 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:52:39 rpc_logger.go:29: Incoming request for "textDocument/codeLens" (ID 24): {"textDocument":{"uri":"file:///home/ec2-user/Step1/output.tf"}}
+2022/08/09 14:52:39 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:52:39 rpc_logger.go:50: Response to "textDocument/codeLens" (ID 24): []
+2022/08/09 14:52:39 opts.go:218: Completed 1 requests [7.376153ms elapsed]
+2022/08/09 14:52:42 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:52:42 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:52:42 rpc_logger.go:29: Incoming request for "workspace/executeCommand" (ID 25): {"command":"terraform-ls.module.callers","arguments":["uri=file:///home/ec2-user/Step1"]}
+2022/08/09 14:52:42 rpc_logger.go:50: Response to "workspace/executeCommand" (ID 25): {"v":0,"callers":[]}
+2022/08/09 14:52:42 opts.go:218: Completed 1 requests [143.334µs elapsed]
+2022/08/09 14:52:42 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:52:42 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:52:42 rpc_logger.go:29: Incoming request for "textDocument/documentLink" (ID 26): {"textDocument":{"uri":"file:///home/ec2-user/Step1/provider.tf"}}
+2022/08/09 14:52:42 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:52:42 rpc_logger.go:50: Response to "textDocument/documentLink" (ID 26): [{"range":{"start":{"line":0,"character":9},"end":{"line":0,"character":14}},"target":"https://registry.terraform.io/providers/hashicorp/aws/4.23.0/docs?utm_content=documentLink\u0026utm_medium=Visual+Studio+Code\u0026utm_source=terraform-ls","tooltip":"hashicorp/aws Documentation"}]
+2022/08/09 14:52:42 opts.go:218: Completed 1 requests [6.972571ms elapsed]
+2022/08/09 14:52:42 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:52:42 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:52:42 rpc_logger.go:29: Incoming request for "textDocument/codeLens" (ID 27): {"textDocument":{"uri":"file:///home/ec2-user/Step1/provider.tf"}}
+2022/08/09 14:52:42 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:52:42 rpc_logger.go:50: Response to "textDocument/codeLens" (ID 27): []
+2022/08/09 14:52:42 opts.go:218: Completed 1 requests [7.846944ms elapsed]
+2022/08/09 14:52:44 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:52:44 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:52:44 rpc_logger.go:29: Incoming request for "workspace/executeCommand" (ID 28): {"command":"terraform-ls.module.callers","arguments":["uri=file:///home/ec2-user/Step1"]}
+2022/08/09 14:52:44 rpc_logger.go:50: Response to "workspace/executeCommand" (ID 28): {"v":0,"callers":[]}
+2022/08/09 14:52:44 opts.go:218: Completed 1 requests [128.44µs elapsed]
+2022/08/09 14:52:44 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:52:44 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:52:44 rpc_logger.go:29: Incoming request for "textDocument/documentLink" (ID 29): {"textDocument":{"uri":"file:///home/ec2-user/Step1/main.tf"}}
+2022/08/09 14:52:44 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:52:44 rpc_logger.go:50: Response to "textDocument/documentLink" (ID 29): []
+2022/08/09 14:52:44 opts.go:218: Completed 1 requests [6.767803ms elapsed]
+2022/08/09 14:52:44 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:52:44 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:52:44 rpc_logger.go:29: Incoming request for "textDocument/codeLens" (ID 30): {"textDocument":{"uri":"file:///home/ec2-user/Step1/main.tf"}}
+2022/08/09 14:52:44 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:52:44 rpc_logger.go:50: Response to "textDocument/codeLens" (ID 30): []
+2022/08/09 14:52:44 opts.go:218: Completed 1 requests [8.08309ms elapsed]
+2022/08/09 14:52:58 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:52:58 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:52:58 rpc_logger.go:29: Incoming notification for "textDocument/didClose": {"textDocument":{"uri":"file:///home/ec2-user/Step1/output.tf"}}
+2022/08/09 14:53:16 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:53:16 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:53:16 rpc_logger.go:29: Incoming notification for "textDocument/didOpen": {"textDocument":{"uri":"file:///home/ec2-user/Step1/envs/hongkong.tfvars","languageId":"terraform-vars","version":1,"text":"vpc_name = \"team-1-vpc\"\nregion = \"ap-east-1\""}}
+2022/08/09 14:53:16 did_open.go:42: opened module: /home/ec2-user/Step1/envs
+2022/08/09 14:53:16 jobs.go:92: JOBS: Enqueueing new job "32": "OpTypeParseModuleConfiguration" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/09 14:53:16 jobs.go:92: JOBS: Enqueueing new job "33": "OpTypeParseVariables" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/09 14:53:16 jobs.go:92: JOBS: Enqueueing new job "34": "OpTypeGetTerraformVersion" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/09 14:53:16 watcher.go:86: adding module for watching: /home/ec2-user/Step1/envs
+2022/08/09 14:53:16 jobs.go:244: JOBS: Dispatching next job "32": "OpTypeParseModuleConfiguration" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/09 14:53:16 jobs.go:92: JOBS: Enqueueing new job "35": "OpTypeLoadModuleMetadata" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/09 14:53:16 jobs.go:358: JOBS: Finishing job "32": "OpTypeParseModuleConfiguration" for {"file:///home/ec2-user/Step1/envs"} (err = %!s(<nil>), deferredJobs: ["35"])
+2022/08/09 14:53:16 jobs.go:244: JOBS: Dispatching next job "33": "OpTypeParseVariables" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/09 14:53:16 jobs.go:92: JOBS: Enqueueing new job "36": "OpTypeDecodeVarsReferences" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/09 14:53:16 jobs.go:358: JOBS: Finishing job "33": "OpTypeParseVariables" for {"file:///home/ec2-user/Step1/envs"} (err = %!s(<nil>), deferredJobs: ["36"])
+2022/08/09 14:53:16 jobs.go:244: JOBS: Dispatching next job "34": "OpTypeGetTerraformVersion" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/09 14:53:16 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:53:16 opts.go:218: Received request batch of size 1 (qlen=1)
+2022/08/09 14:53:16 opts.go:218: Dequeued request batch of length 1 (qlen=1)
+2022/08/09 14:53:16 opts.go:218: Received request batch of size 1 (qlen=1)
+2022/08/09 14:53:16 jobs.go:358: JOBS: Finishing job "34": "OpTypeGetTerraformVersion" for {"file:///home/ec2-user/Step1/envs"} (err = %!s(<nil>), deferredJobs: [])
+2022/08/09 14:53:16 jobs.go:244: JOBS: Dispatching next job "35": "OpTypeLoadModuleMetadata" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/09 14:53:16 jobs.go:92: JOBS: Enqueueing new job "37": "OpTypeDecodeReferenceTargets" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/09 14:53:16 jobs.go:92: JOBS: Enqueueing new job "38": "OpTypeDecodeReferenceOrigins" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/09 14:53:16 jobs.go:358: JOBS: Finishing job "35": "OpTypeLoadModuleMetadata" for {"file:///home/ec2-user/Step1/envs"} (err = %!s(<nil>), deferredJobs: ["37" "38"])
+2022/08/09 14:53:16 jobs.go:244: JOBS: Dispatching next job "36": "OpTypeDecodeVarsReferences" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/09 14:53:16 jobs.go:358: JOBS: Finishing job "36": "OpTypeDecodeVarsReferences" for {"file:///home/ec2-user/Step1/envs"} (err = %!s(<nil>), deferredJobs: [])
+2022/08/09 14:53:16 jobs.go:244: JOBS: Dispatching next job "37": "OpTypeDecodeReferenceTargets" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/09 14:53:16 jobs.go:358: JOBS: Finishing job "37": "OpTypeDecodeReferenceTargets" for {"file:///home/ec2-user/Step1/envs"} (err = %!s(<nil>), deferredJobs: [])
+2022/08/09 14:53:16 jobs.go:244: JOBS: Dispatching next job "38": "OpTypeDecodeReferenceOrigins" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/09 14:53:16 jobs.go:358: JOBS: Finishing job "38": "OpTypeDecodeReferenceOrigins" for {"file:///home/ec2-user/Step1/envs"} (err = %!s(<nil>), deferredJobs: [])
+2022/08/09 14:53:16 opts.go:218: Dequeued request batch of length 1 (qlen=1)
+2022/08/09 14:53:16 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:53:16 rpc_logger.go:29: Incoming request for "textDocument/documentLink" (ID 33): {"textDocument":{"uri":"file:///home/ec2-user/Step1/envs/hongkong.tfvars"}}
+2022/08/09 14:53:16 rpc_logger.go:50: Response to "textDocument/documentLink" (ID 33): null
+2022/08/09 14:53:16 opts.go:218: Completed 1 requests [366.893µs elapsed]
+2022/08/09 14:53:16 opts.go:218: Posting server notification "telemetry/event" {"v":1,"name":"moduleData","properties":{"moduleId":"a78008f2-c6e6-b606-5fab-c033f9caa58a","tfVersion":"0.14.1"}}
+2022/08/09 14:53:16 rpc_logger.go:29: Incoming request for "textDocument/documentSymbol" (ID 31): {"textDocument":{"uri":"file:///home/ec2-user/Step1/envs/hongkong.tfvars"}}
+2022/08/09 14:53:16 rpc_logger.go:50: Response to "textDocument/documentSymbol" (ID 31): [{"name":"vpc_name","kind":15,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":23}},"selectionRange":{"start":{"line":0,"character":0},"end":{"line":0,"character":23}}},{"name":"region","kind":15,"range":{"start":{"line":1,"character":0},"end":{"line":1,"character":20}},"selectionRange":{"start":{"line":1,"character":0},"end":{"line":1,"character":20}}}]
+2022/08/09 14:53:16 opts.go:218: Completed 1 requests [100.141078ms elapsed]
+2022/08/09 14:53:16 rpc_logger.go:29: Incoming request for "textDocument/semanticTokens/full" (ID 32): {"textDocument":{"uri":"file:///home/ec2-user/Step1/envs/hongkong.tfvars"}}
+2022/08/09 14:53:16 rpc_logger.go:50: Response to "textDocument/semanticTokens/full" (ID 32): {"data":[]}
+2022/08/09 14:53:16 opts.go:218: Completed 1 requests [2.275649ms elapsed]
+2022/08/09 14:53:16 opts.go:218: Posting server call "client.refreshModuleProviders" 
+2022/08/09 14:53:16 opts.go:218: Received response for callback "10"
+2022/08/09 14:53:16 opts.go:218: Posting server call "client.refreshModuleCalls" 
+2022/08/09 14:53:16 opts.go:218: Received response for callback "11"
+2022/08/09 14:53:16 opts.go:218: Posting server call "workspace/semanticTokens/refresh" 
+2022/08/09 14:53:16 opts.go:218: Received response for callback "12"
+2022/08/09 14:53:16 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:53:16 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:53:16 rpc_logger.go:29: Incoming request for "textDocument/semanticTokens/full" (ID 34): {"textDocument":{"uri":"file:///home/ec2-user/Step1/main.tf"}}
+2022/08/09 14:53:16 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:53:16 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:53:16 opts.go:218: Received request batch of size 1 (qlen=1)
+2022/08/09 14:53:16 opts.go:218: Received request batch of size 1 (qlen=2)
+2022/08/09 14:53:16 opts.go:218: Dequeued request batch of length 1 (qlen=2)
+2022/08/09 14:53:16 opts.go:218: Dequeued request batch of length 1 (qlen=1)
+2022/08/09 14:53:16 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:53:16 rpc_logger.go:50: Response to "textDocument/semanticTokens/full" (ID 34): {"data":[1,0,8,10,4096,0,9,9,11,20482,0,10,11,11,4224,1,4,10,9,0,0,13,3,18,0,0,4,10,18,0,2,2,4,9,0,1,8,4,16,0,0,7,11,13,0,5,0,8,10,4096,0,9,12,11,20482,0,13,10,11,4224,1,4,6,9,0,0,9,7,18,0,0,8,9,18,0,0,10,2,18,0,1,4,10,9,0,0,13,3,18,0,0,4,8,18,0,1,4,17,9,0,0,20,3,18,0,0,4,17,18,0,1,4,23,9,0,0,26,4,12,0,2,4,4,9,0,1,8,4,16,0,0,7,10,13,0,4,0,8,10,4096,0,9,12,11,20482,0,13,10,11,4224,1,4,6,9,0,0,9,7,18,0,0,8,9,18,0,0,10,2,18,0,1,4,10,9,0,0,13,3,18,0,0,4,8,18,0,1,4,17,9,0,0,20,3,18,0,0,4,17,18,0,1,4,23,9,0,0,26,4,12,0,2,4,4,9,0,1,8,4,16,0,0,7,10,13,0,4,0,8,10,4096,0,9,12,11,20482,0,13,10,11,4224,1,4,6,9,0,0,9,7,18,0,0,8,9,18,0,0,10,2,18,0,1,4,10,9,0,0,13,3,18,0,0,4,8,18,0,1,4,17,9,0,0,20,3,18,0,0,4,17,18,0,1,4,23,9,0,0,26,4,12,0,2,5,4,9,0,1,8,4,16,0,0,7,10,13,0,7,0,8,10,4096,0,9,12,11,20482,0,13,11,11,4224,1,4,6,9,0,0,9,7,18,0,0,8,9,18,0,0,10,2,18,0,1,4,10,9,0,0,13,3,18,0,0,4,9,18,0,1,4,17,9,0,0,20,3,18,0,0,4,17,18,0,1,4,23,9,0,0,26,5,12,0,2,5,4,9,0,1,8,4,16,0,0,7,11,13,0,4,0,8,10,4096,0,9,12,11,20482,0,13,11,11,4224,1,4,6,9,0,0,9,7,18,0,0,8,9,18,0,0,10,2,18,0,1,4,10,9,0,0,13,3,18,0,0,4,9,18,0,1,4,17,9,0,0,20,3,18,0,0,4,17,18,0,1,4,23,9,0,0,26,5,12,0,2,5,4,9,0,1,8,4,16,0,0,7,11,13,0,4,0,8,10,4096,0,9,12,11,20482,0,13,11,11,4224,1,4,6,9,0,0,9,7,18,0,0,8,9,18,0,0,10,2,18,0,1,4,10,9,0,0,13,3,18,0,0,4,9,18,0,1,4,17,9,0,0,20,3,18,0,0,4,17,18,0,1,4,23,9,0,0,26,5,12,0,2,4,4,9,0,1,8,4,16,0,0,7,11,13,0,6,0,8,10,4096,0,9,22,11,20482,0,23,13,11,4224,1,4,6,9,0,0,9,7,18,0,0,8,9,18,0,0,10,2,18,0,2,4,4,9,0,1,8,4,16,0,0,7,13,13,0,7,0,8,10,4096,0,9,9,11,20482,0,10,13,11,4224,1,4,3,9,0,0,6,4,12,0,2,4,4,9,0,1,8,4,16,0,0,7,12,13,0,7,0,8,10,4096,0,9,17,11,20482,0,18,8,11,4224,1,4,13,9,0,0,16,7,18,0,0,8,11,18,0,0,12,2,18,0,1,4,9,9,0,0,12,10,18,0,0,11,8,18,0,0,9,2,18,0,1,4,17,9,0,0,20,8,13,0,5,0,8,10,4096,0,9,17,11,20482,0,18,8,11,4224,1,4,6,9,0,0,9,7,18,0,0,8,9,18,0,0,10,2,18,0,2,10,4,9,0,1,8,4,16,0,0,7,8,13,0,3,4,5,10,0,1,8,10,9,0,0,13,11,13,0,1,8,10,9,0,0,13,20,18,0,0,21,11,18,0,0,12,2,18,0,5,0,8,10,4096,0,9,17,11,20482,0,18,9,11,4224,1,4,6,9,0,0,9,7,18,0,0,8,9,18,0,0,10,2,18,0,2,4,4,9,0,1,8,4,16,0,0,7,9,13,0,3,4,5,10,0,1,8,10,9,0,0,13,11,13,0,1,8,14,9,0,0,17,15,18,0,0,16,6,18,0,0,7,2,18,0,7,0,8,10,4096,0,9,29,11,20482,0,30,12,11,4224,1,4,9,9,0,0,12,10,18,0,0,11,8,18,0,0,9,2,18,0,1,4,14,9,0,0,17,15,18,0,0,16,6,18,0,0,7,2,18,0,3,0,8,10,4096,0,9,29,11,20482,0,30,12,11,4224,1,4,9,9,0,0,12,10,18,0,0,11,8,18,0,0,9,2,18,0,1,4,14,9,0,0,17,15,18,0,0,16,6,18,0,0,7,2,18,0,3,0,8,10,4096,0,9,29,11,20482,0,30,12,11,4224,1,4,9,9,0,0,12,10,18,0,0,11,8,18,0,0,9,2,18,0,1,4,14,9,0,0,17,15,18,0,0,16,6,18,0,0,7,2,18,0,6,0,8,10,4096,0,9,29,11,20482,0,30,13,11,4224,1,4,9,9,0,0,12,10,18,0,0,11,9,18,0,0,10,2,18,0,1,4,14,9,0,0,17,15,18,0,0,16,7,18,0,0,8,2,18,0,4,0,8,10,4096,0,9,29,11,20482,0,30,13,11,4224,1,4,9,9,0,0,12,10,18,0,0,11,9,18,0,0,10,2,18,0,1,4,14,9,0,0,17,15,18,0,0,16,7,18,0,0,8,2,18,0,4,0,8,10,4096,0,9,29,11,20482,0,30,13,11,4224,1,4,9,9,0,0,12,10,18,0,0,11,9,18,0,0,10,2,18,0,1,4,14,9,0,0,17,15,18,0,0,16,7,18,0,0,8,2,18,0]}
+2022/08/09 14:53:16 opts.go:218: Completed 1 requests [19.036121ms elapsed]
+2022/08/09 14:53:16 rpc_logger.go:29: Incoming request for "textDocument/semanticTokens/full" (ID 37): {"textDocument":{"uri":"file:///home/ec2-user/Step1/envs/hongkong.tfvars"}}
+2022/08/09 14:53:16 rpc_logger.go:50: Response to "textDocument/semanticTokens/full" (ID 37): {"data":[]}
+2022/08/09 14:53:16 opts.go:218: Completed 1 requests [13.051044ms elapsed]
+2022/08/09 14:53:16 rpc_logger.go:29: Incoming request for "textDocument/semanticTokens/full" (ID 35): {"textDocument":{"uri":"file:///home/ec2-user/Step1/variable.tf"}}
+2022/08/09 14:53:16 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:53:16 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:53:16 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:53:16 rpc_logger.go:50: Response to "textDocument/semanticTokens/full" (ID 35): {"data":[0,0,8,10,32768,0,9,10,11,32768,1,2,11,9,32768,0,14,18,13,0,1,2,4,9,32768,0,7,6,20,0,1,2,7,9,0,0,10,2,13,0,4,0,8,10,32768,0,9,8,11,32768,1,2,11,9,32768,0,14,25,13,0,1,2,4,9,32768,0,14,6,20,0,1,2,7,9,0,0,14,2,13,0,3,0,8,10,32768,0,9,19,11,32768,1,2,11,9,32768,0,14,27,13,0,1,2,4,9,32768,0,7,6,20,0,1,2,7,9,0,0,10,2,13,0,3,0,8,10,32768,0,9,12,11,32768,1,2,11,9,32768,0,14,35,13,0,1,2,4,9,32768,0,14,6,20,0,1,2,7,9,0,0,14,13,13,0,3,0,8,10,32768,0,9,6,11,32768,1,2,11,9,32768,0,14,36,13,0,1,2,4,9,32768,0,14,3,19,0,0,4,3,20,0,1,2,7,9,0,2,0,8,10,32768,0,9,10,11,32768,1,2,11,9,32768,0,14,34,13,0,1,2,4,9,32768,0,14,6,20,0,1,2,7,9,0,0,14,15,13,0,2,0,8,10,32768,0,9,10,11,32768,1,2,11,9,32768,0,14,34,13,0,1,2,4,9,32768,0,14,6,20,0,1,2,7,9,0,0,14,15,13,0,2,0,8,10,32768,0,9,10,11,32768,1,2,11,9,32768,0,14,34,13,0,1,2,4,9,32768,0,14,6,20,0,1,2,7,9,0,0,14,15,13,0,2,0,8,10,32768,0,9,11,11,32768,1,2,11,9,32768,0,14,34,13,0,1,2,4,9,32768,0,14,6,20,0,1,2,7,9,0,0,14,13,13,0,2,0,8,10,32768,0,9,11,11,32768,1,2,11,9,32768,0,14,34,13,0,1,2,4,9,32768,0,14,6,20,0,1,2,7,9,0,0,14,13,13,0,2,0,8,10,32768,0,9,11,11,32768,1,2,11,9,32768,0,14,48,13,0,1,2,4,9,32768,0,14,6,20,0,1,2,7,9,0,0,14,13,13,0]}
+2022/08/09 14:53:16 opts.go:218: Completed 1 requests [29.425658ms elapsed]
+2022/08/09 14:53:16 rpc_logger.go:29: Incoming request for "textDocument/semanticTokens/full" (ID 36): {"textDocument":{"uri":"file:///home/ec2-user/Step1/provider.tf"}}
+2022/08/09 14:53:16 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:53:16 rpc_logger.go:50: Response to "textDocument/semanticTokens/full" (ID 36): {"data":[0,0,8,10,512,0,9,5,11,642,1,2,6,9,0,0,9,3,18,0,0,4,6,18,0]}
+2022/08/09 14:53:16 opts.go:218: Completed 1 requests [44.160304ms elapsed]
+2022/08/09 14:53:16 rpc_logger.go:29: Incoming request for "textDocument/codeLens" (ID 38): {"textDocument":{"uri":"file:///home/ec2-user/Step1/envs/hongkong.tfvars"}}
+2022/08/09 14:53:16 rpc_logger.go:50: Response to "textDocument/codeLens" (ID 38): []
+2022/08/09 14:53:16 opts.go:218: Completed 1 requests [15.852529ms elapsed]
+2022/08/09 14:53:36 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:53:36 opts.go:218: Received request batch of size 1 (qlen=1)
+2022/08/09 14:53:36 opts.go:218: Received request batch of size 1 (qlen=2)
+2022/08/09 14:53:36 opts.go:218: Dequeued request batch of length 1 (qlen=2)
+2022/08/09 14:53:36 opts.go:218: Dequeued request batch of length 1 (qlen=1)
+2022/08/09 14:53:36 rpc_logger.go:29: Incoming notification for "textDocument/didOpen": {"textDocument":{"uri":"file:///home/ec2-user/Step1/envs/frankfurt.tfvars","languageId":"terraform-vars","version":1,"text":"vpc_name = \"team-1-vpc\"\nregion = \"eu-cantral-1\""}}
+2022/08/09 14:53:36 did_open.go:42: opened module: /home/ec2-user/Step1/envs
+2022/08/09 14:53:36 jobs.go:92: JOBS: Enqueueing new job "39": "OpTypeParseModuleConfiguration" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/09 14:53:36 jobs.go:92: JOBS: Enqueueing new job "40": "OpTypeParseVariables" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/09 14:53:36 jobs.go:244: JOBS: Dispatching next job "39": "OpTypeParseModuleConfiguration" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/09 14:53:36 jobs.go:92: JOBS: Enqueueing new job "41": "OpTypeLoadModuleMetadata" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/09 14:53:36 jobs.go:358: JOBS: Finishing job "39": "OpTypeParseModuleConfiguration" for {"file:///home/ec2-user/Step1/envs"} (err = %!s(<nil>), deferredJobs: ["41"])
+2022/08/09 14:53:36 jobs.go:244: JOBS: Dispatching next job "40": "OpTypeParseVariables" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/09 14:53:36 jobs.go:92: JOBS: Enqueueing new job "42": "OpTypeDecodeVarsReferences" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/09 14:53:36 jobs.go:358: JOBS: Finishing job "40": "OpTypeParseVariables" for {"file:///home/ec2-user/Step1/envs"} (err = %!s(<nil>), deferredJobs: ["42"])
+2022/08/09 14:53:36 jobs.go:244: JOBS: Dispatching next job "41": "OpTypeLoadModuleMetadata" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/09 14:53:36 jobs.go:92: JOBS: Enqueueing new job "43": "OpTypeDecodeReferenceTargets" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/09 14:53:36 jobs.go:92: JOBS: Enqueueing new job "44": "OpTypeDecodeReferenceOrigins" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/09 14:53:36 jobs.go:358: JOBS: Finishing job "41": "OpTypeLoadModuleMetadata" for {"file:///home/ec2-user/Step1/envs"} (err = %!s(<nil>), deferredJobs: ["43" "44"])
+2022/08/09 14:53:36 jobs.go:244: JOBS: Dispatching next job "42": "OpTypeDecodeVarsReferences" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/09 14:53:36 jobs.go:358: JOBS: Finishing job "42": "OpTypeDecodeVarsReferences" for {"file:///home/ec2-user/Step1/envs"} (err = %!s(<nil>), deferredJobs: [])
+2022/08/09 14:53:36 jobs.go:244: JOBS: Dispatching next job "43": "OpTypeDecodeReferenceTargets" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/09 14:53:36 jobs.go:358: JOBS: Finishing job "43": "OpTypeDecodeReferenceTargets" for {"file:///home/ec2-user/Step1/envs"} (err = %!s(<nil>), deferredJobs: [])
+2022/08/09 14:53:36 jobs.go:244: JOBS: Dispatching next job "44": "OpTypeDecodeReferenceOrigins" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/09 14:53:36 jobs.go:358: JOBS: Finishing job "44": "OpTypeDecodeReferenceOrigins" for {"file:///home/ec2-user/Step1/envs"} (err = %!s(<nil>), deferredJobs: [])
+2022/08/09 14:53:36 opts.go:218: Posting server call "client.refreshModuleProviders" 
+2022/08/09 14:53:36 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:53:36 rpc_logger.go:29: Incoming request for "textDocument/semanticTokens/full" (ID 40): {"textDocument":{"uri":"file:///home/ec2-user/Step1/envs/frankfurt.tfvars"}}
+2022/08/09 14:53:36 rpc_logger.go:50: Response to "textDocument/semanticTokens/full" (ID 40): {"data":[]}
+2022/08/09 14:53:36 opts.go:218: Completed 1 requests [115.347µs elapsed]
+2022/08/09 14:53:36 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:53:36 opts.go:218: Received response for callback "13"
+2022/08/09 14:53:36 opts.go:218: Posting server call "client.refreshModuleCalls" 
+2022/08/09 14:53:36 rpc_logger.go:29: Incoming request for "textDocument/documentSymbol" (ID 39): {"textDocument":{"uri":"file:///home/ec2-user/Step1/envs/frankfurt.tfvars"}}
+2022/08/09 14:53:36 rpc_logger.go:50: Response to "textDocument/documentSymbol" (ID 39): [{"name":"vpc_name","kind":15,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":23}},"selectionRange":{"start":{"line":0,"character":0},"end":{"line":0,"character":23}}},{"name":"region","kind":15,"range":{"start":{"line":1,"character":0},"end":{"line":1,"character":23}},"selectionRange":{"start":{"line":1,"character":0},"end":{"line":1,"character":23}}}]
+2022/08/09 14:53:36 opts.go:218: Completed 1 requests [10.674294ms elapsed]
+2022/08/09 14:53:36 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:53:36 rpc_logger.go:29: Incoming request for "textDocument/documentLink" (ID 41): {"textDocument":{"uri":"file:///home/ec2-user/Step1/envs/frankfurt.tfvars"}}
+2022/08/09 14:53:36 rpc_logger.go:50: Response to "textDocument/documentLink" (ID 41): null
+2022/08/09 14:53:36 opts.go:218: Completed 1 requests [68.903µs elapsed]
+2022/08/09 14:53:36 opts.go:218: Received response for callback "14"
+2022/08/09 14:53:36 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:53:36 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:53:36 rpc_logger.go:29: Incoming request for "textDocument/codeLens" (ID 42): {"textDocument":{"uri":"file:///home/ec2-user/Step1/envs/frankfurt.tfvars"}}
+2022/08/09 14:53:36 rpc_logger.go:50: Response to "textDocument/codeLens" (ID 42): []
+2022/08/09 14:53:36 opts.go:218: Completed 1 requests [197.849µs elapsed]
+2022/08/09 14:54:00 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:54:00 opts.go:218: Received request batch of size 1 (qlen=1)
+2022/08/09 14:54:00 opts.go:218: Dequeued request batch of length 1 (qlen=1)
+2022/08/09 14:54:00 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:54:00 rpc_logger.go:29: Incoming request for "textDocument/documentLink" (ID 44): {"textDocument":{"uri":"file:///home/ec2-user/Step1/main.tf"}}
+2022/08/09 14:54:00 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:54:00 rpc_logger.go:50: Response to "textDocument/documentLink" (ID 44): []
+2022/08/09 14:54:00 opts.go:218: Completed 1 requests [8.242167ms elapsed]
+2022/08/09 14:54:00 rpc_logger.go:29: Incoming request for "workspace/executeCommand" (ID 43): {"command":"terraform-ls.module.callers","arguments":["uri=file:///home/ec2-user/Step1"]}
+2022/08/09 14:54:00 rpc_logger.go:50: Response to "workspace/executeCommand" (ID 43): {"v":0,"callers":[]}
+2022/08/09 14:54:00 opts.go:218: Completed 1 requests [9.419079ms elapsed]
+2022/08/09 14:54:00 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:54:00 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:54:00 rpc_logger.go:29: Incoming request for "textDocument/codeLens" (ID 45): {"textDocument":{"uri":"file:///home/ec2-user/Step1/main.tf"}}
+2022/08/09 14:54:00 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:54:00 rpc_logger.go:50: Response to "textDocument/codeLens" (ID 45): []
+2022/08/09 14:54:00 opts.go:218: Completed 1 requests [7.699381ms elapsed]
+2022/08/09 14:54:01 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:54:01 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:54:01 rpc_logger.go:29: Incoming request for "textDocument/hover" (ID 46): {"textDocument":{"uri":"file:///home/ec2-user/Step1/main.tf"},"position":{"line":125,"character":25}}
+2022/08/09 14:54:01 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:54:01 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:54:01 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:54:01 hover.go:32: Looking for hover data at "main.tf" -> hcl.Pos{Line:126, Column:26, Byte:2351}
+2022/08/09 14:54:01 hover.go:34: received hover data: &lang.HoverData{Content:lang.MarkupContent{Value:"`aws_route_table` hashicorp/aws 4.23.0\n\nResource Type", Kind:0x2}, Range:hcl.Range{Filename:"main.tf", Start:hcl.Pos{Line:126, Column:10, Byte:2335}, End:hcl.Pos{Line:126, Column:27, Byte:2352}}}
+2022/08/09 14:54:01 rpc_logger.go:50: Response to "textDocument/hover" (ID 46): {"contents":{"kind":"markdown","value":"`aws_route_table` hashicorp/aws 4.23.0\n\nResource Type"},"range":{"start":{"line":125,"character":9},"end":{"line":125,"character":26}}}
+2022/08/09 14:54:01 opts.go:218: Completed 1 requests [13.035696ms elapsed]
+2022/08/09 14:54:01 rpc_logger.go:29: Incoming notification for "$/cancelRequest": {"id":46}
+2022/08/09 14:54:07 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:54:07 opts.go:218: Received request batch of size 1 (qlen=1)
+2022/08/09 14:54:07 opts.go:218: Dequeued request batch of length 1 (qlen=1)
+2022/08/09 14:54:07 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:54:07 rpc_logger.go:29: Incoming request for "textDocument/documentLink" (ID 48): {"textDocument":{"uri":"file:///home/ec2-user/Step1/variable.tf"}}
+2022/08/09 14:54:07 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:54:07 rpc_logger.go:50: Response to "textDocument/documentLink" (ID 48): []
+2022/08/09 14:54:07 opts.go:218: Completed 1 requests [7.899411ms elapsed]
+2022/08/09 14:54:07 rpc_logger.go:29: Incoming request for "workspace/executeCommand" (ID 47): {"command":"terraform-ls.module.callers","arguments":["uri=file:///home/ec2-user/Step1"]}
+2022/08/09 14:54:07 rpc_logger.go:50: Response to "workspace/executeCommand" (ID 47): {"v":0,"callers":[]}
+2022/08/09 14:54:07 opts.go:218: Completed 1 requests [8.697928ms elapsed]
+2022/08/09 14:54:07 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:54:07 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:54:07 rpc_logger.go:29: Incoming request for "textDocument/codeLens" (ID 49): {"textDocument":{"uri":"file:///home/ec2-user/Step1/variable.tf"}}
+2022/08/09 14:54:07 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:54:07 rpc_logger.go:50: Response to "textDocument/codeLens" (ID 49): []
+2022/08/09 14:54:07 opts.go:218: Completed 1 requests [19.141098ms elapsed]
+2022/08/09 14:54:37 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:54:37 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:54:37 rpc_logger.go:29: Incoming request for "workspace/executeCommand" (ID 50): {"command":"terraform-ls.module.callers","arguments":["uri=file:///home/ec2-user/Step1"]}
+2022/08/09 14:54:37 rpc_logger.go:50: Response to "workspace/executeCommand" (ID 50): {"v":0,"callers":[]}
+2022/08/09 14:54:37 opts.go:218: Completed 1 requests [148.336µs elapsed]
+2022/08/09 14:54:37 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:54:37 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:54:37 rpc_logger.go:29: Incoming request for "textDocument/documentLink" (ID 51): {"textDocument":{"uri":"file:///home/ec2-user/Step1/main.tf"}}
+2022/08/09 14:54:37 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:54:37 rpc_logger.go:50: Response to "textDocument/documentLink" (ID 51): []
+2022/08/09 14:54:37 opts.go:218: Completed 1 requests [7.815247ms elapsed]
+2022/08/09 14:54:37 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:54:37 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:54:37 rpc_logger.go:29: Incoming request for "textDocument/codeLens" (ID 52): {"textDocument":{"uri":"file:///home/ec2-user/Step1/main.tf"}}
+2022/08/09 14:54:37 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:54:37 rpc_logger.go:50: Response to "textDocument/codeLens" (ID 52): []
+2022/08/09 14:54:37 opts.go:218: Completed 1 requests [8.723447ms elapsed]
+2022/08/09 14:54:47 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:54:47 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:54:47 rpc_logger.go:29: Incoming request for "textDocument/hover" (ID 53): {"textDocument":{"uri":"file:///home/ec2-user/Step1/main.tf"},"position":{"line":126,"character":19}}
+2022/08/09 14:54:47 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:54:47 hover.go:32: Looking for hover data at "main.tf" -> hcl.Pos{Line:127, Column:20, Byte:2384}
+2022/08/09 14:54:47 hover.go:34: received hover data: &lang.HoverData{Content:lang.MarkupContent{Value:"`aws_vpc.team1-vpc.id`\n_string_", Kind:0x2}, Range:hcl.Range{Filename:"main.tf", Start:hcl.Pos{Line:127, Column:14, Byte:2378}, End:hcl.Pos{Line:127, Column:34, Byte:2398}}}
+2022/08/09 14:54:47 rpc_logger.go:50: Response to "textDocument/hover" (ID 53): {"contents":{"kind":"markdown","value":"`aws_vpc.team1-vpc.id`\n_string_"},"range":{"start":{"line":126,"character":13},"end":{"line":126,"character":33}}}
+2022/08/09 14:54:47 opts.go:218: Completed 1 requests [8.084139ms elapsed]
+2022/08/09 14:55:13 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:55:13 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:55:13 rpc_logger.go:29: Incoming request for "workspace/executeCommand" (ID 54): {"command":"terraform-ls.module.callers","arguments":["uri=file:///home/ec2-user/Step1"]}
+2022/08/09 14:55:13 rpc_logger.go:50: Response to "workspace/executeCommand" (ID 54): {"v":0,"callers":[]}
+2022/08/09 14:55:13 opts.go:218: Completed 1 requests [147.277µs elapsed]
+2022/08/09 14:55:13 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:55:13 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:55:13 rpc_logger.go:29: Incoming request for "textDocument/documentLink" (ID 55): {"textDocument":{"uri":"file:///home/ec2-user/Step1/variable.tf"}}
+2022/08/09 14:55:13 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:55:13 rpc_logger.go:50: Response to "textDocument/documentLink" (ID 55): []
+2022/08/09 14:55:13 opts.go:218: Completed 1 requests [7.527842ms elapsed]
+2022/08/09 14:55:13 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:55:13 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:55:13 rpc_logger.go:29: Incoming request for "textDocument/codeLens" (ID 56): {"textDocument":{"uri":"file:///home/ec2-user/Step1/variable.tf"}}
+2022/08/09 14:55:13 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:55:13 rpc_logger.go:50: Response to "textDocument/codeLens" (ID 56): []
+2022/08/09 14:55:13 opts.go:218: Completed 1 requests [8.078852ms elapsed]
+2022/08/09 14:56:00 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:56:00 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:56:00 rpc_logger.go:29: Incoming request for "workspace/executeCommand" (ID 57): {"command":"terraform-ls.module.callers","arguments":["uri=file:///home/ec2-user/Step1"]}
+2022/08/09 14:56:00 rpc_logger.go:50: Response to "workspace/executeCommand" (ID 57): {"v":0,"callers":[]}
+2022/08/09 14:56:00 opts.go:218: Completed 1 requests [179.386µs elapsed]
+2022/08/09 14:56:00 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:56:00 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:56:00 rpc_logger.go:29: Incoming request for "textDocument/documentLink" (ID 58): {"textDocument":{"uri":"file:///home/ec2-user/Step1/main.tf"}}
+2022/08/09 14:56:00 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:56:00 rpc_logger.go:50: Response to "textDocument/documentLink" (ID 58): []
+2022/08/09 14:56:00 opts.go:218: Completed 1 requests [14.78862ms elapsed]
+2022/08/09 14:56:00 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:56:00 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:56:00 rpc_logger.go:29: Incoming request for "textDocument/codeLens" (ID 59): {"textDocument":{"uri":"file:///home/ec2-user/Step1/main.tf"}}
+2022/08/09 14:56:00 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:56:00 rpc_logger.go:50: Response to "textDocument/codeLens" (ID 59): []
+2022/08/09 14:56:00 opts.go:218: Completed 1 requests [9.680856ms elapsed]
+2022/08/09 14:56:38 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:56:38 opts.go:218: Received request batch of size 1 (qlen=1)
+2022/08/09 14:56:38 opts.go:218: Received request batch of size 1 (qlen=2)
+2022/08/09 14:56:38 opts.go:218: Received request batch of size 1 (qlen=3)
+2022/08/09 14:56:38 opts.go:218: Dequeued request batch of length 1 (qlen=3)
+2022/08/09 14:56:38 opts.go:218: Dequeued request batch of length 1 (qlen=2)
+2022/08/09 14:56:38 rpc_logger.go:29: Incoming notification for "textDocument/didOpen": {"textDocument":{"uri":"file:///home/ec2-user/Step1/output.tf","languageId":"terraform","version":1,"text":"output \"region\" {\n  value = var.region\n}\n\noutput \"tags\" {\n  value = var.tags\n}\n\noutput \"vpc_id\" {\nvalue = aws_vpc.team1-vpc.id\n} \n\noutput \"public-1_id\" {\n value = aws_subnet.public-1.id\n} \n\noutput \"public-2_id\" {\n value = aws_subnet.public-2.id\n} \n\noutput \"public-3_id\" {\n value = aws_subnet.public-3.id\n} \n\noutput \"private-1_id\" {\n  value = aws_subnet.private-1.id\n}\n\noutput \"private-2_id\" {\n  value = aws_subnet.private-2.id\n}\n\noutput \"private-3_id\" {\n  value = aws_subnet.private-3.id\n}\n\noutput \"internet-gw\" {\n  value = aws_internet_gateway.internet-gw\n}\n\noutput \"aws_nat_gateway\" {\n   value = aws_nat_gateway.nat-gw.id\n   }\n\noutput \"elastic_ip\" {\n    value = aws_eip.eip-for-nat.allocation_id\n}\noutput \"aws_route_table_public\" {\n   value = aws_route_table.public.id \n   }\n\n   output \"aws_route_table_private\" {\n   value = aws_route_table.private.id \n   }\n"}}
+2022/08/09 14:56:38 did_open.go:42: opened module: /home/ec2-user/Step1
+2022/08/09 14:56:38 jobs.go:92: JOBS: Enqueueing new job "45": "OpTypeParseModuleConfiguration" for {"file:///home/ec2-user/Step1"}
+2022/08/09 14:56:38 jobs.go:92: JOBS: Enqueueing new job "46": "OpTypeParseVariables" for {"file:///home/ec2-user/Step1"}
+2022/08/09 14:56:38 jobs.go:244: JOBS: Dispatching next job "45": "OpTypeParseModuleConfiguration" for {"file:///home/ec2-user/Step1"}
+2022/08/09 14:56:38 jobs.go:92: JOBS: Enqueueing new job "47": "OpTypeLoadModuleMetadata" for {"file:///home/ec2-user/Step1"}
+2022/08/09 14:56:38 jobs.go:358: JOBS: Finishing job "45": "OpTypeParseModuleConfiguration" for {"file:///home/ec2-user/Step1"} (err = %!s(<nil>), deferredJobs: ["47"])
+2022/08/09 14:56:38 jobs.go:244: JOBS: Dispatching next job "46": "OpTypeParseVariables" for {"file:///home/ec2-user/Step1"}
+2022/08/09 14:56:38 jobs.go:92: JOBS: Enqueueing new job "48": "OpTypeDecodeVarsReferences" for {"file:///home/ec2-user/Step1"}
+2022/08/09 14:56:38 jobs.go:358: JOBS: Finishing job "46": "OpTypeParseVariables" for {"file:///home/ec2-user/Step1"} (err = %!s(<nil>), deferredJobs: ["48"])
+2022/08/09 14:56:38 jobs.go:244: JOBS: Dispatching next job "47": "OpTypeLoadModuleMetadata" for {"file:///home/ec2-user/Step1"}
+2022/08/09 14:56:38 jobs.go:92: JOBS: Enqueueing new job "49": "OpTypeDecodeReferenceTargets" for {"file:///home/ec2-user/Step1"}
+2022/08/09 14:56:38 jobs.go:92: JOBS: Enqueueing new job "50": "OpTypeDecodeReferenceOrigins" for {"file:///home/ec2-user/Step1"}
+2022/08/09 14:56:38 jobs.go:358: JOBS: Finishing job "47": "OpTypeLoadModuleMetadata" for {"file:///home/ec2-user/Step1"} (err = %!s(<nil>), deferredJobs: ["49" "50"])
+2022/08/09 14:56:38 jobs.go:244: JOBS: Dispatching next job "48": "OpTypeDecodeVarsReferences" for {"file:///home/ec2-user/Step1"}
+2022/08/09 14:56:38 jobs.go:358: JOBS: Finishing job "48": "OpTypeDecodeVarsReferences" for {"file:///home/ec2-user/Step1"} (err = %!s(<nil>), deferredJobs: [])
+2022/08/09 14:56:38 jobs.go:244: JOBS: Dispatching next job "49": "OpTypeDecodeReferenceTargets" for {"file:///home/ec2-user/Step1"}
+2022/08/09 14:56:38 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:56:38 opts.go:218: Received request batch of size 1 (qlen=2)
+2022/08/09 14:56:38 jobs.go:358: JOBS: Finishing job "49": "OpTypeDecodeReferenceTargets" for {"file:///home/ec2-user/Step1"} (err = %!s(<nil>), deferredJobs: [])
+2022/08/09 14:56:38 jobs.go:244: JOBS: Dispatching next job "50": "OpTypeDecodeReferenceOrigins" for {"file:///home/ec2-user/Step1"}
+2022/08/09 14:56:38 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:56:38 jobs.go:358: JOBS: Finishing job "50": "OpTypeDecodeReferenceOrigins" for {"file:///home/ec2-user/Step1"} (err = %!s(<nil>), deferredJobs: [])
+2022/08/09 14:56:38 opts.go:218: Posting server call "client.refreshModuleProviders" 
+2022/08/09 14:56:38 opts.go:218: Dequeued request batch of length 1 (qlen=2)
+2022/08/09 14:56:38 opts.go:218: Dequeued request batch of length 1 (qlen=1)
+2022/08/09 14:56:38 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:56:38 rpc_logger.go:29: Incoming request for "textDocument/documentLink" (ID 63): {"textDocument":{"uri":"file:///home/ec2-user/Step1/output.tf"}}
+2022/08/09 14:56:38 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:56:38 rpc_logger.go:50: Response to "textDocument/documentLink" (ID 63): []
+2022/08/09 14:56:38 opts.go:218: Completed 1 requests [7.903093ms elapsed]
+2022/08/09 14:56:38 opts.go:218: Received response for callback "15"
+2022/08/09 14:56:38 opts.go:218: Posting server call "client.refreshModuleCalls" 
+2022/08/09 14:56:38 rpc_logger.go:29: Incoming request for "workspace/executeCommand" (ID 60): {"command":"terraform-ls.module.callers","arguments":["uri=file:///home/ec2-user/Step1"]}
+2022/08/09 14:56:38 rpc_logger.go:50: Response to "workspace/executeCommand" (ID 60): {"v":0,"callers":[]}
+2022/08/09 14:56:38 opts.go:218: Completed 1 requests [42.622365ms elapsed]
+2022/08/09 14:56:38 rpc_logger.go:29: Incoming request for "textDocument/documentSymbol" (ID 61): {"textDocument":{"uri":"file:///home/ec2-user/Step1/output.tf"}}
+2022/08/09 14:56:38 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:56:38 rpc_logger.go:50: Response to "textDocument/documentSymbol" (ID 61): [{"name":"output \"region\"","kind":5,"range":{"start":{"line":0,"character":0},"end":{"line":2,"character":1}},"selectionRange":{"start":{"line":0,"character":0},"end":{"line":2,"character":1}},"children":[{"name":"value","kind":14,"range":{"start":{"line":1,"character":2},"end":{"line":1,"character":20}},"selectionRange":{"start":{"line":1,"character":2},"end":{"line":1,"character":20}}}]},{"name":"output \"tags\"","kind":5,"range":{"start":{"line":4,"character":0},"end":{"line":6,"character":1}},"selectionRange":{"start":{"line":4,"character":0},"end":{"line":6,"character":1}},"children":[{"name":"value","kind":14,"range":{"start":{"line":5,"character":2},"end":{"line":5,"character":18}},"selectionRange":{"start":{"line":5,"character":2},"end":{"line":5,"character":18}}}]},{"name":"output \"vpc_id\"","kind":5,"range":{"start":{"line":8,"character":0},"end":{"line":10,"character":1}},"selectionRange":{"start":{"line":8,"character":0},"end":{"line":10,"character":1}},"children":[{"name":"value","kind":14,"range":{"start":{"line":9,"character":0},"end":{"line":9,"character":28}},"selectionRange":{"start":{"line":9,"character":0},"end":{"line":9,"character":28}}}]},{"name":"output \"public-1_id\"","kind":5,"range":{"start":{"line":12,"character":0},"end":{"line":14,"character":1}},"selectionRange":{"start":{"line":12,"character":0},"end":{"line":14,"character":1}},"children":[{"name":"value","kind":14,"range":{"start":{"line":13,"character":1},"end":{"line":13,"character":31}},"selectionRange":{"start":{"line":13,"character":1},"end":{"line":13,"character":31}}}]},{"name":"output \"public-2_id\"","kind":5,"range":{"start":{"line":16,"character":0},"end":{"line":18,"character":1}},"selectionRange":{"start":{"line":16,"character":0},"end":{"line":18,"character":1}},"children":[{"name":"value","kind":14,"range":{"start":{"line":17,"character":1},"end":{"line":17,"character":31}},"selectionRange":{"start":{"line":17,"character":1},"end":{"line":17,"character":31}}}]},{"name":"output \"public-3_id\"","kind":5,"range":{"start":{"line":20,"character":0},"end":{"line":22,"character":1}},"selectionRange":{"start":{"line":20,"character":0},"end":{"line":22,"character":1}},"children":[{"name":"value","kind":14,"range":{"start":{"line":21,"character":1},"end":{"line":21,"character":31}},"selectionRange":{"start":{"line":21,"character":1},"end":{"line":21,"character":31}}}]},{"name":"output \"private-1_id\"","kind":5,"range":{"start":{"line":24,"character":0},"end":{"line":26,"character":1}},"selectionRange":{"start":{"line":24,"character":0},"end":{"line":26,"character":1}},"children":[{"name":"value","kind":14,"range":{"start":{"line":25,"character":2},"end":{"line":25,"character":33}},"selectionRange":{"start":{"line":25,"character":2},"end":{"line":25,"character":33}}}]},{"name":"output \"private-2_id\"","kind":5,"range":{"start":{"line":28,"character":0},"end":{"line":30,"character":1}},"selectionRange":{"start":{"line":28,"character":0},"end":{"line":30,"character":1}},"children":[{"name":"value","kind":14,"range":{"start":{"line":29,"character":2},"end":{"line":29,"character":33}},"selectionRange":{"start":{"line":29,"character":2},"end":{"line":29,"character":33}}}]},{"name":"output \"private-3_id\"","kind":5,"range":{"start":{"line":32,"character":0},"end":{"line":34,"character":1}},"selectionRange":{"start":{"line":32,"character":0},"end":{"line":34,"character":1}},"children":[{"name":"value","kind":14,"range":{"start":{"line":33,"character":2},"end":{"line":33,"character":33}},"selectionRange":{"start":{"line":33,"character":2},"end":{"line":33,"character":33}}}]},{"name":"output \"internet-gw\"","kind":5,"range":{"start":{"line":36,"character":0},"end":{"line":38,"character":1}},"selectionRange":{"start":{"line":36,"character":0},"end":{"line":38,"character":1}},"children":[{"name":"value","kind":14,"range":{"start":{"line":37,"character":2},"end":{"line":37,"character":42}},"selectionRange":{"start":{"line":37,"character":2},"end":{"line":37,"character":42}}}]},{"name":"output \"aws_nat_gateway\"","kind":5,"range":{"start":{"line":40,"character":0},"end":{"line":42,"character":4}},"selectionRange":{"start":{"line":40,"character":0},"end":{"line":42,"character":4}},"children":[{"name":"value","kind":14,"range":{"start":{"line":41,"character":3},"end":{"line":41,"character":36}},"selectionRange":{"start":{"line":41,"character":3},"end":{"line":41,"character":36}}}]},{"name":"output \"elastic_ip\"","kind":5,"range":{"start":{"line":44,"character":0},"end":{"line":46,"character":1}},"selectionRange":{"start":{"line":44,"character":0},"end":{"line":46,"character":1}},"children":[{"name":"value","kind":14,"range":{"start":{"line":45,"character":4},"end":{"line":45,"character":45}},"selectionRange":{"start":{"line":45,"character":4},"end":{"line":45,"character":45}}}]},{"name":"output \"aws_route_table_public\"","kind":5,"range":{"start":{"line":47,"character":0},"end":{"line":49,"character":4}},"selectionRange":{"start":{"line":47,"character":0},"end":{"line":49,"character":4}},"children":[{"name":"value","kind":14,"range":{"start":{"line":48,"character":3},"end":{"line":48,"character":36}},"selectionRange":{"start":{"line":48,"character":3},"end":{"line":48,"character":36}}}]},{"name":"output \"aws_route_table_private\"","kind":5,"range":{"start":{"line":51,"character":3},"end":{"line":53,"character":4}},"selectionRange":{"start":{"line":51,"character":3},"end":{"line":53,"character":4}},"children":[{"name":"value","kind":14,"range":{"start":{"line":52,"character":3},"end":{"line":52,"character":37}},"selectionRange":{"start":{"line":52,"character":3},"end":{"line":52,"character":37}}}]}]
+2022/08/09 14:56:38 opts.go:218: Completed 1 requests [18.936729ms elapsed]
+2022/08/09 14:56:38 rpc_logger.go:29: Incoming request for "textDocument/semanticTokens/full" (ID 62): {"textDocument":{"uri":"file:///home/ec2-user/Step1/output.tf"}}
+2022/08/09 14:56:38 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:56:38 rpc_logger.go:50: Response to "textDocument/semanticTokens/full" (ID 62): {"data":[0,0,6,10,256,0,7,8,11,384,1,2,5,9,256,0,8,3,18,0,0,4,6,18,0,3,0,6,10,256,0,7,6,11,384,1,2,5,9,256,0,8,3,18,0,0,4,4,18,0,3,0,6,10,256,0,7,8,11,384,1,0,5,9,256,0,8,7,18,0,0,8,9,18,0,0,10,2,18,0,3,0,6,10,256,0,7,13,11,384,1,1,5,9,256,0,8,10,18,0,0,11,8,18,0,0,9,2,18,0,3,0,6,10,256,0,7,13,11,384,1,1,5,9,256,0,8,10,18,0,0,11,8,18,0,0,9,2,18,0,3,0,6,10,256,0,7,13,11,384,1,1,5,9,256,0,8,10,18,0,0,11,8,18,0,0,9,2,18,0,3,0,6,10,256,0,7,14,11,384,1,2,5,9,256,0,8,10,18,0,0,11,9,18,0,0,10,2,18,0,3,0,6,10,256,0,7,14,11,384,1,2,5,9,256,0,8,10,18,0,0,11,9,18,0,0,10,2,18,0,3,0,6,10,256,0,7,14,11,384,1,2,5,9,256,0,8,10,18,0,0,11,9,18,0,0,10,2,18,0,3,0,6,10,256,0,7,13,11,384,1,2,5,9,256,0,8,20,18,0,0,21,11,18,0,3,0,6,10,256,0,7,17,11,384,1,3,5,9,256,0,8,15,18,0,0,16,6,18,0,0,7,2,18,0,3,0,6,10,256,0,7,12,11,384,1,4,5,9,256,0,8,7,18,0,0,8,11,18,0,0,12,13,18,0,2,0,6,10,256,0,7,24,11,384,1,3,5,9,256,0,8,15,18,0,0,16,6,18,0,0,7,2,18,0,3,3,6,10,256,0,7,25,11,384,1,3,5,9,256,0,8,15,18,0,0,16,7,18,0,0,8,2,18,0]}
+2022/08/09 14:56:38 opts.go:218: Completed 1 requests [29.55004ms elapsed]
+2022/08/09 14:56:38 opts.go:218: Received response for callback "16"
+2022/08/09 14:56:38 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:56:38 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:56:38 rpc_logger.go:29: Incoming request for "textDocument/codeLens" (ID 64): {"textDocument":{"uri":"file:///home/ec2-user/Step1/output.tf"}}
+2022/08/09 14:56:38 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:56:38 rpc_logger.go:50: Response to "textDocument/codeLens" (ID 64): []
+2022/08/09 14:56:38 opts.go:218: Completed 1 requests [7.915802ms elapsed]
+2022/08/09 14:56:39 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:56:39 opts.go:218: Received request batch of size 1 (qlen=1)
+2022/08/09 14:56:39 opts.go:218: Dequeued request batch of length 1 (qlen=1)
+2022/08/09 14:56:39 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:56:39 rpc_logger.go:29: Incoming request for "textDocument/documentLink" (ID 66): {"textDocument":{"uri":"file:///home/ec2-user/Step1/provider.tf"}}
+2022/08/09 14:56:39 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:56:39 rpc_logger.go:50: Response to "textDocument/documentLink" (ID 66): [{"range":{"start":{"line":0,"character":9},"end":{"line":0,"character":14}},"target":"https://registry.terraform.io/providers/hashicorp/aws/4.23.0/docs?utm_content=documentLink\u0026utm_medium=Visual+Studio+Code\u0026utm_source=terraform-ls","tooltip":"hashicorp/aws Documentation"}]
+2022/08/09 14:56:39 opts.go:218: Completed 1 requests [7.754997ms elapsed]
+2022/08/09 14:56:39 rpc_logger.go:29: Incoming request for "workspace/executeCommand" (ID 65): {"command":"terraform-ls.module.callers","arguments":["uri=file:///home/ec2-user/Step1"]}
+2022/08/09 14:56:39 rpc_logger.go:50: Response to "workspace/executeCommand" (ID 65): {"v":0,"callers":[]}
+2022/08/09 14:56:39 opts.go:218: Completed 1 requests [9.176646ms elapsed]
+2022/08/09 14:56:39 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:56:39 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:56:39 rpc_logger.go:29: Incoming request for "textDocument/codeLens" (ID 67): {"textDocument":{"uri":"file:///home/ec2-user/Step1/provider.tf"}}
+2022/08/09 14:56:39 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:56:39 rpc_logger.go:50: Response to "textDocument/codeLens" (ID 67): []
+2022/08/09 14:56:39 opts.go:218: Completed 1 requests [12.675904ms elapsed]
+2022/08/09 14:56:40 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:56:40 opts.go:218: Received request batch of size 1 (qlen=1)
+2022/08/09 14:56:40 opts.go:218: Dequeued request batch of length 1 (qlen=1)
+2022/08/09 14:56:40 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:56:40 rpc_logger.go:29: Incoming request for "textDocument/documentLink" (ID 69): {"textDocument":{"uri":"file:///home/ec2-user/Step1/main.tf"}}
+2022/08/09 14:56:40 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:56:40 rpc_logger.go:50: Response to "textDocument/documentLink" (ID 69): []
+2022/08/09 14:56:40 opts.go:218: Completed 1 requests [7.801123ms elapsed]
+2022/08/09 14:56:40 rpc_logger.go:29: Incoming request for "workspace/executeCommand" (ID 68): {"command":"terraform-ls.module.callers","arguments":["uri=file:///home/ec2-user/Step1"]}
+2022/08/09 14:56:40 rpc_logger.go:50: Response to "workspace/executeCommand" (ID 68): {"v":0,"callers":[]}
+2022/08/09 14:56:40 opts.go:218: Completed 1 requests [8.748596ms elapsed]
+2022/08/09 14:56:40 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:56:40 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:56:40 rpc_logger.go:29: Incoming request for "textDocument/codeLens" (ID 70): {"textDocument":{"uri":"file:///home/ec2-user/Step1/main.tf"}}
+2022/08/09 14:56:40 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:56:40 rpc_logger.go:50: Response to "textDocument/codeLens" (ID 70): []
+2022/08/09 14:56:40 opts.go:218: Completed 1 requests [7.89155ms elapsed]
+2022/08/09 14:57:04 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:57:04 opts.go:218: Received request batch of size 1 (qlen=1)
+2022/08/09 14:57:04 opts.go:218: Received request batch of size 1 (qlen=2)
+2022/08/09 14:57:04 opts.go:218: Dequeued request batch of length 1 (qlen=2)
+2022/08/09 14:57:04 opts.go:218: Dequeued request batch of length 1 (qlen=1)
+2022/08/09 14:57:04 rpc_logger.go:29: Incoming notification for "textDocument/didOpen": {"textDocument":{"uri":"file:///home/ec2-user/Step1/envs/central.tfvars","languageId":"terraform-vars","version":1,"text":"vpc_name = \"team-1-vpc\"\nregion = \"ca-central-1\""}}
+2022/08/09 14:57:04 did_open.go:42: opened module: /home/ec2-user/Step1/envs
+2022/08/09 14:57:04 jobs.go:92: JOBS: Enqueueing new job "51": "OpTypeParseModuleConfiguration" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/09 14:57:04 jobs.go:92: JOBS: Enqueueing new job "52": "OpTypeParseVariables" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/09 14:57:04 jobs.go:244: JOBS: Dispatching next job "51": "OpTypeParseModuleConfiguration" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/09 14:57:04 jobs.go:92: JOBS: Enqueueing new job "53": "OpTypeLoadModuleMetadata" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/09 14:57:04 jobs.go:358: JOBS: Finishing job "51": "OpTypeParseModuleConfiguration" for {"file:///home/ec2-user/Step1/envs"} (err = %!s(<nil>), deferredJobs: ["53"])
+2022/08/09 14:57:04 jobs.go:244: JOBS: Dispatching next job "52": "OpTypeParseVariables" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/09 14:57:04 jobs.go:92: JOBS: Enqueueing new job "54": "OpTypeDecodeVarsReferences" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/09 14:57:04 jobs.go:358: JOBS: Finishing job "52": "OpTypeParseVariables" for {"file:///home/ec2-user/Step1/envs"} (err = %!s(<nil>), deferredJobs: ["54"])
+2022/08/09 14:57:04 jobs.go:244: JOBS: Dispatching next job "53": "OpTypeLoadModuleMetadata" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/09 14:57:04 jobs.go:92: JOBS: Enqueueing new job "55": "OpTypeDecodeReferenceTargets" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/09 14:57:04 jobs.go:92: JOBS: Enqueueing new job "56": "OpTypeDecodeReferenceOrigins" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/09 14:57:04 jobs.go:358: JOBS: Finishing job "53": "OpTypeLoadModuleMetadata" for {"file:///home/ec2-user/Step1/envs"} (err = %!s(<nil>), deferredJobs: ["55" "56"])
+2022/08/09 14:57:04 jobs.go:244: JOBS: Dispatching next job "54": "OpTypeDecodeVarsReferences" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/09 14:57:04 jobs.go:358: JOBS: Finishing job "54": "OpTypeDecodeVarsReferences" for {"file:///home/ec2-user/Step1/envs"} (err = %!s(<nil>), deferredJobs: [])
+2022/08/09 14:57:04 jobs.go:244: JOBS: Dispatching next job "55": "OpTypeDecodeReferenceTargets" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/09 14:57:04 jobs.go:358: JOBS: Finishing job "55": "OpTypeDecodeReferenceTargets" for {"file:///home/ec2-user/Step1/envs"} (err = %!s(<nil>), deferredJobs: [])
+2022/08/09 14:57:04 jobs.go:244: JOBS: Dispatching next job "56": "OpTypeDecodeReferenceOrigins" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/09 14:57:04 jobs.go:358: JOBS: Finishing job "56": "OpTypeDecodeReferenceOrigins" for {"file:///home/ec2-user/Step1/envs"} (err = %!s(<nil>), deferredJobs: [])
+2022/08/09 14:57:04 opts.go:218: Posting server call "client.refreshModuleProviders" 
+2022/08/09 14:57:04 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:57:04 rpc_logger.go:29: Incoming request for "textDocument/semanticTokens/full" (ID 72): {"textDocument":{"uri":"file:///home/ec2-user/Step1/envs/central.tfvars"}}
+2022/08/09 14:57:04 rpc_logger.go:50: Response to "textDocument/semanticTokens/full" (ID 72): {"data":[]}
+2022/08/09 14:57:04 opts.go:218: Completed 1 requests [261.446µs elapsed]
+2022/08/09 14:57:04 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:57:04 opts.go:218: Received response for callback "17"
+2022/08/09 14:57:04 opts.go:218: Posting server call "client.refreshModuleCalls" 
+2022/08/09 14:57:04 rpc_logger.go:29: Incoming request for "textDocument/documentSymbol" (ID 71): {"textDocument":{"uri":"file:///home/ec2-user/Step1/envs/central.tfvars"}}
+2022/08/09 14:57:04 rpc_logger.go:50: Response to "textDocument/documentSymbol" (ID 71): [{"name":"vpc_name","kind":15,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":23}},"selectionRange":{"start":{"line":0,"character":0},"end":{"line":0,"character":23}}},{"name":"region","kind":15,"range":{"start":{"line":1,"character":0},"end":{"line":1,"character":23}},"selectionRange":{"start":{"line":1,"character":0},"end":{"line":1,"character":23}}}]
+2022/08/09 14:57:04 opts.go:218: Completed 1 requests [9.746675ms elapsed]
+2022/08/09 14:57:04 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:57:04 rpc_logger.go:29: Incoming request for "textDocument/documentLink" (ID 73): {"textDocument":{"uri":"file:///home/ec2-user/Step1/envs/central.tfvars"}}
+2022/08/09 14:57:04 rpc_logger.go:50: Response to "textDocument/documentLink" (ID 73): null
+2022/08/09 14:57:04 opts.go:218: Completed 1 requests [66.611µs elapsed]
+2022/08/09 14:57:04 opts.go:218: Received response for callback "18"
+2022/08/09 14:57:04 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:57:04 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:57:04 rpc_logger.go:29: Incoming request for "textDocument/codeLens" (ID 74): {"textDocument":{"uri":"file:///home/ec2-user/Step1/envs/central.tfvars"}}
+2022/08/09 14:57:04 rpc_logger.go:50: Response to "textDocument/codeLens" (ID 74): []
+2022/08/09 14:57:04 opts.go:218: Completed 1 requests [151.776µs elapsed]
+2022/08/09 14:57:05 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:57:05 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:57:05 rpc_logger.go:29: Incoming notification for "textDocument/didOpen": {"textDocument":{"uri":"file:///home/ec2-user/Step1/envs/ireland.tfvars","languageId":"terraform-vars","version":1,"text":"vpc_name = \"team-1-vpc\"\nregion = \"eu-west-1\""}}
+2022/08/09 14:57:05 did_open.go:42: opened module: /home/ec2-user/Step1/envs
+2022/08/09 14:57:05 jobs.go:92: JOBS: Enqueueing new job "57": "OpTypeParseModuleConfiguration" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/09 14:57:05 jobs.go:92: JOBS: Enqueueing new job "58": "OpTypeParseVariables" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/09 14:57:05 jobs.go:244: JOBS: Dispatching next job "57": "OpTypeParseModuleConfiguration" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/09 14:57:05 jobs.go:92: JOBS: Enqueueing new job "59": "OpTypeLoadModuleMetadata" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/09 14:57:05 jobs.go:358: JOBS: Finishing job "57": "OpTypeParseModuleConfiguration" for {"file:///home/ec2-user/Step1/envs"} (err = %!s(<nil>), deferredJobs: ["59"])
+2022/08/09 14:57:05 jobs.go:244: JOBS: Dispatching next job "58": "OpTypeParseVariables" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/09 14:57:05 jobs.go:92: JOBS: Enqueueing new job "60": "OpTypeDecodeVarsReferences" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/09 14:57:05 jobs.go:358: JOBS: Finishing job "58": "OpTypeParseVariables" for {"file:///home/ec2-user/Step1/envs"} (err = %!s(<nil>), deferredJobs: ["60"])
+2022/08/09 14:57:05 jobs.go:244: JOBS: Dispatching next job "59": "OpTypeLoadModuleMetadata" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/09 14:57:05 jobs.go:92: JOBS: Enqueueing new job "61": "OpTypeDecodeReferenceTargets" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/09 14:57:05 jobs.go:92: JOBS: Enqueueing new job "62": "OpTypeDecodeReferenceOrigins" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/09 14:57:05 jobs.go:358: JOBS: Finishing job "59": "OpTypeLoadModuleMetadata" for {"file:///home/ec2-user/Step1/envs"} (err = %!s(<nil>), deferredJobs: ["61" "62"])
+2022/08/09 14:57:05 jobs.go:244: JOBS: Dispatching next job "60": "OpTypeDecodeVarsReferences" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/09 14:57:05 jobs.go:358: JOBS: Finishing job "60": "OpTypeDecodeVarsReferences" for {"file:///home/ec2-user/Step1/envs"} (err = %!s(<nil>), deferredJobs: [])
+2022/08/09 14:57:05 jobs.go:244: JOBS: Dispatching next job "61": "OpTypeDecodeReferenceTargets" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/09 14:57:05 jobs.go:358: JOBS: Finishing job "61": "OpTypeDecodeReferenceTargets" for {"file:///home/ec2-user/Step1/envs"} (err = %!s(<nil>), deferredJobs: [])
+2022/08/09 14:57:05 jobs.go:244: JOBS: Dispatching next job "62": "OpTypeDecodeReferenceOrigins" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/09 14:57:05 jobs.go:358: JOBS: Finishing job "62": "OpTypeDecodeReferenceOrigins" for {"file:///home/ec2-user/Step1/envs"} (err = %!s(<nil>), deferredJobs: [])
+2022/08/09 14:57:05 opts.go:218: Posting server call "client.refreshModuleProviders" 
+2022/08/09 14:57:05 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:57:05 opts.go:218: Received request batch of size 1 (qlen=1)
+2022/08/09 14:57:05 opts.go:218: Received request batch of size 1 (qlen=2)
+2022/08/09 14:57:05 opts.go:218: Received response for callback "19"
+2022/08/09 14:57:05 opts.go:218: Posting server call "client.refreshModuleCalls" 
+2022/08/09 14:57:05 opts.go:218: Dequeued request batch of length 1 (qlen=2)
+2022/08/09 14:57:05 opts.go:218: Dequeued request batch of length 1 (qlen=1)
+2022/08/09 14:57:05 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:57:05 rpc_logger.go:29: Incoming request for "textDocument/documentLink" (ID 77): {"textDocument":{"uri":"file:///home/ec2-user/Step1/envs/ireland.tfvars"}}
+2022/08/09 14:57:05 rpc_logger.go:50: Response to "textDocument/documentLink" (ID 77): null
+2022/08/09 14:57:05 opts.go:218: Completed 1 requests [98.471µs elapsed]
+2022/08/09 14:57:05 rpc_logger.go:29: Incoming request for "textDocument/documentSymbol" (ID 75): {"textDocument":{"uri":"file:///home/ec2-user/Step1/envs/ireland.tfvars"}}
+2022/08/09 14:57:05 rpc_logger.go:50: Response to "textDocument/documentSymbol" (ID 75): [{"name":"vpc_name","kind":15,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":23}},"selectionRange":{"start":{"line":0,"character":0},"end":{"line":0,"character":23}}},{"name":"region","kind":15,"range":{"start":{"line":1,"character":0},"end":{"line":1,"character":20}},"selectionRange":{"start":{"line":1,"character":0},"end":{"line":1,"character":20}}}]
+2022/08/09 14:57:05 opts.go:218: Completed 1 requests [223.116µs elapsed]
+2022/08/09 14:57:05 rpc_logger.go:29: Incoming request for "textDocument/semanticTokens/full" (ID 76): {"textDocument":{"uri":"file:///home/ec2-user/Step1/envs/ireland.tfvars"}}
+2022/08/09 14:57:05 rpc_logger.go:50: Response to "textDocument/semanticTokens/full" (ID 76): {"data":[]}
+2022/08/09 14:57:05 opts.go:218: Completed 1 requests [297.243µs elapsed]
+2022/08/09 14:57:05 opts.go:218: Received response for callback "20"
+2022/08/09 14:57:06 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:57:06 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:57:06 rpc_logger.go:29: Incoming request for "textDocument/codeLens" (ID 78): {"textDocument":{"uri":"file:///home/ec2-user/Step1/envs/ireland.tfvars"}}
+2022/08/09 14:57:06 rpc_logger.go:50: Response to "textDocument/codeLens" (ID 78): []
+2022/08/09 14:57:06 opts.go:218: Completed 1 requests [156.554µs elapsed]
+2022/08/09 14:57:06 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:57:06 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:57:06 rpc_logger.go:29: Incoming request for "textDocument/documentLink" (ID 79): {"textDocument":{"uri":"file:///home/ec2-user/Step1/envs/central.tfvars"}}
+2022/08/09 14:57:06 rpc_logger.go:50: Response to "textDocument/documentLink" (ID 79): null
+2022/08/09 14:57:06 opts.go:218: Completed 1 requests [127.405µs elapsed]
+2022/08/09 14:57:07 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:57:07 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:57:07 rpc_logger.go:29: Incoming request for "textDocument/codeLens" (ID 80): {"textDocument":{"uri":"file:///home/ec2-user/Step1/envs/central.tfvars"}}
+2022/08/09 14:57:07 rpc_logger.go:50: Response to "textDocument/codeLens" (ID 80): []
+2022/08/09 14:57:07 opts.go:218: Completed 1 requests [153.599µs elapsed]
+2022/08/09 14:57:08 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:57:08 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:57:08 rpc_logger.go:29: Incoming notification for "textDocument/didOpen": {"textDocument":{"uri":"file:///home/ec2-user/Step1/envs/california.tfvars","languageId":"terraform-vars","version":1,"text":"vpc_name = \"team-1-vpc\"\nregion = \"us-west-2\""}}
+2022/08/09 14:57:08 did_open.go:42: opened module: /home/ec2-user/Step1/envs
+2022/08/09 14:57:08 jobs.go:92: JOBS: Enqueueing new job "63": "OpTypeParseModuleConfiguration" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/09 14:57:08 jobs.go:92: JOBS: Enqueueing new job "64": "OpTypeParseVariables" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/09 14:57:08 jobs.go:244: JOBS: Dispatching next job "63": "OpTypeParseModuleConfiguration" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/09 14:57:08 jobs.go:92: JOBS: Enqueueing new job "65": "OpTypeLoadModuleMetadata" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/09 14:57:08 jobs.go:358: JOBS: Finishing job "63": "OpTypeParseModuleConfiguration" for {"file:///home/ec2-user/Step1/envs"} (err = %!s(<nil>), deferredJobs: ["65"])
+2022/08/09 14:57:08 jobs.go:244: JOBS: Dispatching next job "64": "OpTypeParseVariables" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/09 14:57:08 jobs.go:92: JOBS: Enqueueing new job "66": "OpTypeDecodeVarsReferences" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/09 14:57:08 jobs.go:358: JOBS: Finishing job "64": "OpTypeParseVariables" for {"file:///home/ec2-user/Step1/envs"} (err = %!s(<nil>), deferredJobs: ["66"])
+2022/08/09 14:57:08 jobs.go:244: JOBS: Dispatching next job "65": "OpTypeLoadModuleMetadata" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/09 14:57:08 jobs.go:92: JOBS: Enqueueing new job "67": "OpTypeDecodeReferenceTargets" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/09 14:57:08 jobs.go:92: JOBS: Enqueueing new job "68": "OpTypeDecodeReferenceOrigins" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/09 14:57:08 jobs.go:358: JOBS: Finishing job "65": "OpTypeLoadModuleMetadata" for {"file:///home/ec2-user/Step1/envs"} (err = %!s(<nil>), deferredJobs: ["67" "68"])
+2022/08/09 14:57:08 jobs.go:244: JOBS: Dispatching next job "66": "OpTypeDecodeVarsReferences" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/09 14:57:08 jobs.go:358: JOBS: Finishing job "66": "OpTypeDecodeVarsReferences" for {"file:///home/ec2-user/Step1/envs"} (err = %!s(<nil>), deferredJobs: [])
+2022/08/09 14:57:08 jobs.go:244: JOBS: Dispatching next job "67": "OpTypeDecodeReferenceTargets" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/09 14:57:08 jobs.go:358: JOBS: Finishing job "67": "OpTypeDecodeReferenceTargets" for {"file:///home/ec2-user/Step1/envs"} (err = %!s(<nil>), deferredJobs: [])
+2022/08/09 14:57:08 jobs.go:244: JOBS: Dispatching next job "68": "OpTypeDecodeReferenceOrigins" for {"file:///home/ec2-user/Step1/envs"}
+2022/08/09 14:57:08 jobs.go:358: JOBS: Finishing job "68": "OpTypeDecodeReferenceOrigins" for {"file:///home/ec2-user/Step1/envs"} (err = %!s(<nil>), deferredJobs: [])
+2022/08/09 14:57:08 opts.go:218: Posting server call "client.refreshModuleProviders" 
+2022/08/09 14:57:08 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:57:08 opts.go:218: Received request batch of size 1 (qlen=1)
+2022/08/09 14:57:08 opts.go:218: Received request batch of size 1 (qlen=2)
+2022/08/09 14:57:08 opts.go:218: Received response for callback "21"
+2022/08/09 14:57:08 opts.go:218: Posting server call "client.refreshModuleCalls" 
+2022/08/09 14:57:08 opts.go:218: Dequeued request batch of length 1 (qlen=2)
+2022/08/09 14:57:08 opts.go:218: Dequeued request batch of length 1 (qlen=1)
+2022/08/09 14:57:08 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:57:08 rpc_logger.go:29: Incoming request for "textDocument/documentLink" (ID 83): {"textDocument":{"uri":"file:///home/ec2-user/Step1/envs/california.tfvars"}}
+2022/08/09 14:57:08 rpc_logger.go:50: Response to "textDocument/documentLink" (ID 83): null
+2022/08/09 14:57:08 opts.go:218: Completed 1 requests [104.614µs elapsed]
+2022/08/09 14:57:08 rpc_logger.go:29: Incoming request for "textDocument/documentSymbol" (ID 81): {"textDocument":{"uri":"file:///home/ec2-user/Step1/envs/california.tfvars"}}
+2022/08/09 14:57:08 rpc_logger.go:50: Response to "textDocument/documentSymbol" (ID 81): [{"name":"vpc_name","kind":15,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":23}},"selectionRange":{"start":{"line":0,"character":0},"end":{"line":0,"character":23}}},{"name":"region","kind":15,"range":{"start":{"line":1,"character":0},"end":{"line":1,"character":20}},"selectionRange":{"start":{"line":1,"character":0},"end":{"line":1,"character":20}}}]
+2022/08/09 14:57:08 opts.go:218: Completed 1 requests [237.348µs elapsed]
+2022/08/09 14:57:08 rpc_logger.go:29: Incoming request for "textDocument/semanticTokens/full" (ID 82): {"textDocument":{"uri":"file:///home/ec2-user/Step1/envs/california.tfvars"}}
+2022/08/09 14:57:08 rpc_logger.go:50: Response to "textDocument/semanticTokens/full" (ID 82): {"data":[]}
+2022/08/09 14:57:08 opts.go:218: Completed 1 requests [311.821µs elapsed]
+2022/08/09 14:57:08 opts.go:218: Received response for callback "22"
+2022/08/09 14:57:08 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:57:08 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:57:08 rpc_logger.go:29: Incoming request for "textDocument/codeLens" (ID 84): {"textDocument":{"uri":"file:///home/ec2-user/Step1/envs/california.tfvars"}}
+2022/08/09 14:57:08 rpc_logger.go:50: Response to "textDocument/codeLens" (ID 84): []
+2022/08/09 14:57:08 opts.go:218: Completed 1 requests [159.821µs elapsed]
+2022/08/09 14:57:10 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:57:10 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:57:10 rpc_logger.go:29: Incoming request for "textDocument/hover" (ID 85): {"textDocument":{"uri":"file:///home/ec2-user/Step1/envs/california.tfvars"},"position":{"line":0,"character":21}}
+2022/08/09 14:57:10 hover.go:32: Looking for hover data at "california.tfvars" -> hcl.Pos{Line:1, Column:22, Byte:21}
+2022/08/09 14:57:10 hover.go:34: received hover data: (*lang.HoverData)(nil)
+2022/08/09 14:57:10 rpc_logger.go:45: Error for "textDocument/hover" (ID 85): [-32098] california.tfvars (1,22): unknown attribute "vpc_name"
+2022/08/09 14:57:10 opts.go:218: Completed 1 requests [205.81µs elapsed]
+[Error - 2:57:10 PM] Request textDocument/hover failed.
+  Message: california.tfvars (1,22): unknown attribute "vpc_name"
+  Code: -32098 
+2022/08/09 14:57:10 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:57:10 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:57:10 rpc_logger.go:29: Incoming request for "textDocument/hover" (ID 86): {"textDocument":{"uri":"file:///home/ec2-user/Step1/envs/california.tfvars"},"position":{"line":1,"character":17}}
+2022/08/09 14:57:10 hover.go:32: Looking for hover data at "california.tfvars" -> hcl.Pos{Line:2, Column:18, Byte:41}
+2022/08/09 14:57:10 hover.go:34: received hover data: (*lang.HoverData)(nil)
+2022/08/09 14:57:10 rpc_logger.go:45: Error for "textDocument/hover" (ID 86): [-32098] california.tfvars (2,18): unknown attribute "region"
+2022/08/09 14:57:10 opts.go:218: Completed 1 requests [196.97µs elapsed]
+[Error - 2:57:10 PM] Request textDocument/hover failed.
+  Message: california.tfvars (2,18): unknown attribute "region"
+  Code: -32098 
+2022/08/09 14:57:43 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:57:43 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:57:43 rpc_logger.go:29: Incoming request for "workspace/executeCommand" (ID 87): {"command":"terraform-ls.module.callers","arguments":["uri=file:///home/ec2-user/Step1"]}
+2022/08/09 14:57:43 rpc_logger.go:50: Response to "workspace/executeCommand" (ID 87): {"v":0,"callers":[]}
+2022/08/09 14:57:43 opts.go:218: Completed 1 requests [149.71µs elapsed]
+2022/08/09 14:57:43 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:57:43 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:57:43 rpc_logger.go:29: Incoming request for "textDocument/documentLink" (ID 88): {"textDocument":{"uri":"file:///home/ec2-user/Step1/provider.tf"}}
+2022/08/09 14:57:43 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:57:43 rpc_logger.go:50: Response to "textDocument/documentLink" (ID 88): [{"range":{"start":{"line":0,"character":9},"end":{"line":0,"character":14}},"target":"https://registry.terraform.io/providers/hashicorp/aws/4.23.0/docs?utm_content=documentLink\u0026utm_medium=Visual+Studio+Code\u0026utm_source=terraform-ls","tooltip":"hashicorp/aws Documentation"}]
+2022/08/09 14:57:43 opts.go:218: Completed 1 requests [7.155841ms elapsed]
+2022/08/09 14:57:43 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:57:43 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:57:43 rpc_logger.go:29: Incoming request for "textDocument/codeLens" (ID 89): {"textDocument":{"uri":"file:///home/ec2-user/Step1/provider.tf"}}
+2022/08/09 14:57:43 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:57:43 rpc_logger.go:50: Response to "textDocument/codeLens" (ID 89): []
+2022/08/09 14:57:43 opts.go:218: Completed 1 requests [7.352897ms elapsed]
+2022/08/09 14:57:44 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:57:44 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:57:44 rpc_logger.go:29: Incoming request for "workspace/executeCommand" (ID 90): {"command":"terraform-ls.module.callers","arguments":["uri=file:///home/ec2-user/Step1"]}
+2022/08/09 14:57:44 rpc_logger.go:50: Response to "workspace/executeCommand" (ID 90): {"v":0,"callers":[]}
+2022/08/09 14:57:44 opts.go:218: Completed 1 requests [157.001µs elapsed]
+2022/08/09 14:57:44 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:57:44 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:57:44 rpc_logger.go:29: Incoming request for "textDocument/documentLink" (ID 91): {"textDocument":{"uri":"file:///home/ec2-user/Step1/output.tf"}}
+2022/08/09 14:57:44 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:57:44 rpc_logger.go:50: Response to "textDocument/documentLink" (ID 91): []
+2022/08/09 14:57:44 opts.go:218: Completed 1 requests [7.606238ms elapsed]
+2022/08/09 14:57:44 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:57:44 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:57:44 rpc_logger.go:29: Incoming request for "textDocument/codeLens" (ID 92): {"textDocument":{"uri":"file:///home/ec2-user/Step1/output.tf"}}
+2022/08/09 14:57:44 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:57:44 rpc_logger.go:50: Response to "textDocument/codeLens" (ID 92): []
+2022/08/09 14:57:44 opts.go:218: Completed 1 requests [7.349739ms elapsed]
+2022/08/09 14:57:45 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:57:45 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:57:45 rpc_logger.go:29: Incoming request for "workspace/executeCommand" (ID 93): {"command":"terraform-ls.module.callers","arguments":["uri=file:///home/ec2-user/Step1"]}
+2022/08/09 14:57:45 rpc_logger.go:50: Response to "workspace/executeCommand" (ID 93): {"v":0,"callers":[]}
+2022/08/09 14:57:45 opts.go:218: Completed 1 requests [147.754µs elapsed]
+2022/08/09 14:57:45 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:57:45 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:57:45 rpc_logger.go:29: Incoming request for "textDocument/documentLink" (ID 94): {"textDocument":{"uri":"file:///home/ec2-user/Step1/main.tf"}}
+2022/08/09 14:57:45 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:57:45 rpc_logger.go:50: Response to "textDocument/documentLink" (ID 94): []
+2022/08/09 14:57:45 opts.go:218: Completed 1 requests [7.32138ms elapsed]
+2022/08/09 14:57:46 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:57:46 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:57:46 rpc_logger.go:29: Incoming request for "textDocument/codeLens" (ID 95): {"textDocument":{"uri":"file:///home/ec2-user/Step1/main.tf"}}
+2022/08/09 14:57:46 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:57:46 rpc_logger.go:50: Response to "textDocument/codeLens" (ID 95): []
+2022/08/09 14:57:46 opts.go:218: Completed 1 requests [8.362491ms elapsed]
+2022/08/09 14:58:18 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:58:18 opts.go:218: Received request batch of size 1 (qlen=1)
+2022/08/09 14:58:18 opts.go:218: Dequeued request batch of length 1 (qlen=1)
+2022/08/09 14:58:18 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:58:18 rpc_logger.go:29: Incoming request for "textDocument/documentLink" (ID 97): {"textDocument":{"uri":"file:///home/ec2-user/Step1/output.tf"}}
+2022/08/09 14:58:18 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:58:18 rpc_logger.go:50: Response to "textDocument/documentLink" (ID 97): []
+2022/08/09 14:58:18 opts.go:218: Completed 1 requests [9.363527ms elapsed]
+2022/08/09 14:58:18 rpc_logger.go:29: Incoming request for "workspace/executeCommand" (ID 96): {"command":"terraform-ls.module.callers","arguments":["uri=file:///home/ec2-user/Step1"]}
+2022/08/09 14:58:18 rpc_logger.go:50: Response to "workspace/executeCommand" (ID 96): {"v":0,"callers":[]}
+2022/08/09 14:58:18 opts.go:218: Completed 1 requests [9.844674ms elapsed]
+2022/08/09 14:58:18 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:58:18 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:58:18 rpc_logger.go:29: Incoming request for "textDocument/codeLens" (ID 98): {"textDocument":{"uri":"file:///home/ec2-user/Step1/output.tf"}}
+2022/08/09 14:58:18 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:58:18 rpc_logger.go:50: Response to "textDocument/codeLens" (ID 98): []
+2022/08/09 14:58:18 opts.go:218: Completed 1 requests [20.246583ms elapsed]
+2022/08/09 14:58:25 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:58:25 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:58:25 rpc_logger.go:29: Incoming request for "textDocument/hover" (ID 99): {"textDocument":{"uri":"file:///home/ec2-user/Step1/output.tf"},"position":{"line":47,"character":28}}
+2022/08/09 14:58:25 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:58:25 hover.go:32: Looking for hover data at "output.tf" -> hcl.Pos{Line:48, Column:29, Byte:728}
+2022/08/09 14:58:25 hover.go:34: received hover data: &lang.HoverData{Content:lang.MarkupContent{Value:"\"aws_route_table_public\" (name)\n\nOutput Name", Kind:0x2}, Range:hcl.Range{Filename:"output.tf", Start:hcl.Pos{Line:48, Column:8, Byte:707}, End:hcl.Pos{Line:48, Column:32, Byte:731}}}
+2022/08/09 14:58:25 rpc_logger.go:50: Response to "textDocument/hover" (ID 99): {"contents":{"kind":"markdown","value":"\"aws_route_table_public\" (name)\n\nOutput Name"},"range":{"start":{"line":47,"character":7},"end":{"line":47,"character":31}}}
+2022/08/09 14:58:25 opts.go:218: Completed 1 requests [8.122677ms elapsed]
+2022/08/09 14:58:37 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:58:37 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:58:37 rpc_logger.go:29: Incoming request for "workspace/executeCommand" (ID 100): {"command":"terraform-ls.module.callers","arguments":["uri=file:///home/ec2-user/Step1"]}
+2022/08/09 14:58:37 rpc_logger.go:50: Response to "workspace/executeCommand" (ID 100): {"v":0,"callers":[]}
+2022/08/09 14:58:37 opts.go:218: Completed 1 requests [148.595µs elapsed]
+2022/08/09 14:58:37 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:58:37 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:58:37 rpc_logger.go:29: Incoming request for "textDocument/documentLink" (ID 101): {"textDocument":{"uri":"file:///home/ec2-user/Step1/variable.tf"}}
+2022/08/09 14:58:37 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:58:37 rpc_logger.go:50: Response to "textDocument/documentLink" (ID 101): []
+2022/08/09 14:58:37 opts.go:218: Completed 1 requests [7.477265ms elapsed]
+2022/08/09 14:58:37 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:58:37 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:58:37 rpc_logger.go:29: Incoming request for "textDocument/codeLens" (ID 102): {"textDocument":{"uri":"file:///home/ec2-user/Step1/variable.tf"}}
+2022/08/09 14:58:37 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:58:37 rpc_logger.go:50: Response to "textDocument/codeLens" (ID 102): []
+2022/08/09 14:58:37 opts.go:218: Completed 1 requests [7.880019ms elapsed]
+2022/08/09 14:58:38 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:58:38 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:58:38 rpc_logger.go:29: Incoming request for "workspace/executeCommand" (ID 103): {"command":"terraform-ls.module.callers","arguments":["uri=file:///home/ec2-user/Step1"]}
+2022/08/09 14:58:38 rpc_logger.go:50: Response to "workspace/executeCommand" (ID 103): {"v":0,"callers":[]}
+2022/08/09 14:58:38 opts.go:218: Completed 1 requests [155.487µs elapsed]
+2022/08/09 14:58:38 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:58:38 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:58:38 rpc_logger.go:29: Incoming request for "textDocument/documentLink" (ID 104): {"textDocument":{"uri":"file:///home/ec2-user/Step1/main.tf"}}
+2022/08/09 14:58:38 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:58:38 rpc_logger.go:50: Response to "textDocument/documentLink" (ID 104): []
+2022/08/09 14:58:38 opts.go:218: Completed 1 requests [7.483292ms elapsed]
+2022/08/09 14:58:38 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:58:38 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:58:38 rpc_logger.go:29: Incoming request for "textDocument/codeLens" (ID 105): {"textDocument":{"uri":"file:///home/ec2-user/Step1/main.tf"}}
+2022/08/09 14:58:38 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:58:38 rpc_logger.go:50: Response to "textDocument/codeLens" (ID 105): []
+2022/08/09 14:58:38 opts.go:218: Completed 1 requests [7.552515ms elapsed]
+2022/08/09 14:58:39 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:58:39 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:58:39 rpc_logger.go:29: Incoming request for "workspace/executeCommand" (ID 106): {"command":"terraform-ls.module.callers","arguments":["uri=file:///home/ec2-user/Step1"]}
+2022/08/09 14:58:39 rpc_logger.go:50: Response to "workspace/executeCommand" (ID 106): {"v":0,"callers":[]}
+2022/08/09 14:58:39 opts.go:218: Completed 1 requests [128.359µs elapsed]
+2022/08/09 14:58:39 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:58:39 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:58:39 rpc_logger.go:29: Incoming request for "textDocument/documentLink" (ID 107): {"textDocument":{"uri":"file:///home/ec2-user/Step1/provider.tf"}}
+2022/08/09 14:58:39 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:58:39 rpc_logger.go:50: Response to "textDocument/documentLink" (ID 107): [{"range":{"start":{"line":0,"character":9},"end":{"line":0,"character":14}},"target":"https://registry.terraform.io/providers/hashicorp/aws/4.23.0/docs?utm_content=documentLink\u0026utm_medium=Visual+Studio+Code\u0026utm_source=terraform-ls","tooltip":"hashicorp/aws Documentation"}]
+2022/08/09 14:58:39 opts.go:218: Completed 1 requests [7.519415ms elapsed]
+2022/08/09 14:58:39 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:58:39 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:58:39 rpc_logger.go:29: Incoming request for "textDocument/codeLens" (ID 108): {"textDocument":{"uri":"file:///home/ec2-user/Step1/provider.tf"}}
+2022/08/09 14:58:39 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:58:39 rpc_logger.go:50: Response to "textDocument/codeLens" (ID 108): []
+2022/08/09 14:58:39 opts.go:218: Completed 1 requests [8.064265ms elapsed]
+2022/08/09 14:58:40 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:58:40 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:58:40 rpc_logger.go:29: Incoming request for "workspace/executeCommand" (ID 109): {"command":"terraform-ls.module.callers","arguments":["uri=file:///home/ec2-user/Step1"]}
+2022/08/09 14:58:40 rpc_logger.go:50: Response to "workspace/executeCommand" (ID 109): {"v":0,"callers":[]}
+2022/08/09 14:58:40 opts.go:218: Completed 1 requests [151.459µs elapsed]
+2022/08/09 14:58:40 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:58:40 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:58:40 rpc_logger.go:29: Incoming request for "textDocument/documentLink" (ID 110): {"textDocument":{"uri":"file:///home/ec2-user/Step1/output.tf"}}
+2022/08/09 14:58:40 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:58:40 rpc_logger.go:50: Response to "textDocument/documentLink" (ID 110): []
+2022/08/09 14:58:40 opts.go:218: Completed 1 requests [8.447046ms elapsed]
+2022/08/09 14:58:40 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:58:40 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:58:40 rpc_logger.go:29: Incoming request for "textDocument/codeLens" (ID 111): {"textDocument":{"uri":"file:///home/ec2-user/Step1/output.tf"}}
+2022/08/09 14:58:40 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:58:40 rpc_logger.go:50: Response to "textDocument/codeLens" (ID 111): []
+2022/08/09 14:58:40 opts.go:218: Completed 1 requests [7.330764ms elapsed]
+2022/08/09 14:58:42 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:58:42 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:58:42 rpc_logger.go:29: Incoming request for "workspace/executeCommand" (ID 112): {"command":"terraform-ls.module.callers","arguments":["uri=file:///home/ec2-user/Step1"]}
+2022/08/09 14:58:42 rpc_logger.go:50: Response to "workspace/executeCommand" (ID 112): {"v":0,"callers":[]}
+2022/08/09 14:58:42 opts.go:218: Completed 1 requests [150.817µs elapsed]
+2022/08/09 14:58:42 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:58:42 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:58:42 rpc_logger.go:29: Incoming request for "textDocument/documentLink" (ID 113): {"textDocument":{"uri":"file:///home/ec2-user/Step1/variable.tf"}}
+2022/08/09 14:58:42 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:58:42 rpc_logger.go:50: Response to "textDocument/documentLink" (ID 113): []
+2022/08/09 14:58:42 opts.go:218: Completed 1 requests [7.904047ms elapsed]
+2022/08/09 14:58:42 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:58:42 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:58:42 rpc_logger.go:29: Incoming request for "textDocument/codeLens" (ID 114): {"textDocument":{"uri":"file:///home/ec2-user/Step1/variable.tf"}}
+2022/08/09 14:58:42 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:58:42 rpc_logger.go:50: Response to "textDocument/codeLens" (ID 114): []
+2022/08/09 14:58:42 opts.go:218: Completed 1 requests [7.499214ms elapsed]
+2022/08/09 14:58:57 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 14:58:57 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 14:58:57 rpc_logger.go:29: Incoming request for "textDocument/hover" (ID 115): {"textDocument":{"uri":"file:///home/ec2-user/Step1/variable.tf"},"position":{"line":36,"character":32}}
+2022/08/09 14:58:57 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 14:58:57 hover.go:32: Looking for hover data at "variable.tf" -> hcl.Pos{Line:37, Column:33, Byte:745}
+2022/08/09 14:58:57 hover.go:34: received hover data: &lang.HoverData{Content:lang.MarkupContent{Value:"`\"Please provide subnet CIDR block\"` _string_", Kind:0x2}, Range:hcl.Range{Filename:"variable.tf", Start:hcl.Pos{Line:37, Column:17, Byte:729}, End:hcl.Pos{Line:37, Column:51, Byte:763}}}
+2022/08/09 14:58:57 rpc_logger.go:50: Response to "textDocument/hover" (ID 115): {"contents":{"kind":"markdown","value":"`\"Please provide subnet CIDR block\"` _string_"},"range":{"start":{"line":36,"character":16},"end":{"line":36,"character":50}}}
+2022/08/09 14:58:57 opts.go:218: Completed 1 requests [7.578606ms elapsed]
+2022/08/09 15:01:29 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 15:01:29 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 15:01:29 rpc_logger.go:29: Incoming request for "textDocument/hover" (ID 116): {"textDocument":{"uri":"file:///home/ec2-user/Step1/variable.tf"},"position":{"line":46,"character":48}}
+2022/08/09 15:01:29 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 15:01:29 hover.go:32: Looking for hover data at "variable.tf" -> hcl.Pos{Line:47, Column:49, Byte:1022}
+2022/08/09 15:01:29 hover.go:34: received hover data: &lang.HoverData{Content:lang.MarkupContent{Value:"`\"Please provide subnet CIDR block\"` _string_", Kind:0x2}, Range:hcl.Range{Filename:"variable.tf", Start:hcl.Pos{Line:47, Column:17, Byte:990}, End:hcl.Pos{Line:47, Column:51, Byte:1024}}}
+2022/08/09 15:01:29 rpc_logger.go:50: Response to "textDocument/hover" (ID 116): {"contents":{"kind":"markdown","value":"`\"Please provide subnet CIDR block\"` _string_"},"range":{"start":{"line":46,"character":16},"end":{"line":46,"character":50}}}
+2022/08/09 15:01:29 opts.go:218: Completed 1 requests [7.972534ms elapsed]
+2022/08/09 15:02:23 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 15:02:23 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 15:02:23 rpc_logger.go:29: Incoming request for "textDocument/hover" (ID 117): {"textDocument":{"uri":"file:///home/ec2-user/Step1/variable.tf"},"position":{"line":46,"character":5}}
+2022/08/09 15:02:23 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 15:02:23 hover.go:32: Looking for hover data at "variable.tf" -> hcl.Pos{Line:47, Column:6, Byte:979}
+2022/08/09 15:02:23 hover.go:34: received hover data: &lang.HoverData{Content:lang.MarkupContent{Value:"**description** _optional, string_\n\nDescription to document the purpose of the variable and what value is expected", Kind:0x2}, Range:hcl.Range{Filename:"variable.tf", Start:hcl.Pos{Line:47, Column:3, Byte:976}, End:hcl.Pos{Line:47, Column:51, Byte:1024}}}
+2022/08/09 15:02:23 rpc_logger.go:50: Response to "textDocument/hover" (ID 117): {"contents":{"kind":"markdown","value":"**description** _optional, string_\n\nDescription to document the purpose of the variable and what value is expected"},"range":{"start":{"line":46,"character":2},"end":{"line":46,"character":50}}}
+2022/08/09 15:02:23 opts.go:218: Completed 1 requests [7.735727ms elapsed]
+2022/08/09 15:02:42 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 15:02:42 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 15:02:42 rpc_logger.go:29: Incoming request for "textDocument/hover" (ID 118): {"textDocument":{"uri":"file:///home/ec2-user/Step1/variable.tf"},"position":{"line":42,"character":8}}
+2022/08/09 15:02:42 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 15:02:42 hover.go:32: Looking for hover data at "variable.tf" -> hcl.Pos{Line:43, Column:9, Byte:902}
+2022/08/09 15:02:42 hover.go:34: received hover data: (*lang.HoverData)(nil)
+2022/08/09 15:02:42 rpc_logger.go:45: Error for "textDocument/hover" (ID 118): [-32098] variable.tf (43,9): position outside of any attribute name, value or block
+2022/08/09 15:02:42 opts.go:218: Completed 1 requests [9.453285ms elapsed]
+[Error - 3:02:42 PM] Request textDocument/hover failed.
+  Message: variable.tf (43,9): position outside of any attribute name, value or block
+  Code: -32098 
+2022/08/09 15:02:42 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 15:02:42 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 15:02:42 rpc_logger.go:29: Incoming notification for "$/cancelRequest": {"id":118}
+2022/08/09 15:02:42 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 15:02:42 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 15:02:42 rpc_logger.go:29: Incoming request for "textDocument/hover" (ID 119): {"textDocument":{"uri":"file:///home/ec2-user/Step1/variable.tf"},"position":{"line":43,"character":27}}
+2022/08/09 15:02:42 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 15:02:42 hover.go:32: Looking for hover data at "variable.tf" -> hcl.Pos{Line:44, Column:28, Byte:944}
+2022/08/09 15:02:42 hover.go:34: received hover data: &lang.HoverData{Content:lang.MarkupContent{Value:"`\"10.0.103.0/24\"` _string_", Kind:0x2}, Range:hcl.Range{Filename:"variable.tf", Start:hcl.Pos{Line:44, Column:17, Byte:933}, End:hcl.Pos{Line:44, Column:32, Byte:948}}}
+2022/08/09 15:02:42 rpc_logger.go:50: Response to "textDocument/hover" (ID 119): {"contents":{"kind":"markdown","value":"`\"10.0.103.0/24\"` _string_"},"range":{"start":{"line":43,"character":16},"end":{"line":43,"character":31}}}
+2022/08/09 15:02:42 opts.go:218: Completed 1 requests [7.680677ms elapsed]
+2022/08/09 15:02:42 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 15:02:42 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 15:02:42 rpc_logger.go:29: Incoming request for "textDocument/hover" (ID 120): {"textDocument":{"uri":"file:///home/ec2-user/Step1/variable.tf"},"position":{"line":36,"character":11}}
+2022/08/09 15:02:42 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 15:02:42 hover.go:32: Looking for hover data at "variable.tf" -> hcl.Pos{Line:37, Column:12, Byte:724}
+2022/08/09 15:02:42 hover.go:34: received hover data: &lang.HoverData{Content:lang.MarkupContent{Value:"**description** _optional, string_\n\nDescription to document the purpose of the variable and what value is expected", Kind:0x2}, Range:hcl.Range{Filename:"variable.tf", Start:hcl.Pos{Line:37, Column:3, Byte:715}, End:hcl.Pos{Line:37, Column:51, Byte:763}}}
+2022/08/09 15:02:42 rpc_logger.go:50: Response to "textDocument/hover" (ID 120): {"contents":{"kind":"markdown","value":"**description** _optional, string_\n\nDescription to document the purpose of the variable and what value is expected"},"range":{"start":{"line":36,"character":2},"end":{"line":36,"character":50}}}
+2022/08/09 15:02:42 opts.go:218: Completed 1 requests [7.311584ms elapsed]
+2022/08/09 15:02:44 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 15:02:44 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 15:02:44 rpc_logger.go:29: Incoming request for "textDocument/hover" (ID 121): {"textDocument":{"uri":"file:///home/ec2-user/Step1/variable.tf"},"position":{"line":33,"character":29}}
+2022/08/09 15:02:44 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 15:02:44 hover.go:32: Looking for hover data at "variable.tf" -> hcl.Pos{Line:34, Column:30, Byte:686}
+2022/08/09 15:02:44 hover.go:34: received hover data: &lang.HoverData{Content:lang.MarkupContent{Value:"`\"10.0.101.0/24\"` _string_", Kind:0x2}, Range:hcl.Range{Filename:"variable.tf", Start:hcl.Pos{Line:34, Column:17, Byte:673}, End:hcl.Pos{Line:34, Column:32, Byte:688}}}
+2022/08/09 15:02:44 rpc_logger.go:50: Response to "textDocument/hover" (ID 121): {"contents":{"kind":"markdown","value":"`\"10.0.101.0/24\"` _string_"},"range":{"start":{"line":33,"character":16},"end":{"line":33,"character":31}}}
+2022/08/09 15:02:44 opts.go:218: Completed 1 requests [8.340313ms elapsed]
+2022/08/09 15:02:45 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 15:02:45 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 15:02:45 rpc_logger.go:29: Incoming request for "textDocument/hover" (ID 122): {"textDocument":{"uri":"file:///home/ec2-user/Step1/variable.tf"},"position":{"line":33,"character":11}}
+2022/08/09 15:02:45 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 15:02:45 hover.go:32: Looking for hover data at "variable.tf" -> hcl.Pos{Line:34, Column:12, Byte:668}
+2022/08/09 15:02:45 hover.go:34: received hover data: (*lang.HoverData)(nil)
+2022/08/09 15:02:45 rpc_logger.go:45: Error for "textDocument/hover" (ID 122): [-32098] variable.tf (34,12): position outside of any attribute name, value or block
+2022/08/09 15:02:45 opts.go:218: Completed 1 requests [8.313232ms elapsed]
+[Error - 3:02:45 PM] Request textDocument/hover failed.
+  Message: variable.tf (34,12): position outside of any attribute name, value or block
+  Code: -32098 
+2022/08/09 15:04:20 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 15:04:20 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 15:04:20 rpc_logger.go:29: Incoming request for "workspace/executeCommand" (ID 123): {"command":"terraform-ls.module.callers","arguments":["uri=file:///home/ec2-user/Step1"]}
+2022/08/09 15:04:20 rpc_logger.go:50: Response to "workspace/executeCommand" (ID 123): {"v":0,"callers":[]}
+2022/08/09 15:04:20 opts.go:218: Completed 1 requests [154.445µs elapsed]
+2022/08/09 15:04:20 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 15:04:20 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 15:04:20 rpc_logger.go:29: Incoming request for "textDocument/documentLink" (ID 124): {"textDocument":{"uri":"file:///home/ec2-user/Step1/main.tf"}}
+2022/08/09 15:04:20 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 15:04:20 rpc_logger.go:50: Response to "textDocument/documentLink" (ID 124): []
+2022/08/09 15:04:20 opts.go:218: Completed 1 requests [8.276526ms elapsed]
+2022/08/09 15:04:20 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 15:04:20 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 15:04:20 rpc_logger.go:29: Incoming request for "textDocument/codeLens" (ID 125): {"textDocument":{"uri":"file:///home/ec2-user/Step1/main.tf"}}
+2022/08/09 15:04:20 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 15:04:20 rpc_logger.go:50: Response to "textDocument/codeLens" (ID 125): []
+2022/08/09 15:04:20 opts.go:218: Completed 1 requests [8.373924ms elapsed]
+2022/08/09 15:05:40 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 15:05:40 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 15:05:40 rpc_logger.go:29: Incoming request for "textDocument/hover" (ID 126): {"textDocument":{"uri":"file:///home/ec2-user/Step1/main.tf"},"position":{"line":6,"character":1}}
+2022/08/09 15:05:40 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 15:05:40 hover.go:32: Looking for hover data at "main.tf" -> hcl.Pos{Line:7, Column:2, Byte:129}
+2022/08/09 15:05:40 hover.go:34: received hover data: &lang.HoverData{Content:lang.MarkupContent{Value:"_map of string_", Kind:0x2}, Range:hcl.Range{Filename:"main.tf", Start:hcl.Pos{Line:5, Column:10, Byte:99}, End:hcl.Pos{Line:7, Column:6, Byte:133}}}
+2022/08/09 15:05:40 rpc_logger.go:50: Response to "textDocument/hover" (ID 126): {"contents":{"kind":"markdown","value":"_map of string_"},"range":{"start":{"line":4,"character":9},"end":{"line":6,"character":5}}}
+2022/08/09 15:05:40 opts.go:218: Completed 1 requests [8.148272ms elapsed]
+2022/08/09 15:05:41 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 15:05:41 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 15:05:41 rpc_logger.go:29: Incoming request for "textDocument/hover" (ID 127): {"textDocument":{"uri":"file:///home/ec2-user/Step1/main.tf"},"position":{"line":10,"character":9}}
+2022/08/09 15:05:41 provider_schema.go:196: PSS: getting provider schema (/home/ec2-user/Step1, registry.terraform.io/-/aws, )
+2022/08/09 15:05:41 hover.go:32: Looking for hover data at "main.tf" -> hcl.Pos{Line:11, Column:10, Byte:171}
+2022/08/09 15:05:41 hover.go:34: received hover data: &lang.HoverData{Content:lang.MarkupContent{Value:"`aws_subnet` hashicorp/aws 4.23.0\n\nResource Type", Kind:0x2}, Range:hcl.Range{Filename:"main.tf", Start:hcl.Pos{Line:11, Column:10, Byte:171}, End:hcl.Pos{Line:11, Column:22, Byte:183}}}
+2022/08/09 15:05:41 rpc_logger.go:50: Response to "textDocument/hover" (ID 127): {"contents":{"kind":"markdown","value":"`aws_subnet` hashicorp/aws 4.23.0\n\nResource Type"},"range":{"start":{"line":10,"character":9},"end":{"line":10,"character":21}}}
+2022/08/09 15:05:41 opts.go:218: Completed 1 requests [8.5763ms elapsed]
+2022/08/09 15:07:04 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 15:07:04 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 15:07:04 opts.go:218: Request check error for "$/setTrace" (params "{\"value\":\"off\"}"): [-32601] method not found

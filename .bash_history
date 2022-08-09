@@ -125,3 +125,15 @@ git add .
 git commit -m "added tfvars"
 git push
 git push team master
+git remote
+git add .
+git commit -m "fixes"
+git push team master
+terraform init
+make ohio
+make mumbai
+make destroy-ohio
+make destroy-mumbai
+git add .
+git commit -m "fixed envs"
+git push team master

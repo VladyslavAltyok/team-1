@@ -421,3 +421,6 @@
 	at Be (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11251)
 	at Immediate.<anonymous> (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11101)
 	at processImmediate (node:internal/timers:464:21)
+[2022-08-09 05:48:22.431] [exthost] [info] extension host terminating: renderer disconnected for too long (1)
+[2022-08-09 05:48:22.432] [exthost] [info] Lock '/home/ec2-user/.vscode-server/data/User/workspaceStorage/bd4a48b86a6b0e7dce82a23a7d51a25d-1/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-08-09 05:48:22.474] [exthost] [info] Extension host with pid 23651 exiting with code 0
