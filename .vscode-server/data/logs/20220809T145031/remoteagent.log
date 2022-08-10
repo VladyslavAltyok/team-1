@@ -9,3 +9,16 @@
 [2022-08-09 15:16:02.181] [remoteagent] [info] [127.0.0.1][e026f818][ManagementConnection] New connection established.
 [2022-08-09 15:16:02.345] [remoteagent] [info] [127.0.0.1][568de635][ExtensionHostConnection] New connection established.
 [2022-08-09 15:16:02.361] [remoteagent] [info] [127.0.0.1][568de635][ExtensionHostConnection] <6845> Launched Extension Host Process.
+[2022-08-09 15:20:19.506] [remoteagent] [info] [127.0.0.1][568de635][ExtensionHostConnection] The client has reconnected.
+[2022-08-09 15:20:23.925] [remoteagent] [info] [127.0.0.1][e026f818][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2022-08-09 15:20:29.085] [remoteagent] [info] [127.0.0.1][e026f818][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2022-08-09 15:20:29.086] [remoteagent] [info] [127.0.0.1][e026f818][ManagementConnection] The client has reconnected.
+[2022-08-09 15:20:29.315] [remoteagent] [info] [127.0.0.1][568de635][ExtensionHostConnection] The client has reconnected.
+[2022-08-09 15:23:43.968] [remoteagent] [info] [127.0.0.1][523e188e][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2022-08-09 15:37:12.966] [remoteagent] [info] [127.0.0.1][e026f818][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2022-08-09 18:23:48.871] [remoteagent] [info] [127.0.0.1][523e188e][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+[2022-08-09 18:23:55.134] [remoteagent] [info] [127.0.0.1][8fd6269e][ExtensionHostConnection] <3154> Extension Host Process exited with code: 0, signal: null.
+[2022-08-09 18:37:18.318] [remoteagent] [info] [127.0.0.1][e026f818][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+[2022-08-09 18:37:24.371] [remoteagent] [info] [127.0.0.1][568de635][ExtensionHostConnection] <6845> Extension Host Process exited with code: 0, signal: null.
+[2022-08-09 18:37:24.371] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2022-08-09 18:42:24.373] [remoteagent] [info] Last EH closed, shutting down

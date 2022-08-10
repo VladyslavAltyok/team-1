@@ -137,3 +137,10 @@ make destroy-mumbai
 git add .
 git commit -m "fixed envs"
 git push team master
+git add *
+git add .
+git commit -m "u"
+git push team master
+make california
+clear
+make california

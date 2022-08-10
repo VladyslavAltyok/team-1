@@ -1,4 +1,4 @@
-# Create VPC in us-east
+# Create VPC
 resource "aws_vpc" "team1-vpc" {
     cidr_block = var.cidr_block
 

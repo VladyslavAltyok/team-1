@@ -1109,3 +1109,16 @@ Launching language server: /home/ec2-user/.vscode-server/extensions/hashicorp.te
 2022/08/09 15:07:04 opts.go:218: Received request batch of size 1 (qlen=0)
 2022/08/09 15:07:04 opts.go:218: Dequeued request batch of length 1 (qlen=0)
 2022/08/09 15:07:04 opts.go:218: Request check error for "$/setTrace" (params "{\"value\":\"off\"}"): [-32601] method not found
+2022/08/09 18:23:55 opts.go:218: Received request batch of size 1 (qlen=0)
+2022/08/09 18:23:55 opts.go:218: Dequeued request batch of length 1 (qlen=0)
+2022/08/09 18:23:55 rpc_logger.go:29: Incoming request for "shutdown" (ID 128): 
+2022/08/09 18:23:55 service.go:534: stopping closedDirWalker for session ...
+2022/08/09 18:23:55 service.go:536: closedDirWalker stopped
+2022/08/09 18:23:55 service.go:539: stopping openDirWalker for session ...
+2022/08/09 18:23:55 service.go:541: openDirWalker stopped
+2022/08/09 18:23:55 service.go:545: stopping watcher for session ...
+2022/08/09 18:23:55 service.go:550: watcher stopped
+2022/08/09 18:23:55 scheduler.go:52: stopped scheduler
+2022/08/09 18:23:55 scheduler.go:52: stopped scheduler
+2022/08/09 18:23:55 rpc_logger.go:50: Response to "shutdown" (ID 128): null
+2022/08/09 18:23:55 opts.go:218: Completed 1 requests [319.683µs elapsed]

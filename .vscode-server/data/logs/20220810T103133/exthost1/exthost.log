@@ -1,0 +1,351 @@
+[2022-08-10 17:53:45.521] [exthost] [info] Extension host with pid 16818 started
+[2022-08-10 17:53:45.533] [exthost] [info] Lock '/home/ec2-user/.vscode-server/data/User/workspaceStorage/bd4a48b86a6b0e7dce82a23a7d51a25d/vscode.lock': Lock acquired.
+[2022-08-10 17:53:45.640] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+[2022-08-10 17:53:45.650] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+[2022-08-10 17:53:45.666] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+[2022-08-10 17:53:45.767] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+[2022-08-10 17:53:45.872] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-08-10 17:53:45.899] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-08-10 17:53:45.903] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-08-10 17:53:46.064] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-08-10 17:53:46.168] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-08-10 17:53:46.664] [exthost] [info] ExtensionService#_doActivateExtension hashicorp.hcl, startup: true, activationEvent: 'workspaceContains:**/*.hcl'
+[2022-08-10 17:53:46.729] [exthost] [info] ExtensionService#_doActivateExtension hashicorp.terraform, startup: true, activationEvent: 'workspaceContains:**/*.tf,**/*.tfvars'
+[2022-08-10 17:53:53.682] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-10 17:53:53.716] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-10 17:53:53.726] [exthost] [info] Eager extensions activated
+[2022-08-10 17:56:14.545] [exthost] [error] [hashicorp.terraform] provider FAILED
+[2022-08-10 17:56:14.545] [exthost] [error] Error: rds.tf (4,39): no reference target found
+	at Fe (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:17:223)
+	at Be (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11251)
+	at Immediate.<anonymous> (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11101)
+	at processImmediate (node:internal/timers:464:21)
+[2022-08-10 17:58:07.324] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+[2022-08-10 17:58:07.705] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+[2022-08-10 17:58:19.741] [exthost] [error] [hashicorp.terraform] provider FAILED
+[2022-08-10 17:58:19.741] [exthost] [error] Error: rds.tf (13,26): no reference target found
+	at Fe (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:17:223)
+	at Be (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11251)
+	at Immediate.<anonymous> (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11101)
+	at processImmediate (node:internal/timers:464:21)
+[2022-08-10 17:58:39.256] [exthost] [error] [hashicorp.terraform] provider FAILED
+[2022-08-10 17:58:39.256] [exthost] [error] Error: rds.tf (28,37): position outside of "resource" body
+	at Fe (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:17:223)
+	at Be (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11251)
+	at Immediate.<anonymous> (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11101)
+	at processImmediate (node:internal/timers:464:21)
+[2022-08-10 17:59:26.736] [exthost] [error] [hashicorp.terraform] provider FAILED
+[2022-08-10 17:59:26.737] [exthost] [error] Error: rds.tf (21,12): position outside of any attribute name, value or block
+	at Fe (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:17:223)
+	at Be (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11251)
+	at Immediate.<anonymous> (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11101)
+	at processImmediate (node:internal/timers:464:21)
+[2022-08-10 17:59:35.454] [exthost] [error] [hashicorp.terraform] provider FAILED
+[2022-08-10 17:59:35.454] [exthost] [error] Error: rds.tf (13,24): position outside of any attribute name, value or block
+	at Fe (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:17:223)
+	at Be (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11251)
+	at Immediate.<anonymous> (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11101)
+	at processImmediate (node:internal/timers:464:21)
+[2022-08-10 18:01:03.315] [exthost] [error] [hashicorp.terraform] provider FAILED
+[2022-08-10 18:01:03.315] [exthost] [error] Error: provider.tf (2,19): no reference target found
+	at Fe (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:17:223)
+	at Be (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11251)
+	at Immediate.<anonymous> (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11101)
+	at processImmediate (node:internal/timers:464:21)
+[2022-08-10 18:01:03.598] [exthost] [error] [hashicorp.terraform] provider FAILED
+[2022-08-10 18:01:03.598] [exthost] [error] Error: provider.tf (2,14): no reference target found
+	at Fe (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:17:223)
+	at Be (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11251)
+	at Immediate.<anonymous> (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11101)
+	at processImmediate (node:internal/timers:464:21)
+[2022-08-10 18:01:05.519] [exthost] [error] [hashicorp.terraform] provider FAILED
+[2022-08-10 18:01:05.519] [exthost] [error] Error: provider.tf (2,12): no reference target found
+	at Fe (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:17:223)
+	at Be (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11251)
+	at Immediate.<anonymous> (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11101)
+	at processImmediate (node:internal/timers:464:21)
+[2022-08-10 18:02:36.026] [exthost] [error] [hashicorp.terraform] provider FAILED
+[2022-08-10 18:02:36.026] [exthost] [error] Error: main.tf (22,42): no reference target found
+	at Fe (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:17:223)
+	at Be (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11251)
+	at Immediate.<anonymous> (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11101)
+	at processImmediate (node:internal/timers:464:21)
+[2022-08-10 18:02:43.484] [exthost] [error] [hashicorp.terraform] provider FAILED
+[2022-08-10 18:02:43.484] [exthost] [error] Error: main.tf (22,26): no reference target found
+	at Fe (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:17:223)
+	at Be (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11251)
+	at Immediate.<anonymous> (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11101)
+	at processImmediate (node:internal/timers:464:21)
+[2022-08-10 18:03:20.342] [exthost] [error] [hashicorp.terraform] provider FAILED
+[2022-08-10 18:03:20.343] [exthost] [error] Error: main.tf (31,26): no reference target found
+	at Fe (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:17:223)
+	at Be (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11251)
+	at Immediate.<anonymous> (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11101)
+	at processImmediate (node:internal/timers:464:21)
+[2022-08-10 18:03:25.870] [exthost] [error] [hashicorp.terraform] provider FAILED
+[2022-08-10 18:03:25.870] [exthost] [error] Error: main.tf (13,26): no reference target found
+	at Fe (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:17:223)
+	at Be (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11251)
+	at Immediate.<anonymous> (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11101)
+	at processImmediate (node:internal/timers:464:21)
+[2022-08-10 18:03:29.273] [exthost] [error] [hashicorp.terraform] provider FAILED
+[2022-08-10 18:03:29.274] [exthost] [error] Error: main.tf (4,26): no reference target found
+	at Fe (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:17:223)
+	at Be (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11251)
+	at Immediate.<anonymous> (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11101)
+	at processImmediate (node:internal/timers:464:21)
+[2022-08-10 18:04:03.650] [exthost] [error] [hashicorp.terraform] provider FAILED
+[2022-08-10 18:04:03.650] [exthost] [error] Error: main.tf (2,35): position outside of any attribute name, value or block
+	at Fe (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:17:223)
+	at Be (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11251)
+	at Immediate.<anonymous> (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11101)
+	at processImmediate (node:internal/timers:464:21)
+[2022-08-10 18:04:35.082] [exthost] [error] [hashicorp.terraform] provider FAILED
+[2022-08-10 18:04:35.082] [exthost] [error] Error: main.tf (11,35): position outside of any attribute name, value or block
+	at Fe (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:17:223)
+	at Be (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11251)
+	at Immediate.<anonymous> (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11101)
+	at processImmediate (node:internal/timers:464:21)
+[2022-08-10 18:04:38.209] [exthost] [error] [hashicorp.terraform] provider FAILED
+[2022-08-10 18:04:38.209] [exthost] [error] Error: main.tf (11,31): position outside of any attribute name, value or block
+	at Fe (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:17:223)
+	at Be (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11251)
+	at Immediate.<anonymous> (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11101)
+	at processImmediate (node:internal/timers:464:21)
+[2022-08-10 18:06:30.158] [exthost] [error] [hashicorp.terraform] provider FAILED
+[2022-08-10 18:06:30.158] [exthost] [error] Error: main.tf (22,1): position outside of any attribute name, value or block
+	at Fe (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:17:223)
+	at Be (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11251)
+	at Immediate.<anonymous> (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11101)
+	at processImmediate (node:internal/timers:464:21)
+[2022-08-10 18:06:30.881] [exthost] [error] [hashicorp.terraform] provider FAILED
+[2022-08-10 18:06:30.881] [exthost] [error] Error: main.tf (23,18): position outside of any attribute name, value or block
+	at Fe (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:17:223)
+	at Be (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11251)
+	at Immediate.<anonymous> (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11101)
+	at processImmediate (node:internal/timers:464:21)
+[2022-08-10 18:08:12.778] [exthost] [error] [hashicorp.terraform] provider FAILED
+[2022-08-10 18:08:12.778] [exthost] [error] Error: main.tf (24,2): position outside of any attribute name, value or block
+	at Fe (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:17:223)
+	at Be (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11251)
+	at Immediate.<anonymous> (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11101)
+	at processImmediate (node:internal/timers:464:21)
+[2022-08-10 18:10:55.727] [exthost] [error] [hashicorp.terraform] provider FAILED
+[2022-08-10 18:10:55.727] [exthost] [error] Error: main.tf (4,24): position outside of any attribute name, value or block
+	at Fe (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:17:223)
+	at Be (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11251)
+	at Immediate.<anonymous> (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11101)
+	at processImmediate (node:internal/timers:464:21)
+[2022-08-10 18:23:55.955] [exthost] [error] [hashicorp.terraform] provider FAILED
+[2022-08-10 18:23:55.955] [exthost] [error] Error: main.tf (7,37): position outside of any attribute name, value or block
+	at Fe (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:17:223)
+	at Be (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11251)
+	at Immediate.<anonymous> (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11101)
+	at processImmediate (node:internal/timers:464:21)
+[2022-08-10 18:48:37.815] [exthost] [error] [hashicorp.terraform] provider FAILED
+[2022-08-10 18:48:37.816] [exthost] [error] Error: rds.tf (12,38): position outside of any attribute name, value or block
+	at Fe (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:17:223)
+	at Be (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11251)
+	at Immediate.<anonymous> (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11101)
+	at processImmediate (node:internal/timers:464:21)
+[2022-08-10 18:55:34.191] [exthost] [error] [hashicorp.terraform] provider FAILED
+[2022-08-10 18:55:34.192] [exthost] [error] Error: rds.tf (14,4): position outside of any attribute name, value or block
+	at Fe (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:17:223)
+	at Be (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11251)
+	at Immediate.<anonymous> (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11101)
+	at processImmediate (node:internal/timers:464:21)
+[2022-08-10 18:59:57.984] [exthost] [error] [hashicorp.terraform] provider FAILED
+[2022-08-10 18:59:57.984] [exthost] [error] Error: rds.tf (45,34): position outside of any attribute name, value or block
+	at Fe (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:17:223)
+	at Be (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11251)
+	at Immediate.<anonymous> (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11101)
+	at processImmediate (node:internal/timers:464:21)
+[2022-08-10 18:59:58.960] [exthost] [error] [hashicorp.terraform] provider FAILED
+[2022-08-10 18:59:58.961] [exthost] [error] Error: rds.tf (46,5): position outside of any attribute name, value or block
+	at Fe (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:17:223)
+	at Be (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11251)
+	at Immediate.<anonymous> (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11101)
+	at processImmediate (node:internal/timers:464:21)
+[2022-08-10 18:59:59.460] [exthost] [error] [hashicorp.terraform] provider FAILED
+[2022-08-10 18:59:59.460] [exthost] [error] Error: rds.tf (46,4): position outside of any attribute name, value or block
+	at Fe (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:17:223)
+	at Be (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11251)
+	at Immediate.<anonymous> (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11101)
+	at processImmediate (node:internal/timers:464:21)
+[2022-08-10 19:00:02.958] [exthost] [error] [hashicorp.terraform] provider FAILED
+[2022-08-10 19:00:02.958] [exthost] [error] Error: rds.tf (39,3): position outside of any attribute name, value or block
+	at Fe (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:17:223)
+	at Be (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11251)
+	at Immediate.<anonymous> (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11101)
+	at processImmediate (node:internal/timers:464:21)
+[2022-08-10 19:00:05.238] [exthost] [error] [hashicorp.terraform] provider FAILED
+[2022-08-10 19:00:05.238] [exthost] [error] Error: rds.tf (32,4): position outside of any attribute name, value or block
+	at Fe (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:17:223)
+	at Be (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11251)
+	at Immediate.<anonymous> (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11101)
+	at processImmediate (node:internal/timers:464:21)
+[2022-08-10 19:00:07.588] [exthost] [error] [hashicorp.terraform] provider FAILED
+[2022-08-10 19:00:07.588] [exthost] [error] Error: rds.tf (25,3): position outside of any attribute name, value or block
+	at Fe (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:17:223)
+	at Be (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11251)
+	at Immediate.<anonymous> (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11101)
+	at processImmediate (node:internal/timers:464:21)
+[2022-08-10 19:20:55.568] [exthost] [error] [hashicorp.terraform] provider FAILED
+[2022-08-10 19:20:55.568] [exthost] [error] Error: rds.tf (14,1): position outside of any attribute name, value or block
+	at Fe (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:17:223)
+	at Be (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11251)
+	at Immediate.<anonymous> (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11101)
+	at processImmediate (node:internal/timers:464:21)
+[2022-08-10 19:48:28.610] [exthost] [error] [hashicorp.terraform] provider FAILED
+[2022-08-10 19:48:28.610] [exthost] [error] Error: rds.tf (41,22): no reference target found
+	at Fe (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:17:223)
+	at Be (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11251)
+	at Immediate.<anonymous> (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11101)
+	at processImmediate (node:internal/timers:464:21)
+[2022-08-10 19:48:54.334] [exthost] [error] [hashicorp.terraform] provider FAILED
+[2022-08-10 19:48:54.334] [exthost] [error] Error: rds.tf (40,32): position outside of any attribute name, value or block
+	at Fe (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:17:223)
+	at Be (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11251)
+	at Immediate.<anonymous> (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11101)
+	at processImmediate (node:internal/timers:464:21)
+[2022-08-10 20:13:04.549] [exthost] [error] [hashicorp.terraform] provider FAILED
+[2022-08-10 20:13:04.549] [exthost] [error] Error: rds.tf (4,27): no reference target found
+	at Fe (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:17:223)
+	at Be (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11251)
+	at Immediate.<anonymous> (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11101)
+	at processImmediate (node:internal/timers:464:21)
+[2022-08-10 20:13:04.760] [exthost] [error] [hashicorp.terraform] provider FAILED
+[2022-08-10 20:13:04.761] [exthost] [error] Error: rds.tf (4,29): no reference target found
+	at Fe (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:17:223)
+	at Be (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11251)
+	at Immediate.<anonymous> (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11101)
+	at processImmediate (node:internal/timers:464:21)
+[2022-08-10 20:18:10.617] [exthost] [error] [hashicorp.terraform] provider FAILED
+[2022-08-10 20:18:10.617] [exthost] [error] Error: no reference origin found
+	at Fe (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:17:223)
+	at Be (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11251)
+	at Immediate.<anonymous> (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11101)
+	at processImmediate (node:internal/timers:464:21)
+[2022-08-10 20:18:22.540] [exthost] [error] [hashicorp.terraform] provider FAILED
+[2022-08-10 20:18:22.540] [exthost] [error] Error: rds.tf (4,26): no reference target found
+	at Fe (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:17:223)
+	at Be (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11251)
+	at Immediate.<anonymous> (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11101)
+	at processImmediate (node:internal/timers:464:21)
+[2022-08-10 20:18:22.775] [exthost] [error] [hashicorp.terraform] provider FAILED
+[2022-08-10 20:18:22.775] [exthost] [error] Error: rds.tf (4,25): no reference target found
+	at Fe (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:17:223)
+	at Be (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11251)
+	at Immediate.<anonymous> (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11101)
+	at processImmediate (node:internal/timers:464:21)
+[2022-08-10 20:18:23.043] [exthost] [error] [hashicorp.terraform] provider FAILED
+[2022-08-10 20:18:23.043] [exthost] [error] Error: rds.tf (4,24): no reference target found
+	at Fe (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:17:223)
+	at Be (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11251)
+	at Immediate.<anonymous> (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11101)
+	at processImmediate (node:internal/timers:464:21)
+[2022-08-10 20:18:31.436] [exthost] [error] [hashicorp.terraform] provider FAILED
+[2022-08-10 20:18:31.436] [exthost] [error] Error: main.tf (16,1): position outside of any attribute name, value or block
+	at Fe (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:17:223)
+	at Be (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11251)
+	at Immediate.<anonymous> (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11101)
+	at processImmediate (node:internal/timers:464:21)
+[2022-08-10 20:18:38.608] [exthost] [error] [hashicorp.terraform] provider FAILED
+[2022-08-10 20:18:38.608] [exthost] [error] Error: rds.tf (4,20): no reference target found
+	at Fe (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:17:223)
+	at Be (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11251)
+	at Immediate.<anonymous> (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11101)
+	at processImmediate (node:internal/timers:464:21)
+[2022-08-10 20:18:39.618] [exthost] [error] [hashicorp.terraform] provider FAILED
+[2022-08-10 20:18:39.618] [exthost] [error] Error: rds.tf (4,25): no reference target found
+	at Fe (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:17:223)
+	at Be (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11251)
+	at Immediate.<anonymous> (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11101)
+	at processImmediate (node:internal/timers:464:21)
+[2022-08-10 20:18:50.799] [exthost] [error] [hashicorp.terraform] provider FAILED
+[2022-08-10 20:18:50.799] [exthost] [error] Error: rds.tf (4,56): position outside of any attribute name, value or block
+	at Fe (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:17:223)
+	at Be (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11251)
+	at Immediate.<anonymous> (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11101)
+	at processImmediate (node:internal/timers:464:21)
+[2022-08-10 20:19:38.976] [exthost] [error] [hashicorp.terraform] provider FAILED
+[2022-08-10 20:19:38.976] [exthost] [error] Error: rds.tf (16,12): position outside of any attribute name, value or block
+	at Fe (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:17:223)
+	at Be (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11251)
+	at Immediate.<anonymous> (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11101)
+	at processImmediate (node:internal/timers:464:21)
+[2022-08-10 20:20:02.751] [exthost] [error] [hashicorp.terraform] provider FAILED
+[2022-08-10 20:20:02.751] [exthost] [error] Error: rds.tf (34,4): position outside of any attribute name, value or block
+	at Fe (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:17:223)
+	at Be (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11251)
+	at Immediate.<anonymous> (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11101)
+	at processImmediate (node:internal/timers:464:21)
+[2022-08-10 20:20:37.999] [exthost] [error] [hashicorp.terraform] provider FAILED
+[2022-08-10 20:20:37.999] [exthost] [error] Error: rds.tf (29,18): position outside of any attribute name, value or block
+	at Fe (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:17:223)
+	at Be (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11251)
+	at Immediate.<anonymous> (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11101)
+	at processImmediate (node:internal/timers:464:21)
+[2022-08-10 20:21:43.713] [exthost] [error] [hashicorp.terraform] provider FAILED
+[2022-08-10 20:21:43.713] [exthost] [error] Error: main.tf (22,33): position outside of "resource" body
+	at Fe (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:17:223)
+	at Be (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11251)
+	at Immediate.<anonymous> (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11101)
+	at processImmediate (node:internal/timers:464:21)
+[2022-08-10 20:25:08.527] [exthost] [error] [hashicorp.terraform] provider FAILED
+[2022-08-10 20:25:08.527] [exthost] [error] Error: rds.tf (78,46): position outside of "resource" body
+	at Fe (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:17:223)
+	at Be (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11251)
+	at Immediate.<anonymous> (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11101)
+	at processImmediate (node:internal/timers:464:21)
+[2022-08-10 20:25:09.330] [exthost] [error] [hashicorp.terraform] provider FAILED
+[2022-08-10 20:25:09.331] [exthost] [error] Error: rds.tf (78,46): position outside of "resource" body
+	at Fe (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:17:223)
+	at Be (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11251)
+	at Immediate.<anonymous> (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11101)
+	at processImmediate (node:internal/timers:464:21)
+[2022-08-10 20:27:37.512] [exthost] [error] [hashicorp.terraform] provider FAILED
+[2022-08-10 20:27:37.513] [exthost] [error] Error: rds.tf (80,43): position outside of any attribute name, value or block
+	at Fe (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:17:223)
+	at Be (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11251)
+	at Immediate.<anonymous> (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11101)
+	at processImmediate (node:internal/timers:464:21)
+[2022-08-10 20:28:19.329] [exthost] [error] [hashicorp.terraform] provider FAILED
+[2022-08-10 20:28:19.329] [exthost] [error] Error: rds.tf (33,30): no reference target found
+	at Fe (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:17:223)
+	at Be (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11251)
+	at Immediate.<anonymous> (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11101)
+	at processImmediate (node:internal/timers:464:21)
+[2022-08-10 20:58:40.286] [exthost] [error] [hashicorp.terraform] provider FAILED
+[2022-08-10 20:58:40.286] [exthost] [error] Error: no reference origin found
+	at Fe (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:17:223)
+	at Be (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11251)
+	at Immediate.<anonymous> (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11101)
+	at processImmediate (node:internal/timers:464:21)
+[2022-08-10 21:04:51.364] [exthost] [error] [hashicorp.terraform] provider FAILED
+[2022-08-10 21:04:51.364] [exthost] [error] Error: rds.tf (26,54): position outside of any attribute name, value or block
+	at Fe (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:17:223)
+	at Be (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11251)
+	at Immediate.<anonymous> (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11101)
+	at processImmediate (node:internal/timers:464:21)
+[2022-08-10 21:04:51.703] [exthost] [error] [hashicorp.terraform] provider FAILED
+[2022-08-10 21:04:51.703] [exthost] [error] Error: rds.tf (26,54): position outside of any attribute name, value or block
+	at Fe (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:17:223)
+	at Be (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11251)
+	at Immediate.<anonymous> (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11101)
+	at processImmediate (node:internal/timers:464:21)
+[2022-08-10 21:04:54.629] [exthost] [error] [hashicorp.terraform] provider FAILED
+[2022-08-10 21:04:54.629] [exthost] [error] Error: rds.tf (26,54): position outside of any attribute name, value or block
+	at Fe (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:17:223)
+	at Be (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11251)
+	at Immediate.<anonymous> (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11101)
+	at processImmediate (node:internal/timers:464:21)
+[2022-08-10 21:04:54.936] [exthost] [error] [hashicorp.terraform] provider FAILED
+[2022-08-10 21:04:54.936] [exthost] [error] Error: rds.tf (26,55): position outside of any attribute name, value or block
+	at Fe (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:17:223)
+	at Be (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11251)
+	at Immediate.<anonymous> (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11101)
+	at processImmediate (node:internal/timers:464:21)
+[2022-08-10 21:43:14.093] [exthost] [info] extension host terminating: renderer disconnected for too long (2)
+[2022-08-10 21:43:14.150] [exthost] [info] Lock '/home/ec2-user/.vscode-server/data/User/workspaceStorage/bd4a48b86a6b0e7dce82a23a7d51a25d/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-08-10 21:43:14.357] [exthost] [info] Extension host with pid 16818 exiting with code 0

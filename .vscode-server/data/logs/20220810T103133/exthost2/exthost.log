@@ -1,0 +1,75 @@
+[2022-08-10 21:15:27.841] [exthost] [info] Extension host with pid 12261 started
+[2022-08-10 21:15:27.843] [exthost] [error] Error: EEXIST: file already exists, open '/home/ec2-user/.vscode-server/data/User/workspaceStorage/bd4a48b86a6b0e7dce82a23a7d51a25d/vscode.lock'
+[2022-08-10 21:15:27.844] [exthost] [info] Lock '/home/ec2-user/.vscode-server/data/User/workspaceStorage/bd4a48b86a6b0e7dce82a23a7d51a25d/vscode.lock': Could not acquire lock, checking if the file is stale.
+[2022-08-10 21:15:27.846] [exthost] [info] Lock '/home/ec2-user/.vscode-server/data/User/workspaceStorage/bd4a48b86a6b0e7dce82a23a7d51a25d/vscode.lock': The lock does not look stale, elapsed: 989 ms, giving up.
+[2022-08-10 21:15:27.854] [exthost] [info] Lock '/home/ec2-user/.vscode-server/data/User/workspaceStorage/bd4a48b86a6b0e7dce82a23a7d51a25d-1/vscode.lock': Lock acquired.
+[2022-08-10 21:15:27.942] [exthost] [info] ExtensionService#_doActivateExtension hashicorp.terraform, startup: false, activationEvent: 'onLanguage:terraform'
+[2022-08-10 21:15:28.031] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-08-10 21:15:28.047] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-08-10 21:15:28.053] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-08-10 21:15:28.158] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-08-10 21:15:28.292] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-08-10 21:15:28.766] [exthost] [info] ExtensionService#_doActivateExtension hashicorp.hcl, startup: true, activationEvent: 'workspaceContains:**/*.hcl'
+[2022-08-10 21:15:37.308] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-10 21:15:37.367] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-10 21:15:37.391] [exthost] [info] Eager extensions activated
+[2022-08-10 21:25:56.896] [exthost] [error] [hashicorp.terraform] provider FAILED
+[2022-08-10 21:25:56.901] [exthost] [error] Error: rds.tf (30,20): position outside of any attribute name, value or block
+	at Fe (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:17:223)
+	at Be (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11251)
+	at Immediate.<anonymous> (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11101)
+	at processImmediate (node:internal/timers:464:21)
+[2022-08-10 21:28:37.304] [exthost] [error] [hashicorp.terraform] provider FAILED
+[2022-08-10 21:28:37.304] [exthost] [error] Error: rds.tf (45,46): position outside of "resource" body
+	at Fe (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:17:223)
+	at Be (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11251)
+	at Immediate.<anonymous> (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11101)
+	at processImmediate (node:internal/timers:464:21)
+[2022-08-10 21:32:39.954] [exthost] [error] [hashicorp.terraform] provider FAILED
+[2022-08-10 21:32:39.956] [exthost] [error] Error: rds.tf (26,73): position outside of any attribute name, value or block
+	at Fe (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:17:223)
+	at Be (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11251)
+	at Immediate.<anonymous> (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11101)
+	at processImmediate (node:internal/timers:464:21)
+[2022-08-10 21:42:48.518] [exthost] [error] [hashicorp.terraform] provider FAILED
+[2022-08-10 21:42:48.520] [exthost] [error] Error: no reference origin found
+	at Fe (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:17:223)
+	at Be (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11251)
+	at Immediate.<anonymous> (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11101)
+	at processImmediate (node:internal/timers:464:21)
+[2022-08-10 21:51:39.394] [exthost] [error] [hashicorp.terraform] provider FAILED
+[2022-08-10 21:51:39.395] [exthost] [error] Error: rds.tf (26,23): position outside of any attribute name, value or block
+	at Fe (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:17:223)
+	at Be (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11251)
+	at Immediate.<anonymous> (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11101)
+	at processImmediate (node:internal/timers:464:21)
+[2022-08-10 22:03:27.608] [exthost] [error] [hashicorp.terraform] provider FAILED
+[2022-08-10 22:03:27.608] [exthost] [error] Error: rds.tf (87,43): position outside of any attribute name, value or block
+	at Fe (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:17:223)
+	at Be (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11251)
+	at Immediate.<anonymous> (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11101)
+	at processImmediate (node:internal/timers:464:21)
+[2022-08-10 22:03:38.025] [exthost] [error] [hashicorp.terraform] provider FAILED
+[2022-08-10 22:03:38.025] [exthost] [error] Error: rds.tf (9,18): position outside of any attribute name, value or block
+	at Fe (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:17:223)
+	at Be (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11251)
+	at Immediate.<anonymous> (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11101)
+	at processImmediate (node:internal/timers:464:21)
+[2022-08-10 22:17:13.396] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/ec2-user/terraform-team1-project/.ssh' is in submodule 'terraform-team1-project'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-10 22:17:13.396] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/ec2-user/terraform-team1-project/.ssh' is in submodule 'terraform-team1-project'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-10 22:17:13.396] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/ec2-user/terraform-team1-project/.ssh' is in submodule 'terraform-team1-project'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-10 22:17:13.396] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/ec2-user/terraform-team1-project/.ssh' is in submodule 'terraform-team1-project'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-10 22:17:13.396] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/ec2-user/terraform-team1-project/.ssh' is in submodule 'terraform-team1-project'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-10 22:17:13.397] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/ec2-user/terraform-team1-project/.ssh' is in submodule 'terraform-team1-project'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-10 22:17:13.397] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/ec2-user/terraform-team1-project/.ssh' is in submodule 'terraform-team1-project'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-10 22:17:13.397] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/ec2-user/terraform-team1-project/.ssh' is in submodule 'terraform-team1-project'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-10 22:17:13.397] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/ec2-user/terraform-team1-project/.ssh' is in submodule 'terraform-team1-project'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-10 22:17:13.397] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/ec2-user/terraform-team1-project/.ssh' is in submodule 'terraform-team1-project'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-10 22:17:13.397] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/ec2-user/terraform-team1-project/.ssh' is in submodule 'terraform-team1-project'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-10 22:17:13.397] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/ec2-user/terraform-team1-project/.ssh' is in submodule 'terraform-team1-project'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-08-10 22:27:32.480] [exthost] [error] [hashicorp.terraform] provider FAILED
+[2022-08-10 22:27:32.480] [exthost] [error] Error: rds.tf (89,8): position outside of any attribute name, value or block
+	at Fe (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:17:223)
+	at Be (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11251)
+	at Immediate.<anonymous> (/home/ec2-user/.vscode-server/extensions/hashicorp.terraform-2.23.0-linux-x64/out/extension.js:16:11101)
+	at processImmediate (node:internal/timers:464:21)
