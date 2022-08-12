@@ -1,0 +1,22 @@
+[2022-08-11 04:23:30.930] [remoteagent] [info] Extension host agent started.
+[2022-08-11 04:23:31.315] [remoteagent] [error] [127.0.0.1][6ddad92a][ManagementConnection] Unknown reconnection token (never seen).
+[2022-08-12 17:05:09.285] [remoteagent] [info] [127.0.0.1][b3496d22][ExtensionHostConnection] New connection established.
+[2022-08-12 17:05:09.290] [remoteagent] [info] [127.0.0.1][b3496d22][ExtensionHostConnection] <21845> Launched Extension Host Process.
+[2022-08-12 17:05:09.291] [remoteagent] [info] [127.0.0.1][4729baec][ManagementConnection] New connection established.
+[2022-08-12 18:32:41.551] [remoteagent] [info] [127.0.0.1][b3496d22][ExtensionHostConnection] The client has reconnected.
+[2022-08-12 18:32:43.113] [remoteagent] [info] [127.0.0.1][4729baec][ManagementConnection] The client has reconnected.
+[2022-08-12 18:32:44.863] [remoteagent] [info] [127.0.0.1][b3496d22][ExtensionHostConnection] The client has reconnected.
+[2022-08-12 18:41:45.949] [remoteagent] [info] [127.0.0.1][4729baec][ManagementConnection] The client has reconnected.
+[2022-08-12 18:42:19.039] [remoteagent] [info] [127.0.0.1][b3496d22][ExtensionHostConnection] The client has reconnected.
+[2022-08-12 18:53:57.383] [remoteagent] [info] [127.0.0.1][4729baec][ManagementConnection] The client has reconnected.
+[2022-08-12 18:53:57.475] [remoteagent] [info] [127.0.0.1][b3496d22][ExtensionHostConnection] The client has reconnected.
+[2022-08-12 19:06:02.972] [remoteagent] [info] [127.0.0.1][4729baec][ManagementConnection] The client has reconnected.
+[2022-08-12 19:06:05.076] [remoteagent] [info] [127.0.0.1][b3496d22][ExtensionHostConnection] The client has reconnected.
+[2022-08-12 20:49:58.466] [remoteagent] [info] [127.0.0.1][b3496d22][ExtensionHostConnection] The client has reconnected.
+[2022-08-12 20:49:59.887] [remoteagent] [info] [127.0.0.1][4729baec][ManagementConnection] The client has reconnected.
+[2022-08-12 20:50:02.017] [remoteagent] [info] [127.0.0.1][b3496d22][ExtensionHostConnection] The client has reconnected.
+[2022-08-12 21:08:12.012] [remoteagent] [info] [127.0.0.1][b3496d22][ExtensionHostConnection] The client has reconnected.
+[2022-08-12 21:08:13.070] [remoteagent] [info] [127.0.0.1][4729baec][ManagementConnection] The client has reconnected.
+[2022-08-12 21:08:14.603] [remoteagent] [info] [127.0.0.1][b3496d22][ExtensionHostConnection] The client has reconnected.
+[2022-08-12 21:19:41.526] [remoteagent] [error] [File Watcher (parcel)] Unexpected error: std::bad_alloc (EUNKNOWN) (path: /home/ec2-user)
+[2022-08-12 21:19:41.526] [remoteagent] [error] [File Watcher (universal)] restarting watcher after error: std::bad_alloc

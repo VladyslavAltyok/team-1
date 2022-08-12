@@ -144,3 +144,26 @@ git push team master
 make california
 clear
 make california
+git add .
+git commit -m "added step3"
+git push team master
+terraform apply
+terraform init
+terraform apply
+terraformn destroy
+terraform apply
+terraform destroy
+terraform apply
+terrraform apply
+terraform init
+terraform apply
+terraform destroy
+terraform apply
+terraform destroy
+terraform apply
+terraform destroy
+terraform apply
+terraform destroy
+make virginia
+git clone git@github.com:VladyslavAltyok/asg-team1.git
+terraform init

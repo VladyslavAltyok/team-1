@@ -11,6 +11,14 @@ resource "aws_security_group" "SG_private_subnet_" {
     cidr_blocks = ["0.0.0.0/0"]
   }
 
+    ingress {
+    from_port   = 80
+    to_port     = 80
+    protocol    = "tcp"
+    cidr_blocks = ["0.0.0.0/0"]
+
+  }
+
   egress {
     from_port   = 0
     to_port     = 0
@@ -19,15 +27,16 @@ resource "aws_security_group" "SG_private_subnet_" {
   }
 }
 
+#Create rds Cluster with 1 Writer and 3 Reader instances
 
 resource "aws_rds_cluster" "rds_cluster" {
     cluster_identifier = "aurora-cluster-demo"
-    engine = "aurora-mysql"
+    engine = var.db-engine
     availability_zones = [var.availability_zone]   #"us-east-1a", "us-east-1c",
-    database_name = "mydb"
+    database_name = var.db-name
     db_subnet_group_name = aws_db_subnet_group.default.name
-    master_username = "team1"
-    master_password = "team1project"
+    master_username = var.username
+    master_password = var.password
     vpc_security_group_ids = [aws_security_group.SG_private_subnet_.id]
     skip_final_snapshot = true
 }
@@ -97,6 +106,8 @@ resource "aws_rds_cluster_instance" "reader3" {
 #    ]
   
 #}
+
+#Creating records on Route53
 
 
 

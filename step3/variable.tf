@@ -5,6 +5,30 @@ variable "vpc_name" {
   
 }
 
+variable "db-name" {
+  type = string
+  default = "mydb"
+  
+}
+
+variable "username" {
+  type = string
+  default = "team1"
+  
+}
+
+variable "password" {
+  type = string
+  default = "team1project"
+  
+}
+
+variable "db-engine" {
+  type = string
+  default = "aurora-mysql"
+  
+}
+
 variable "region" {
   description = "Please provide a region"
   type        = string
